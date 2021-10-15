@@ -1,0 +1,19 @@
+ตัวมัน https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/antimage.webm
+
+skill 1
+https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_break.mp4
+
+skill 2
+https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_blink.mp4
+
+skill 3
+https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_counterspell.mp4
+
+skill 4
+https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_void.mp4
+
+skill 3 shard
+https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_aghanims_shard.mp4
+
+skill 4 scpter
+https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_aghanims_scepter.mp4
