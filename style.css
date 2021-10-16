@@ -9,3 +9,12 @@ body {
   position: relative;
   top: 0;
 }
+
+
+
+/*PART inside Hero */
+  /* head title */
+  .hero{
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+  }
