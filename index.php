@@ -14,7 +14,7 @@
                 <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/homepage/dota_montage_02.mp4">
             </video>
         </div>
-        <div style="padding: 40px; height: 100%; width: fit-content; max-width: 60%; padding-left: 10%; display: flex; flex-direction: column; justify-content: center; align-content: flex-end; pointer-events: auto;" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2500">
+        <div style="padding: 40px; height: 100%; width: fit-content; max-width: 60%; padding-left: 10%; display: flex; flex-direction: column; justify-content: center; align-content: flex-end; position: relative; z-index: 10000;" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2500">
             <div>
                 <div style="font-size: 60px; line-height: 113%; letter-spacing: 5px; font-weight: 600; color: #ffffffee; text-transform: uppercase; text-shadow: 0px 0px 20px #000;">"ผลงานชิ้นเอกสำหรับเกมผู้เล่นหลายคนสมัยใหม่"</div>
                 <div style="font-size: 20px; letter-spacing: 2px; color: #ffffff90; font-weight: 600; margin-top: 5px; margin-bottom: 20px; text-transform: uppercase;">- Destructoid</div>
@@ -30,6 +30,7 @@
                 </div>
             </a>
         </div>
+        <div style="width: 100%; height: 200px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.7) 80%, black 100%); z-index: 12;"></div>
     </div>
     <?php include './components/footer.php' ?>
 </body>
