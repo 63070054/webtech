@@ -1,7 +1,11 @@
-.test {
-  background-color: red;
-  height: 50%;
-  width: 50%;
-  position: absolute;
-
+body {
+  margin: 0;
+  padding: 0;
+  background: black !important;
+}
+.section_1 {
+  width: 100vw;
+  height: 75vh;
+  position: relative;
+  top: 0;
 }
