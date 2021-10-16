@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: black !important;
+  overflow-x: hidden;
 }
 .section_1 {
   width: 100vw;
@@ -16,7 +17,7 @@ body {
   /* head title */
   .hero{
     width: 100vw;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
     height: 85vh;
     background-color: rgb(23, 90, 68);
     background-image: url(./src/hero/abaddon/bg.jpg);
@@ -35,16 +36,7 @@ body {
     overflow: hidden;
   }
   .status-bar{
-    /* width: 100%;
-    height: 221px;
-    background: linear-gradient(
-80deg, #252728 0%, #101415 100%);
-    border-top: 2px solid #282828;
-    border-bottom: 2px solid #2c2e2e;
-    box-shadow: 0px 0px 8px #000;
-    display: flex;
-    justify-content: center; */
-    width: 100%;
+    width: 100vw;
     height: fit-content;
     min-height: 221px;
     background: linear-gradient(
@@ -61,4 +53,48 @@ body {
     width: 100%;
   }
   .top-hero{
+  }
+  .title-hero{
+    padding: 40px 100px 0px 140px;
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 35%;
+    height: calc(90% - 100px);
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+  }
+  .line-name{
+    width: 800px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    bottom: 80px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: rotate(
+270deg);
+    transform-origin: bottom left;
+    z-index: 13;
+    position: absolute;
+  }
+  .line-name-hero{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 12px;
+  }
+  .line-name-id{
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-left: 10px;
+    transform: translateY(-2px);
   }
