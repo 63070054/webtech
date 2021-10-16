@@ -3,7 +3,7 @@
         <a href="#" style="width: 200px; min-width: 200px;">
             <div style="width: 200px; min-width: 200px; height: 50px; min-height: 50px; background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/global/dota2_logo_horiz.png); background-size: contain; background-repeat: no-repeat; background-position: center center; margin-right: 40px;" class="eff-text-glow"></div>
         </a>
-        <div style="margin-left: 50px; flex-grow: 1; height: 100%; display: flex; flex-direction: row; align-items: center; position: relative;">
+        <div style="margin-left: 50px;flex-grow: 1; height: 100%; display: flex; flex-direction: row; align-items: center; position: relative;">
             <div class="dropdown">
                 <button class="dropbtn nav-text eff-text-glow">
                     เกม

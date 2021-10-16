@@ -39,7 +39,9 @@ a {
 .dropdown {
   position: relative;
   cursor: pointer !important;
-  
+}
+.dropdown:nth-child(1){
+  border: 2px solid transparent ;
 }
 .dropdown:nth-child(1):hover{
   background-color: rgba(244, 244, 244, 0.2);
