@@ -11,7 +11,7 @@
 ?>
     <div class="all-news-title" style="background-image: url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/3703047/44a06189990aecb48c7c5cad5bf4d6d12ab72f2b.png');width: 100%;height: 600px;">
         <div class="shadow-news" style="background: linear-gradient(rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0.733) 70%,rgb(0, 0, 0) 90%);"></div>
-        <div class="shadow-news" style="background: linear-gradient(rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0.733) 70%,rgb(0, 0, 0) 90%);"></div>
+        <div class="shadow-news" style=""></div>
     </div>
     <div class="line-news-update">
         <div class="table-news-update">
@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//blog/bg_repeater.jpg);width: 100%;height:100%;">
+    <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//blog/bg_repeater.jpg);width: 100%;height:auto;">
         <div class="table-allnews">
             <a style="width: 400px; height: 250px; margin: 15px;" href="#">
                 <div class="news" style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/3703047/aa9c5cc55358ebc6977e895d5d9c50ecaa718482.png&quot;);">

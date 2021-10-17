@@ -242,6 +242,7 @@ body {
 }
 .table-allnews{
   width: 100%;
+  height: auto;
   padding: 0px 14vw;
   display: flex;
   flex-direction: row;
