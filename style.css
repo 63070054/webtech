@@ -285,3 +285,26 @@ body {
   margin-right: 8px;
   transform: scale(-1);
 }
+.all-button{
+  padding: 0px 14vw;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.news-button{
+  width: 30px;
+  height: 30px;
+  padding: 5px 10px;
+  background-color: #ffffff50;
+  margin: 0px 5px;
+  font-family: "Radiance",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  box-sizing: border-box;
+}

@@ -77,6 +77,15 @@
                 </div>
             </a>
         </div>
+        <div class="all-button">
+            <div class="news-button" style="background-color: #ff6046;">1</div>
+            <div class="news-button">2</div>
+            <div class="news-button">3</div>
+            <div class="news-button">4</div>
+            <div class="news-button">5</div>
+            <div class="news-button">6</div>
+            <div class="news-button">></div>
+        </div>
     </div>
     <?php include './components/footer.php' ?>
 </body>
