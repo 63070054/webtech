@@ -4,6 +4,7 @@
 <title>Project Webtech</title>
 <!-- CSS -->
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style_hero.css">
 <link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="effect.css">
 <!-- Bootstrap 5 -->
@@ -16,4 +17,4 @@
 <!-- font style -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
