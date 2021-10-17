@@ -7,7 +7,7 @@ a{
 .hero {
     width: 100vw;
     font-family: "Noto Serif", serif;
-    height: 85vh;
+    height: auto;
     background-color: rgb(23, 90, 68);
     background-image: url(./src/hero/abaddon/bg.jpg);
     background-size: 100% auto;
@@ -23,22 +23,6 @@ a{
     position: absolute;
     transform: skewY(-45deg) translateX(-45vw);
     overflow: hidden;
-  }
-  .status-bar {
-    width: 100vw;
-    height: fit-content;
-    min-height: 221px;
-    background: linear-gradient(80deg, #252728 0%, #101415 100%);
-    border-top: 2px solid #282828;
-    border-bottom: 2px solid #2c2e2e;
-    box-shadow: 0px 0px 8px #000;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-  }
-  .row-status-bar {
-    position: relative;
-    width: 100%;
   }
   .title-hero {
     padding: 20px 100px 0px 140px;
@@ -85,7 +69,6 @@ a{
   }
   .small-arrow{
     width: 30px;
-    height: 64px;
     border: 2px solid #fff;
     position: relative;
     background-size: 50%;
@@ -99,7 +82,6 @@ a{
   }
   .small-center{
     width: 50px;
-    height: 64px;
     border: 2px solid #fff;
     display: flex;
     flex-direction: row;
@@ -107,9 +89,6 @@ a{
     padding: 10px;
     justify-content: space-between;
     align-items: center;
-    transition-property: opacity;
-    transition-timing-function: ease-in-out;
-    transition-duration: .1s;
     opacity: .4;
     cursor: pointer;
   }
@@ -120,7 +99,7 @@ a{
   }
   .box-small{
     width: 150px;
-    height: 60px;
+    height: 64px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -128,4 +107,84 @@ a{
     top: 160px;
     right: 30px;
     z-index: 4;
+  }
+
+/* statue bar */
+
+  .status-bar {
+    width: 100vw;
+    height: fit-content;
+    min-height: 221px;
+    background: linear-gradient(80deg, #252728 0%, #101415 100%);
+    border-top: 2px solid #282828;
+    border-bottom: 2px solid #2c2e2e;
+    box-shadow: 0px 0px 8px #000;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+  }
+  .row-status-bar {
+    width: 100%;
+    max-width: 1600px;
+    padding: 20px 0px;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .box-status{
+    min-width: 300px;
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .detail-statue{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .hero-icon-statue{
+    width: 150px;
+    height: 135px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-bar{
+    width: 150px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  .status{
+    width: 100px;
+    height: 120px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .type-status{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4px 0px;
+  }
+  .head-statue{
+    color: #969696;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 12px;
   }
