@@ -13,6 +13,8 @@
     <div class="hero">
         <div class="line-band"></div>
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
+
+        <!-- change link hero here [#]-->
             <a class="small-arrow" href="#" style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
             <a class="small-center" href="#">
                 <div class="small-grid"></div>
@@ -22,7 +24,7 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="#" style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
+            <a class="small-arrow" href="#" style="transform: scaleX(-1); background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
     </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero"
@@ -39,6 +41,7 @@
         
         <div class="title-hero">
             <div style="display: flex; flex-direction: row; align-items: center;">
+            <!-- change white font color hero here -->
                 <img style="width: 32px; height: 32px;" src="./src/icon/strength.png">
                 <div style="margin-left: 6px; color: #fff; text-transform: uppercase; letter-spacing: 2px; font-weight: 100; font-size: 24px;">
                     STRENGTH
@@ -51,7 +54,8 @@
             <div style="font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: #a5e0f3; margin-top: 5px;">
             สร้างโล่ป้องกันการโจมตีให้แก่เพื่อนร่วมทีมหรือตัวเอง
             </div>
-            <div style="color: #eee; width: 100%; margin-top: 14px; font-weight: 200; font-size: 20px; letter-spacing: 0px;">Abaddon สามารถรอดจากการโจมตีจากศัตรูได้เกือบทั้งหมด เขาสามารถที่จะเปลี่ยนการโจมตีจากศัตรูมาเป็น
+            <div style="color: #eee; width: 100%; margin-top: 14px; font-weight: 200; font-size: 20px; letter-spacing: 0px;">
+            Abaddon สามารถรอดจากการโจมตีจากศัตรูได้เกือบทั้งหมด เขาสามารถที่จะเปลี่ยนการโจมตีจากศัตรูมาเป็น
                 <b>การรักษาตัวเอง</b>
                 ได้ และยังช่วยใส่
                 <b>เกราะป้องกันให้กับเพื่อนร่วมทีม</b>
@@ -63,12 +67,15 @@
             <div>
                 <div style="margin-top: 25px; color: #959595; text-transform: uppercase; font-weight: bold; letter-spacing: 2px; font-size: 17px;">ประเภทการโจมตี</div>
                 <div style="display: flex; flex-direction: row; align-items: center; margin-top: 8px;">
+
+                <!-- change pic icon [melee or ranged] and  white font color here -->
                     <img style="width: 24px; height: 24px; margin-right: 8px;"
                     src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/melee.svg">
                     <div style="color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 15px; font-weight: bold;">ระยะประชิด</div>
+                
                 </div>
             </div>
-            <div>
+            <div style="padding-bottom: 20px;">
                 <div style="margin-top: 25px; color: #959595; text-transform: uppercase; font-weight: bold; letter-spacing: 2px; font-size: 17px;">ความยาก</div>
                 <div style="display: flex; flex-direction: row; width: 80px; justify-content: space-between; margin-top: 8px; margin-left: 4px;">
                     <div style="width: 13px; height: 13px; border: 1.5px solid #fff; transform: rotateZ(45deg); background-color: #fff;"></div>
@@ -78,6 +85,7 @@
             </div>
         </div>
         <div class="line-name">
+            <!-- change pic icon type hero and  white font color here -->
             <img style="width: 22px;height: 22px;"
             src="./src/icon/strength.png">
             <div class="line-name-hero">
