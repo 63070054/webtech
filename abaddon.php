@@ -6,9 +6,24 @@
 </head>
 
 <body>
-    <?php include './components/nav.php' ?>
+    <?php
+    $nav_hero_active = 1;
+    $nav_news_active = 0;
+    include './components/nav.php' ?>
     <div class="hero">
         <div class="line-band"></div>
+        <div class="box-small" style="right: 30px; transform: scale(0.8);">
+            <a class="small-arrow" href="#" style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
+            <a class="small-center" href="#">
+                <div class="small-grid"></div>
+                <div class="small-grid"></div>
+                <div class="small-grid"></div>
+                <div class="small-grid"></div>
+                <div class="small-grid"></div>
+                <div class="small-grid"></div>
+            </a>
+            <a class="small-arrow" href="#" style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
+    </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero"
         style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">

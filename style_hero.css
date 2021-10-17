@@ -1,0 +1,131 @@
+/*PART inside Hero */
+/* head title */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.hero {
+    width: 100vw;
+    font-family: "Noto Serif", serif;
+    height: 85vh;
+    background-color: rgb(23, 90, 68);
+    background-image: url(./src/hero/abaddon/bg.jpg);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+  }
+  .line-band {
+    width: 150vw;
+    height: 625px;
+    background-color: hsla(0, 0%, 0%, 0.376);
+    position: absolute;
+    transform: skewY(-45deg) translateX(-45vw);
+    overflow: hidden;
+  }
+  .status-bar {
+    width: 100vw;
+    height: fit-content;
+    min-height: 221px;
+    background: linear-gradient(80deg, #252728 0%, #101415 100%);
+    border-top: 2px solid #282828;
+    border-bottom: 2px solid #2c2e2e;
+    box-shadow: 0px 0px 8px #000;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+  }
+  .row-status-bar {
+    position: relative;
+    width: 100%;
+  }
+  .title-hero {
+    padding: 20px 100px 0px 140px;
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 35%;
+    height: calc(90% - 100px);
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+  }
+  .line-name {
+    width: 800px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    bottom: 80px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: rotate(270deg);
+    transform-origin: bottom left;
+    z-index: 2;
+    position: absolute;
+  }
+  .line-name-hero {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 12px;
+  }
+  .line-name-id {
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-left: 10px;
+    transform: translateY(-2px);
+  }
+  .small-arrow{
+    width: 30px;
+    height: 64px;
+    border: 2px solid #fff;
+    position: relative;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+    opacity: .4;
+    cursor: pointer;
+  }
+  .small-center{
+    width: 50px;
+    height: 64px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+    opacity: .4;
+    cursor: pointer;
+  }
+  .small-grid{
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+  }
+  .box-small{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 160px;
+    right: 30px;
+    z-index: 4;
+  }
