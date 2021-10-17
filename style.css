@@ -133,8 +133,7 @@ body {
 
 .section_4 {
   width: 100vw;
-  max-width: 100vw;
-  min-height: 2000px;
+  height: auto;
   background-size: 3500px;
   background-position: center top;
   background-repeat: no-repeat;
@@ -142,32 +141,31 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: -2;
   z-index: 40;
   position: relative;
   background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//home/heroes_full.jpg);
 }
-.section_5{
-    width: 100vw;
-    min-height: 1150px;
-    margin: 40px auto;
-    padding-bottom: 100px;
-    background-position: top;
-    background-size: 2000px;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.section_5 {
+  width: 100vw;
+  min-height: 1150px;
+  margin: 40px auto;
+  padding-bottom: 100px;
+  background-position: top;
+  background-size: 2000px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.section_6{
-    width: 100vw;
-    margin: 40px auto;
-    background-size: cover;
-    background-repeat: none;
-    min-height: 0;
-    display: flex;
-    flex-direction: column;
-    padding: 50px 150px;
+.section_6 {
+  width: 100vw;
+  margin: 40px auto;
+  background-size: cover;
+  background-repeat: none;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 150px;
 }
 .shadow-top {
   width: 100%;

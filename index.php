@@ -11,7 +11,7 @@
     $nav_news_active = 0;
     include './components/nav.php';
 
-    ?>
+?>
     <div class="section_1">
         <div style="position: absolute; width: 100%; height: 100%;">
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0" style="height: 100%; object-fit: cover; width: 100vw; top: 0; left: 0; opacity: .5;">
@@ -93,7 +93,6 @@
 
     <div class="section_4">
         <div class="shadow-top"></div>
-        <div class="shadow-bottom"></div>
         <div style="margin-top: 900px; text-align: center; padding-bottom: 20px; z-index: 40; position: relative; width: 80%;     font-family: Reaver,serif; font-weight: 700; font-size: 100px; color: #e2dace; text-transform: uppercase; letter-spacing: 2px; line-height: 105%;" data-aos="fade-up" data-aos-duration="2000">
             <span style="color: #E2DACE90; text-transform: uppercase; letter-spacing: 2px;">คุณจะ</span><span><br>เลือกใคร?</span>
         </div>
@@ -107,7 +106,7 @@
             </a>
         </div>
         <div style="width: 80%; z-index: 3; min-height: 0; display: flex; flex-direction: column; position: relative; overflow: hidden; height: 690px;">
-            <img src="./src/home/bg/bg4.jpeg" style="width: 100%; height: 100%; object-fit: cover;">
+            <img src="./src/home/bg/hero_grid.jpeg" style="width: 100%; height: 100%; object-fit: none;">
         </div>
     </div>
 
