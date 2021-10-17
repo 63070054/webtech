@@ -13,7 +13,7 @@
         <div class="top-hero"
         style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0"
-            style="min-height:100%; transform:translate(10px, 30vh) scale(1.8, 1.8);">
+            style="min-height:100%; transform:translate(0px, 16pc) scale(1.93, 1.93);">
             
             <!-- change vdo hero here -->
             <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abaddon.webm">
