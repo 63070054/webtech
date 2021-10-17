@@ -124,6 +124,67 @@ a{
     z-index: 2;
   }
   .row-status-bar {
-    position: relative;
     width: 100%;
+    max-width: 1600px;
+    padding: 20px 0px;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .box-status{
+    min-width: 300px;
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .detail-statue{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .hero-icon-statue{
+    width: 150px;
+    height: 135px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-bar{
+    width: 150px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  .status{
+    width: 100px;
+    height: 120px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .type-status{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4px 0px;
+  }
+  .head-statue{
+    color: #969696;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 12px;
   }

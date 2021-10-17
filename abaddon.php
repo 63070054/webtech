@@ -10,6 +10,7 @@
     $nav_hero_active = 1;
     $nav_news_active = 0;
     include './components/nav.php' ?>
+    <!-- PART HEAD HERO -->
     <div class="hero">
         <div class="line-band"></div>
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
@@ -37,8 +38,6 @@
             
             </video>
         </div>
-        
-        
         <div class="title-hero">
             <div style="display: flex; flex-direction: row; align-items: center;">
             <!-- change white font color hero here -->
@@ -99,9 +98,20 @@
             </div>
         </div>
     </div>
+
+    <!-- PART STAUS HERO BAR HERO -->
     <div class="status-bar">
-        <div class="row-status-bar"></div>
+        <div class="row-status-bar">
+            <div class="box-status">
+                <div class="detail-status">
+                </div>
+                <div class="head-status">
+
+                </div>
+            </div>
+        </div>
     </div>
+    
     <?php include './components/footer.php' ?>
 </body>
 <script>
