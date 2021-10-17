@@ -12,7 +12,7 @@
     include './components/nav.php';
 
 ?>
-    <div class="section_1">//หกดหกดหกดหกด
+    <div class="section_1">
         <div style="position: absolute; width: 100%; height: 100%;">
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0" style="height: 100%; object-fit: cover; width: 100vw; top: 0; left: 0; opacity: .5;">
                 <source type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/homepage/dota_montage_webm.webm">
