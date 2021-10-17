@@ -25,8 +25,12 @@
                     </a>
                 </div>
             </div>
-            <a href="#" class="nav-text eff-text-glow">ฮีโร่</a>
-            <a href="#" class="nav-text eff-text-glow">ข่าวสาร</a>
+            <a href="#" class="nav-text eff-text-glow <?php if ($nav_hero_active) {
+                                                            echo "nav-text-active";
+                                                        } ?>">ฮีโร่</a>
+            <a href="#" class="nav-text eff-text-glow <?php if ($nav_news_active) {
+                                                            echo "nav-text-active";
+                                                        } ?>">ข่าวสาร</a>
             <a href="#" class="nav-text eff-text-glow">อีสปอร์ต</a>
         </div>
         <div style="display: flex; flex-direction: row; align-items: center;">
@@ -44,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#">
+            <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank">
                 <div class="eff-border-orange eff-up" style="border: 3px solid #ffffff50; padding: 15px 25px; margin: 10px 30px; border-radius: 5px; cursor: pointer; width: fit-content; display: flex; flex-direction: row; justify-content: center; align-items: center; transition-duration: 0.2s;">
                     <div style="width: 20px; height: 20px; margin-right: 10px; background-size: contain; background-repeat: no-repeat; background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//icons/steam_icon.svg);"></div>
                     <div style="font-size: 20px;font-weight: 700;letter-spacing: 2px;text-transform: uppercase;color: #fff;">เล่นฟรี</div>

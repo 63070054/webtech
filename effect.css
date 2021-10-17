@@ -1,11 +1,11 @@
 .eff-border-orange {
-  transition: .2s;
+  transition: 0.2s;
 }
 .eff-border-orange:hover {
   border: 3px solid #ff6046 !important;
 }
-.eff-up{
-    transition: .2s;
+.eff-up {
+  transition: 0.2s;
 }
 .eff-up:hover {
   transform: translateY(-2px);
@@ -13,8 +13,11 @@
 .eff-text-glow {
   opacity: 0.8;
   color: #fff;
-  transition: .2s;
+  transition: 0.2s;
 }
 .eff-text-glow:hover {
   opacity: 1 !important;
+}
+.eff-text-split:hover {
+  letter-spacing: 5px !important;
 }

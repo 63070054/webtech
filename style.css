@@ -9,92 +9,270 @@ body {
   height: 75vh;
   position: relative;
   top: 0;
+  z-index: 2;
+}
+/* part section_2 */
+.section_2 {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0px auto;
+  position: relative;
+  min-height: 308px;
+  margin-bottom: -150px;
+  z-index: 100;
+}
+.news {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  border-bottom: 2px solid #555;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column-reverse;
+  box-shadow: 0px 0px 10px #000;
+  background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//blog/default_cover.jpg);
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+.news:hover {
+  transform: scale(1.02);
+  z-index: 100;
+  box-shadow: 0px 0px 30px #000;
+  border-bottom: 2px solid #ff6046;
+}
+.news:hover .news-content-hidden {
+  height: 120px;
+  opacity: 1;
+  transform: translateY(0px);
+}
+.news::after {
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  content: "\a";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+}
+.news:hover::after {
+  opacity: 1;
+}
+.news-content-hidden {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  opacity: 0;
+  transform: translateY(20px);
+  height: 0px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-property: height, opacity, transform;
+}
+.news-title {
+  margin: 0px 10px 8px 20px;
+  text-shadow: 0px 0px 10px #000;
+  font-weight: bold;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-size: 24px;
+  line-height: 115%;
+  color: #fff;
+  z-index: 2;
+}
+.news-date {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  z-index: 2;
+}
+.shadow-news {
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  background: linear-gradient(
+    rgba(19, 23, 28, 0) 60%,
+    rgba(19, 23, 28, 0.733) 70%,
+    rgb(19, 23, 28) 90%
+  );
 }
 
+/* end part section_2 */
 
+.section_3 {
+  width: 100vw;
+  min-height: 764px;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
 
-/*PART inside Hero */
-  /* head title */
-  .hero{
+.section_4 {
+  width: 100vw;
+  max-width: 100vw;
+  min-height: 2000px;
+  background-size: 3500px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -2;
+  z-index: 40;
+  position: relative;
+  background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//home/heroes_full.jpg);
+}
+.section_5{
     width: 100vw;
-    font-family: 'Noto Serif', serif;
-    height: 85vh;
-    background-color: rgb(23, 90, 68);
-    background-image: url(./src/hero/abaddon/bg.jpg);
-    background-size: 100% auto;
-    background-position: center top;
+    min-height: 1150px;
+    margin: 40px auto;
+    padding-bottom: 100px;
+    background-position: top;
+    background-size: 2000px;
     background-repeat: no-repeat;
-    overflow: hidden;
-    position: relative;
-  }
-  .line-band{
-    width: 150%;
-    height: 650px;
-    background-color: hsla(0, 0%, 0%, 0.376);
-    position: absolute;
-    transform: skewY(-45deg) translateX(-49vw);
-    overflow: hidden;
-  }
-  .status-bar{
-    width: 100vw;
-    height: fit-content;
-    min-height: 221px;
-    background: linear-gradient(
-80deg, #252728 0%, #101415 100%);
-    border-top: 2px solid #282828;
-    border-bottom: 2px solid #2c2e2e;
-    box-shadow: 0px 0px 8px #000;
     display: flex;
-    justify-content: center;
-    z-index: 2;
-  }
-  .row-status-bar{
-    position: relative;
-    width: 100%;
-  }
-  .top-hero{
-  }
-  .title-hero{
-    padding: 40px 100px 0px 140px;
-    margin-top: 100px;
-    margin-left: 30px;
-    width: 35%;
-    height: calc(90% - 100px);
+    flex-direction: column;
+    align-items: center;
+}
+.section_6{
+    width: 100vw;
+    margin: 40px auto;
+    background-size: cover;
+    background-repeat: none;
     min-height: 0;
     display: flex;
     flex-direction: column;
-    position: relative;
-    z-index: 2;
-  }
-  .line-name{
-    width: 800px;
-    height: 50px;
-    position: absolute;
-    left: 100px;
-    bottom: 80px;
-    margin-right: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    transform: rotate(
-270deg);
-    transform-origin: bottom left;
-    z-index: 13;
-    position: absolute;
-  }
-  .line-name-hero{
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 17px;
-    font-weight: 600;
-    margin-left: 12px;
-  }
-  .line-name-id{
-    color: #888;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 18px;
-    margin-left: 10px;
-    transform: translateY(-2px);
-  }
+    padding: 50px 150px;
+}
+.shadow-top {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.7) 80%,
+    black 100%
+  );
+  z-index: 12;
+}
+.shadow-bottom {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.7) 80%,
+    black 100%
+  );
+  z-index: 12;
+}
+
+/*PART inside Hero */
+/* head title */
+.hero {
+  width: 100vw;
+  font-family: "Noto Serif", serif;
+  height: 85vh;
+  background-color: rgb(23, 90, 68);
+  background-image: url(./src/hero/abaddon/bg.jpg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+.line-band {
+  width: 150%;
+  height: 650px;
+  background-color: hsla(0, 0%, 0%, 0.376);
+  position: absolute;
+  transform: skewY(-45deg) translateX(-49vw);
+  overflow: hidden;
+}
+.status-bar {
+  width: 100vw;
+  height: fit-content;
+  min-height: 221px;
+  background: linear-gradient(80deg, #252728 0%, #101415 100%);
+  border-top: 2px solid #282828;
+  border-bottom: 2px solid #2c2e2e;
+  box-shadow: 0px 0px 8px #000;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+.row-status-bar {
+  position: relative;
+  width: 100%;
+}
+.title-hero {
+  padding: 40px 100px 0px 140px;
+  margin-top: 100px;
+  margin-left: 30px;
+  width: 35%;
+  height: calc(90% - 100px);
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+.line-name {
+  width: 800px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  bottom: 80px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transform: rotate(270deg);
+  transform-origin: bottom left;
+  z-index: 13;
+  position: absolute;
+}
+.line-name-hero {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+.line-name-id {
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 18px;
+  margin-left: 10px;
+  transform: translateY(-2px);
+}
