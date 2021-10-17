@@ -30,7 +30,7 @@
                                                         } ?>">ฮีโร่</a>
             <a href="#" class="nav-text eff-text-glow <?php if ($nav_news_active) {
                                                             echo "nav-text-active";
-                                                        } ?>">ข่าวสาร</a>
+}?>">ข่าวสาร</a>
             <a href="#" class="nav-text eff-text-glow">อีสปอร์ต</a>
         </div>
         <div style="display: flex; flex-direction: row; align-items: center;">
@@ -42,9 +42,39 @@
                         เลือกภาษา
                         <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_over.png">
                     </button>
-                    <div class="dropdown-content" style="width: 200px;">
+                    <div class="languageselector_LanguageList_1vJep">
+
+                    </div>
+                    <div class="dropdown-content" style="width: 250px;">
                         <!-- แบงค์ -->
-                        <a href="#">Link 1</a>
+                        <a href="#">อังกฤษ</a>
+                        <a href="#">Español - España (สเปน)</a>
+                        <a href="#">Français (ฝรั่งเศส)</a>
+                        <a href="#">Italiano (อิตาลี)</a>
+                        <a href="#">Deutsch (เยอรมัน)</a>
+                        <a href="#">Ελληνικά (กรีก)</a>
+                        <a href="#">한국어 (เกาหลี)</a>
+                        <a href="#">简体中文 (จีนตัวย่อ)</a>
+                        <a href="#">繁體中文 (จีนตัวเต็ม)</a>
+                        <a href="#">Русский (รัสเซีย)</a>
+                        <a href="#">ไทย (Thai)</a>
+                        <a href="#">日本語 (ญี่ปุ่น)</a>
+                        <a href="#">Português (โปรตุเกส)</a>
+                        <a href="#">Português-Brasil (โปรตุเกส-บราซิล)</a>
+                        <a href="#">Polski (โปแลนด์)</a>
+                        <a href="#">Dansk (เดนมาร์ก)</a>
+                        <a href="#">Nederlands (ดัตช์)</a>
+                        <a href="#">Suomi (ฟินแลนด์)</a>
+                        <a href="#">Norsk (นอร์เวย์)</a>
+                        <a href="#">Svenska (สวีเดน)</a>
+                        <a href="#">Čeština (เช็ก)</a>
+                        <a href="#">Magyar (ฮังการี)</a>
+                        <a href="#">Română (โรมาเนีย)</a>
+                        <a href="#">Български (บัลแกเรีย)</a>
+                        <a href="#">Türkçe (ตุรกี)</a>
+                        <a href="#">Українська (ยูเครน)</a>
+                        <a href="#">Tiếng Việt (เวียดนาม)</a>
+                        <a href="#">Español - Latinoamérica (สเปน - ลาตินอเมริกา)</a>
                     </div>
                 </div>
             </div>
