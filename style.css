@@ -274,3 +274,62 @@ body {
   margin-left: 10px;
   transform: translateY(-2px);
 }
+
+/*หน้าหลักข่าว*/
+.all-news-title{
+  background-color: #333;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column-reverse;
+  box-shadow: 0px 0px 10px #000;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  opacity: .8;
+}
+.line-news-update{
+  width: 100%;
+  height: 100px;
+  padding: 0px 14vw;
+  padding-top: 40px;
+  border-bottom: 3px solid #313131;
+  box-sizing: border-box;
+  font-family: "Radiance","Noto Sans",sans-serif;
+  overflow: hidden;
+}
+.table-news-update{
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-news-update{
+  color: #fff;
+  background-color: #313131;
+  border-top: 2px solid #646566;
+  width: 48%;
+  height: 100%;
+  padding-top: 20px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.table-allnews{
+  width: 100%;
+  padding: 0px 14vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3vw;
+  box-sizing: border-box;
+  font-family: "Radiance","Noto Sans",sans-serif;
+}
