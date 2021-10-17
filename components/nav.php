@@ -28,7 +28,7 @@
             <a href="#" class="nav-text eff-text-glow <?php if ($nav_hero_active) {
                                                             echo "nav-text-active";
                                                         } ?>">ฮีโร่</a>
-            <a href="#" class="nav-text eff-text-glow <?php if ($nav_news_active) {
+            <a href="news.php" class="nav-text eff-text-glow <?php if ($nav_news_active) {
                                                             echo "nav-text-active";
 }?>">ข่าวสาร</a>
             <a href="#" class="nav-text eff-text-glow">อีสปอร์ต</a>
