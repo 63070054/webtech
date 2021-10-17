@@ -104,9 +104,175 @@
         <div class="row-status-bar">
             <div class="box-status">
                 <div class="detail-status">
+                    <div class="hero-icon-status">
+                        <img style="width: 150px; height: 84px;" src="./src/hero/abaddon/abaddon.png">
+                        <div class="hero-bar" style="background: linear-gradient(to right, #286323, #7AF03C);">
+                            <div style="position: absolute; width: 100%; text-align: center; color: #fff; font-size: 15px; text-shadow: 1px 1px 2px #000; font-family: Radiance,sans-serif; font-weight: 800;">
+                                640
+                            </div>
+                            <div style="color: #286323; flex-grow: 1; text-align: right; font-size: 11px; padding-right: 16px; font-weight: bold;">
+                                +3.2
+                            </div>
+                        </div>
+                        <div class="hero-bar" style="background: linear-gradient(to right, #1056DB, #73F5FE);">
+                            <div style="position: absolute; width: 100%; text-align: center; color: #fff; font-size: 15px; text-shadow: 1px 1px 2px #000; font-family: Radiance,sans-serif; font-weight: 800;">
+                                291
+                            </div>
+                            <div style="color: #286323; flex-grow: 1; text-align: right; font-size: 11px; padding-right: 16px; font-weight: bold;">
+                                +0.9
+                            </div>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="type-status">
+                            <img style="width: 30px; height: 30px;"
+                            src="./src/icon/strength.png">
+                            <div style="color: #fff; font-family: Reaver,serif; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
+                                22
+                            </div>
+                            <div style="color: #999; font-size: 15px; text-shadow: 1px 1px 2px #000; margin-left: 8px; flex-grow: 1; text-align: right;">
+                                +2.8
+                            </div>
+                        </div>
+                        <div class="type-status">
+                            <img style="width: 30px; height: 30px;"
+                            src="./src/icon/agility.png">
+                            <div style="color: #fff; font-family: Reaver,serif; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
+                                22
+                            </div>
+                            <div style="color: #999; font-size: 15px; text-shadow: 1px 1px 2px #000; margin-left: 8px; flex-grow: 1; text-align: right;">
+                                +2.8
+                            </div>
+                        </div>
+                        <div class="type-status">
+                            <img style="width: 30px; height: 30px;"
+                            src="./src/icon/intelligence.png">
+                            <div style="color: #fff; font-family: Reaver,serif; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
+                                22
+                            </div>
+                            <div style="color: #999; font-size: 15px; text-shadow: 1px 1px 2px #000; margin-left: 8px; flex-grow: 1; text-align: right;">
+                                +2.8
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="head-status">
-
+                    ค่าสถานะ
+                </div>
+            </div>
+            <div style="width: 1px; height: 100%; display: flex; flex-direction: row; align-items: center; background-color: #4f4f4f;"></div>
+            <div class="box-status">
+                <div class="detail-status" style="flex-wrap: wrap; align-items: center;">
+                    <div class="box-bar-position">
+                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
+                            ตัวแครี่
+                        </div>
+                        <div class="bar-position">
+                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
+                            <div class="detail-bar" style="width: 33.3%;"></div>
+                        </div>
+                    </div>
+                    <div class="box-bar-position">
+                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
+                            ตัวแครี่
+                        </div>
+                        <div class="bar-position">
+                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
+                            <div class="detail-bar" style="width: 33.3%;"></div>
+                        </div>
+                    </div>
+                    <div class="box-bar-position">
+                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
+                            ตัวแครี่
+                        </div>
+                        <div class="bar-position">
+                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
+                            <div class="detail-bar" style="width: 33.3%;"></div>
+                        </div>
+                    </div>
+                    <div class="box-bar-position">
+                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
+                            ตัวแครี่
+                        </div>
+                        <div class="bar-position">
+                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
+                            <div class="detail-bar" style="width: 33.3%;"></div>
+                        </div>
+                    </div>
+                    <div class="box-bar-position">
+                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
+                            ตัวแครี่
+                        </div>
+                        <div class="bar-position">
+                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
+                            <div class="detail-bar" style="width: 33.3%;"></div>
+                        </div>
+                    </div>
+                    <div class="box-bar-position">
+                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
+                            ตัวแครี่
+                        </div>
+                        <div class="bar-position">
+                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
+                            <div class="detail-bar" style="width: 33.3%;"></div>
+                        </div>
+                    </div>
+                    <div class="box-bar-position">
+                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
+                            ตัวแครี่
+                        </div>
+                        <div class="bar-position">
+                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
+                            <div class="detail-bar" style="width: 33.3%;"></div>
+                        </div>
+                    </div>
+                    <div class="box-bar-position">
+                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
+                            ตัวแครี่
+                        </div>
+                        <div class="bar-position">
+                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
+                            <div class="detail-bar" style="width: 33.3%;"></div>
+                        </div>
+                    </div>
+                    <div class="box-bar-position">
+                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
+                            ตัวแครี่
+                        </div>
+                        <div class="bar-position">
+                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
+                            <div class="detail-bar" style="width: 33.3%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-status">
+                    ตำแหน่ง
+                </div>
+            </div>
+            <div style="width: 1px; height: 100%; display: flex; flex-direction: row; align-items: center; background-color: #4f4f4f;"></div>
+            <div class="box-status">
+                <div class="detail-status" style="flex-wrap: wrap; justify-content: space-between;">
+                    <div style="width: 30%; height: 100%; min-height: 0; display: flex; flex-direction: column;">
+                        <div style="margin-left: 8px; text-align: left; text-transform: uppercase; font-size: 16px; font-weight: bold; letter-spacing: 1px; color: #969696; margin-bottom: 4px;">
+                        การโจมตี
+                        </div>
+                        <div class="var">
+                            <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/icon/icon_damage.png">
+                        </div>
+                    </div>
+                    <div style="width: 30%; height: 100%; min-height: 0; display: flex; flex-direction: column;">
+                        <div style="margin-left: 8px; text-align: left; text-transform: uppercase; font-size: 16px; font-weight: bold; letter-spacing: 1px; color: #969696; margin-bottom: 4px;">
+                        การป้องกัน
+                        </div>
+                    </div>
+                    <div style="width: 30%; height: 100%; min-height: 0; display: flex; flex-direction: column;">
+                        <div style="margin-left: 8px; text-align: left; text-transform: uppercase; font-size: 16px; font-weight: bold; letter-spacing: 1px; color: #969696; margin-bottom: 4px;">
+                        การเคลื่อนที่
+                        </div>
+                    </div>
+                </div>
+                <div class="head-status">
+                    ค่าสถิติ
                 </div>
             </div>
         </div>

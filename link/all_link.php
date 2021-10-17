@@ -5,6 +5,7 @@
 <!-- CSS -->
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="style_hero.css">
+<link rel="stylesheet" href="style_news.css">
 <link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="effect.css">
 <!-- Bootstrap 5 -->
