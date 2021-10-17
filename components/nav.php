@@ -14,7 +14,7 @@
                     <a href="#" class="eff-text-glow">
                         ร้านค้า
                     </a>
-                    <a href="#" class="eff-text-glow">
+                    <a href="patch.php" class="eff-text-glow">
                         แพตช์
                     </a>
                     <a href="#" class="eff-text-glow">
@@ -30,7 +30,7 @@
                                                         } ?>">ฮีโร่</a>
             <a href="#" class="nav-text eff-text-glow <?php if ($nav_news_active) {
                                                             echo "nav-text-active";
-}?>">ข่าวสาร</a>
+                                                        } ?>">ข่าวสาร</a>
             <a href="#" class="nav-text eff-text-glow">อีสปอร์ต</a>
         </div>
         <div style="display: flex; flex-direction: row; align-items: center;">
