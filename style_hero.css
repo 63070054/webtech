@@ -352,32 +352,11 @@ a{
   width: 400px;
   transition-duration: .3s;
 }
-.bar-side{
-  width: 45%;
-  height: 150px;
-  position: relative;
-  padding: 0px 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 2px 2px 6px #000;
-  transition-property: filter,transform;
-  transition-timing-function: ease-in-out;
-  transition-duration: .2s;
-}
-.bar-side:hover .bar-hero{
-  bottom: 0px;
-}
-.bar-side:hover{
-  filter: brightness(1.2);
-}
+
 .bar-center{
   width: 10%;
   height: 150px;
-  padding-top: 0px 30px;
+  padding-top: 30px;
   min-height: 0;
   display: flex;
   flex-direction: column;

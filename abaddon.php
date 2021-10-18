@@ -239,7 +239,7 @@
                             <img style="width: 30px; height: 30px;"
                             src="./src/icon/strength.png">
                             <!-- change white font text here  -->
-                            <div style="color: #fff; font-family: Reaver,serif; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
+                            <div style="color: #fff; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
                                 22
                             </div>
                             <div style="color: #999; font-size: 15px; text-shadow: 1px 1px 2px #000; margin-left: 8px; flex-grow: 1; text-align: right;">
@@ -250,7 +250,7 @@
                             <img style="width: 30px; height: 30px;"
                             src="./src/icon/agility.png">
                             <!-- change white font text here  -->
-                            <div style="color: #fff; font-family: Reaver,serif; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
+                            <div style="color: #fff; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
                                 22
                             </div>
                             <div style="color: #999; font-size: 15px; text-shadow: 1px 1px 2px #000; margin-left: 8px; flex-grow: 1; text-align: right;">
@@ -261,7 +261,7 @@
                             <img style="width: 30px; height: 30px;"
                             src="./src/icon/intelligence.png">
                             <!-- change white font text here  -->
-                            <div style="color: #fff; font-family: Reaver,serif; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
+                            <div style="color: #fff; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
                                 22
                             </div>
                             <div style="color: #999; font-size: 15px; text-shadow: 1px 1px 2px #000; margin-left: 8px; flex-grow: 1; text-align: right;">
@@ -406,6 +406,7 @@
                         <div style="margin-left: 8px; text-align: left; text-transform: uppercase; font-size: 16px; font-weight: bold; letter-spacing: 1px; color: #969696; margin-bottom: 4px;">
                         การโจมตี
                         </div>
+                         <!-- change white text and src pic icon (in classs var) here -->
                         <div class="var" style="color: #fff;">
                             <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/icon/icon_damage.png">
                             50-60
@@ -452,11 +453,19 @@
             </div>
         </div>
     </div>
-
-    <!-- PART BAR -->
+    
     <div style="width: 100%; min-height: 0; display: flex; flex-direction: column; align-items: center; background-size: cover; background-repeat: no-repeat; background-image: url('./src/hero/bg.jpg');">
+        <!-- PART VDO  SKILL -->
+        <div class="body-vdo-skill">
+                <div style="width: 100%; text-align: center; font-size: 20px; color: #fff; font-weight: 500; text-transform: uppercase; letter-spacing: 3px; margin-top: 40px; margin-bottom: 30px;">รายละเอียดสกิล:<div>
+                <div id="vdo-skill" style="width: 100%; max-width: 1500px; min-height: 542px; display: flex; flex-direction: row;">
+                    <div style=></div>
+                </div>
+        </div>
+        <!-- PART BAR -->
         <div class="bar">
-            <div class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png);">
+             <!-- change link back hero here -->
+            <div class="bar-side"  href="#" style="background-image: url(./src/hero/abaddon/bar.png);">
                 <img class="bar-hero" style="left: 0px;" src="./src/hero/abaddon/back.png">
                 <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
                     <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
@@ -474,7 +483,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bar-center">
+            <div class="bar-center"  href="#">
                 <div class="bar-box">
                     <div class="bar-grid"></div>
                     <div class="bar-grid"></div>
@@ -485,13 +494,15 @@
                 </div>
                 <div style="color: #fff; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-top: 8px; text-align: center;"> ฮีโร่ทั้งหมด </div>
             </div>
-            <div class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png);">    
-                <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;}">
+             <!-- change link back hero here -->
+            <div  href="#" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">    
+                <img class="bar-hero" style="right: 0px;" src="./src/hero/abaddon/back.png">
+                <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
                     <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
                     <!-- change white font here -->
                     <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
                     Zeus</div>
-                    
+
                     <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
                         <!-- change pic type hero here -->
                         <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" 
@@ -501,11 +512,37 @@
                         ระยะไกล</div>
                     </div>
                 </div>
-                <img class="bar-hero" style="right: 0px;" src="./src/hero/abaddon/back.png">
             </div>
         </div>
     </div>
     <?php include './components/footer.php' ?>
+    <script>
+        var box = document.getElementById("vdo-skill");
+        var lis = [
+            [
+                // pic skill
+                'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png',
+                [
+                    // poster img
+                    'https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.jpg',
+                    // vdo
+                    'https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm',
+                    'https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4'
+                ],
+                // skill title (zone light black)
+                [
+                    'MIST COIL',
+                    'Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon'
+                ],
+                // skill title (zone dark black)
+                [
+                    '#test detail#'
+                ]
+            ]
+        ];
+        // box.innerHTML += `<div class=""`;
+        console.log(box); 
+    </script>
 </body>
 <script>
     AOS.init({
