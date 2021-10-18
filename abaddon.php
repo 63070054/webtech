@@ -456,6 +456,24 @@
     <!-- PART BAR -->
     <div style="width: 100%; min-height: 0; display: flex; flex-direction: column; align-items: center; background-size: cover; background-repeat: no-repeat; background-image: url('./src/hero/bg.jpg');">
         <div class="bar">
+            <div class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png);">
+                <img class="bar-hero" style="left: 0px;" src="./src/hero/abaddon/back.png">
+                <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
+                    <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
+                    <!-- change white font here -->
+                    <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
+                    Zeus</div>
+                    
+                    <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
+                        <!-- change pic type hero here -->
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" 
+                        style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                        <!-- change white font here -->
+                        <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
+                        ระยะไกล</div>
+                    </div>
+                </div>
+            </div>
             <div class="bar-center">
                 <div class="bar-box">
                     <div class="bar-grid"></div>
@@ -466,6 +484,24 @@
                     <div class="bar-grid"></div>
                 </div>
                 <div style="color: #fff; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-top: 8px; text-align: center;"> ฮีโร่ทั้งหมด </div>
+            </div>
+            <div class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png);">    
+                <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;}">
+                    <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
+                    <!-- change white font here -->
+                    <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
+                    Zeus</div>
+                    
+                    <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
+                        <!-- change pic type hero here -->
+                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" 
+                        style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                        <!-- change white font here -->
+                        <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
+                        ระยะไกล</div>
+                    </div>
+                </div>
+                <img class="bar-hero" style="right: 0px;" src="./src/hero/abaddon/back.png">
             </div>
         </div>
     </div>
