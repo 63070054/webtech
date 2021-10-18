@@ -67,7 +67,7 @@
         font-weight: 200;
     }
 
-    .hero {
+    .nhero {
         width: 100%;
         min-height: 0;
         display: flex;
@@ -126,7 +126,7 @@
         margin-bottom: 24px;
     }
 
-    .skill {
+    .zero {
         width: 100%;
         min-height: 0;
         display: flex;
@@ -134,14 +134,14 @@
         margin-bottom: 24px;
     }
 
-    .setskill {
+    .setone {
         width: 100%;
         display: flex;
         flex-direction: row;
         padding-bottom: 20px;
     }
 
-    .skilltwo {
+    .settwo {
         width: 55px;
         height: 55px;
         min-width: 55px;
@@ -149,7 +149,7 @@
         background-repeat: no-repeat;
     }
 
-    .skillthree {
+    .setthree {
         font-size: 16px;
         font-weight: 600;
         color: #fff;
@@ -160,7 +160,7 @@
         margin-left: 20px;
     }
 
-    .textskill {
+    .setfour {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -392,7 +392,7 @@
 
                 <div style="width: 100%; border-left: 2px solid #ffffff10; margin-bottom: 30px; background: linear-gradient(90deg, rgba(0, 0, 0, 0.38) 3.07%, rgba(6, 37, 65, 0.3) 88.06%); box-shadow: 0px 0px 50px #000;min-height: 0; display: flex; padding: 20px 0px; flex-direction: column;">
 
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bane.png);"></div>
                             <div class="name">
@@ -400,23 +400,23 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_nightmare.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_nightmare.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Nightmare</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Nightmare</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายปรับจาก 15/20/25/30 เป็น 5/15/25/35 หน่วย</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_brain_sap.png);"></div>
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_brain_sap.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Brain Sap</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Brain Sap</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">คูลดาวน์ลดลงจาก 14/13/12/11 เป็น 17/15/13/11 วินาที</div>
@@ -426,7 +426,7 @@
                         </div>
                     </div>
 
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/batrider.png);"></div>
                             <div class="name">
@@ -434,15 +434,15 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="textskill">
+                        <div class="zero">
+                            <div class="setfour">
                                 <div class="sven"></div>
                                 <div class="eight">พลังโจมตีพื้นฐานลดลง 2 หน่วย</div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/beastmaster.png);"></div>
                             <div class="name">
@@ -450,12 +450,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_call_of_the_wild_hawk.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_call_of_the_wild_hawk.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Call of the Wild Hawk</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Call of the Wild Hawk</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">อัปเกรดโดย Aghanim's Shard ลดคูลดาวน์น้อยลงจาก 15 เป็น 7 วินาที</div>
@@ -464,7 +464,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bristleback.png);"></div>
                             <div class="name">
@@ -472,12 +472,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bristleback_warpath.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bristleback_warpath.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Warpath</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Warpath</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ระยะเวลาซ้อนทับเพิ่มขึ้นจาก 16 เป็น 16/18/20 วินาที</div>
@@ -486,7 +486,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/broodmother.png);"></div>
                             <div class="name">
@@ -494,23 +494,23 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/broodmother_spin_web.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/broodmother_spin_web.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Spin Web</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Spin Web</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">จำนวนชาร์จเพิ่มขึ้นจาก 3/5/7/9 เป็น 4/6/8/10</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/broodmother_spawn_spiderlings.png);"></div>
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/broodmother_spawn_spiderlings.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Spawn Spiderlings</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Spawn Spiderlings</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายเพิ่มขึ้นจาก 240/320/400 เป็น 260/340/420 หน่วย</div>
@@ -519,7 +519,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/clinkz.png);"></div>
                             <div class="name">
@@ -527,12 +527,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/clinkz_strafe.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/clinkz_strafe.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Burning Barrage</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Burning Barrage</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายตามเปอร์เซ็นต์พลังโจมตีเพิ่มขึ้นจาก 60% เป็น 65%</div>
@@ -542,15 +542,15 @@
                         </div>
                         <div class="patchnotespage_TalentNotes_2307Y">
                             <div class="patchnotespage_TalentNoteHeader_3KTWV">ทักษะพิเศษ</div>
-                            <div class="skill">
-                                <div class="textskill">
+                            <div class="zero">
+                                <div class="setfour">
                                     <div class="sven"></div>
                                     <div class="eight">ทักษะพิเศษเลเวล 20 จำนวนลูกธนู Burning Barrage เพิ่มขึ้นจาก +2 เป็น +3 ดอก</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rattletrap.png);"></div>
                             <div class="name">
@@ -558,14 +558,14 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="textskill">
+                        <div class="zero">
+                            <div class="setfour">
                                 <div class="sven"></div>
                                 <div class="eight">เกราะป้องกันพื้นฐานเพิ่มขึ้น 1 หน่วย</div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dawnbreaker.png);"></div>
                             <div class="name">
@@ -573,28 +573,28 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/dawnbreaker_fire_wreath.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/dawnbreaker_fire_wreath.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Starbreaker</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Starbreaker</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">โบนัสความเสียหายจากการกวาดลดลงจาก 25/35/45/55 เป็น 20/30/40/50 หน่วย</div>
                                     </div>
-                                    <div class="textskill">
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายเพิ่มเติมจากการทุบลดลงจาก 40/65/90/115 เป็น 30/60/90/120 หน่วย</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/dawnbreaker_celestial_hammer.png);"></div>
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/dawnbreaker_celestial_hammer.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Celestial Hammer</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Celestial Hammer</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ลดความเร็วปรับจาก 35% เป็น 24/28/32/36%</div>
@@ -603,7 +603,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png);"></div>
                             <div class="name">
@@ -611,14 +611,14 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="textskill">
+                        <div class="zero">
+                            <div class="setfour">
                                 <div class="sven"></div>
                                 <div class="eight">เกราะป้องกันพื้นฐานลดลง 1 หน่วย</div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/death_prophet.png);"></div>
                             <div class="name">
@@ -626,12 +626,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/death_prophet_spirit_siphon.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/death_prophet_spirit_siphon.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Spirit Siphon</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Spirit Siphon</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ค่าสูญเสียพลังชีวิตต่อวินาทีพื้นฐานเพิ่มขึ้นจาก 14 เป็น 16 หน่วย</div>
@@ -640,7 +640,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/gyrocopter.png);"></div>
                             <div class="name">
@@ -648,12 +648,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/gyrocopter_flak_cannon.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/gyrocopter_flak_cannon.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Flak Cannon</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Flak Cannon</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">มานาที่ใช้เพิ่มขึ้นจาก 50 เป็น 50/60/70/80 หน่วย</div>
@@ -662,7 +662,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mars.png);"></div>
                             <div class="name">
@@ -670,12 +670,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/mars_gods_rebuke.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/mars_gods_rebuke.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">God's Rebuke</div>
-                                    <div class="textskill">
+                                    <div class="setthree">God's Rebuke</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">มานาที่ใช้เพิ่มขึ้นจาก 80 เป็น 90 หน่วย</div>
@@ -684,7 +684,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/monkey_king.png);"></div>
                             <div class="name">
@@ -692,12 +692,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/monkey_king_wukongs_command.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/monkey_king_wukongs_command.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Wukong's Command</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Wukong's Command</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">เวลาเว้นช่วงการโจมตีของพลทหารเพิ่มขึ้นจาก 1.1 เป็น 1.2 วินาที</div>
@@ -706,7 +706,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/naga_siren.png);"></div>
                             <div class="name">
@@ -714,12 +714,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/naga_siren_mirror_image.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/naga_siren_mirror_image.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Mirror Image</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Mirror Image</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">คูลดาวน์ลดลงจาก 40/36/32/28 เป็น 40/35/30/25 วินาที</div>
@@ -728,7 +728,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/night_stalker.png);"></div>
                             <div class="name">
@@ -738,15 +738,15 @@
                         </a>
                         <div class="patchnotespage_TalentNotes_2307Y">
                             <div class="patchnotespage_TalentNoteHeader_3KTWV">ทักษะพิเศษ</div>
-                            <div class="skill">
-                                <div class="textskill">
+                            <div class="zero">
+                                <div class="setfour">
                                     <div class="sven"></div>
                                     <div class="eight">ทักษะพิเศษเลเวล 25 คูลดาวน์ Dark Ascension ลดลงจาก -60 เป็น -50 วินาที</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pangolier.png);"></div>
                             <div class="name">
@@ -754,14 +754,14 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="textskill">
+                        <div class="zero">
+                            <div class="setfour">
                                 <div class="sven"></div>
                                 <div class="eight">ความเร็วในการเคลื่อนที่เพิ่มขึ้นจาก 305 เป็น 300 หน่วย</div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_assassin.png);"></div>
                             <div class="name">
@@ -769,12 +769,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/phantom_assassin_fan_of_knives.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/phantom_assassin_fan_of_knives.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Fan of Knives</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Fan of Knives</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">คูลดาวน์ลดลงจาก 20 เป็น 15 วินาที</div>
@@ -783,7 +783,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pugna.png);"></div>
                             <div class="name">
@@ -791,12 +791,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pugna_nether_blast.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pugna_nether_blast.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Nether Blast</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Nether Blast</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ระยะร่ายเพิ่มขึ้นจาก 400 เป็น 450 หน่วย</div>
@@ -805,7 +805,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/riki.png);"></div>
                             <div class="name">
@@ -813,12 +813,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/riki_smoke_screen.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/riki_smoke_screen.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Smoke Screen</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Smoke Screen</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">โอกาสโจมตีพลาดเพิ่มขึ้นจาก 20/35/50/65% เป็น 30/45/60/75%</div>
@@ -827,7 +827,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png);"></div>
                             <div class="name">
@@ -835,23 +835,23 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_curse_of_the_silent.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_curse_of_the_silent.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Arcane Curse</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Arcane Curse</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ตัวคูณการลงโทษเมื่อใบ้ลดลงจาก 2 เป็น 1.7 เท่า</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_last_word.png);"></div>
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_last_word.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Last Word</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Last Word</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">อัปเกรดโดย Aghanim's Scepter รัศมีลดลงจาก 650 เป็น 500 หน่วย</div>
@@ -860,7 +860,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png);"></div>
                             <div class="name">
@@ -868,14 +868,14 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="textskill">
+                        <div class="zero">
+                            <div class="setfour">
                                 <div class="sven"></div>
                                 <div class="eight">เกราะป้องกันพื้นฐานลดลง 1 หน่วย</div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shredder.png);"></div>
                             <div class="name">
@@ -883,12 +883,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/shredder_chakram.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/shredder_chakram.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Chakram</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Chakram</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายเมื่อผ่านเพิ่มขึ้นจาก 100/140/180 เป็น 110/155/200 หน่วย</div>
@@ -897,7 +897,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png);"></div>
                             <div class="name">
@@ -905,23 +905,23 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tinker_rearm.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tinker_rearm.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Rearm</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Rearm</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">มานาที่ใช้เพิ่มขึ้นจาก 130/210/290 เป็น 150/225/300 หน่วย</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tinker_heat_seeking_missile.png);"></div>
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tinker_heat_seeking_missile.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Heat-Seeking Missile</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Heat-Seeking Missile</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายต่อจรวดลดลงจาก 125/200/275/350 เป็น 115/190/265/340 หน่วย</div>
@@ -930,7 +930,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tiny.png);"></div>
                             <div class="name">
@@ -938,28 +938,28 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_toss.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_toss.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Toss</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Toss</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายลดลงจาก 90/160/230/300 เป็น 80/150/220/290 หน่วย</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_tree_grab.png);"></div>
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_tree_grab.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Tree Grab</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Tree Grab</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">คูลดาวน์เพิ่มขึ้นจาก 16/14/12/10 เป็น 19/16/13/10 วินาที</div>
                                     </div>
-                                    <div class="textskill">
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">เพิ่มความเสียหายต่อยูนิตน้อยลงจาก 25% เป็น 20%</div>
@@ -968,7 +968,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/undying.png);"></div>
                             <div class="name">
@@ -976,12 +976,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/undying_tombstone.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/undying_tombstone.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Tombstone</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Tombstone</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">จำนวนการโจมตีจากฮีโร่เพื่อทำลาย Tombstone เพิ่มขึ้นจาก 4/5/6/7 เป็น 5/6/7/8 ครั้ง</div>
@@ -990,7 +990,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ursa.png);"></div>
                             <div class="name">
@@ -998,12 +998,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ursa_fury_swipes.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ursa_fury_swipes.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Fury Swipes</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Fury Swipes</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">เพิ่มพลังโจมตีต่อการซ้อนทับมากขึ้นจาก 9/18/27/36 เป็น 10/19/28/37 หน่วย</div>
@@ -1012,7 +1012,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengefulspirit.png);"></div>
                             <div class="name">
@@ -1020,14 +1020,14 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="textskill">
+                        <div class="zero">
+                            <div class="setfour">
                                 <div class="sven"></div>
                                 <div class="eight">ค่า Agility ที่ได้รับต่อเลเวลลดลงจาก 3.4 เป็น 3.2 หน่วย</div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/warlock.png);"></div>
                             <div class="name">
@@ -1035,28 +1035,28 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/warlock_fatal_bonds.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/warlock_fatal_bonds.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Fatal Bonds</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Fatal Bonds</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">มานาที่ใช้ลดลงจาก 140 เป็น 110/120/130/140 หน่วย</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/warlock_rain_of_chaos.png);"></div>
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/warlock_rain_of_chaos.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Chaotic Offering</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Chaotic Offering</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">พลังชีวิตพื้นฐานโกเลมเพิ่มขึ้นจาก 1000/2000/3000 เป็น 1200/2100/3000 หน่วย</div>
                                     </div>
-                                    <div class="textskill">
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">อัปเกรดโดย Aghanim's Scepter พลังชีวิตพื้นฐานโกเลมเพิ่มขึ้นจาก 750/1500/2250 เป็น 800/1600/2400 หน่วย</div>
@@ -1065,7 +1065,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/weaver.png);"></div>
                             <div class="name">
@@ -1073,18 +1073,18 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="textskill">
+                        <div class="zero">
+                            <div class="setfour">
                                 <div class="sven"></div>
                                 <div class="eight">พลังโจมตีพื้นฐานปรับจาก 53-63 เป็น 54-60 หน่วย</div>
                             </div>
                         </div>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/weaver_the_swarm.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/weaver_the_swarm.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">The Swarm</div>
-                                    <div class="textskill">
+                                    <div class="setthree">The Swarm</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">อัปเกรดโดย Aghanim's Shard ลดคูลดาวน์น้อยลงจาก 4 เป็น 2 วินาที</div>
@@ -1093,7 +1093,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/winter_wyvern.png);"></div>
                             <div class="name">
@@ -1101,12 +1101,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/winter_wyvern_arctic_burn.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/winter_wyvern_arctic_burn.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Arctic Burn</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Arctic Burn</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">คูลดาวน์ลดลงจาก 42/36/28/20 เป็น 38/32/26/20 วินาที</div>
@@ -1115,7 +1115,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skeleton_king.png);"></div>
                             <div class="name">
@@ -1123,12 +1123,12 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_mortal_strike.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_mortal_strike.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Mortal Strike</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Mortal Strike</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายจากคริติคอลเพิ่มขึ้นจาก 140/180/220/260% เป็น 150/190/230/270%</div>
@@ -1137,7 +1137,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero">
+                    <div class="nhero">
                         <a class="ck" href="#">
                             <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zuus.png);"></div>
                             <div class="name">
@@ -1145,23 +1145,23 @@
                                 <div class="namethree"></div>
                             </div>
                         </a>
-                        <div class="skill">
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_static_field.png);"></div>
+                        <div class="zero">
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_static_field.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Static Field</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Static Field</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายจะไม่นับว่าเป็นการลดพลังชีวิตโดยตรงอีกต่อไป (Heavenly Jump ต่อจากนี้สามารถทำให้ Blink Dagger ติดคูลดาวน์ และส่งผลต่อเอฟเฟกต์ใดก็ตามที่ถูกยกเลิกเมื่อได้รับความเสียหาย เช่น Healing Salve)</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="setskill">
-                                <div class="skilltwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_thundergods_wrath.png);"></div>
+                            <div class="setone">
+                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_thundergods_wrath.png);"></div>
                                 <div class="name">
-                                    <div class="skillthree">Thundergod's Wrath</div>
-                                    <div class="textskill">
+                                    <div class="setthree">Thundergod's Wrath</div>
+                                    <div class="setfour">
                                         <div style="width: 20px; min-width: 20px;"></div>
                                         <div class="sven"></div>
                                         <div class="eight">ความเสียหายเพิ่มขึ้นจาก 300/400/500 เป็น 300/425/550 หน่วย</div>
