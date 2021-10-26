@@ -483,6 +483,7 @@
                                 <div style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;" id="title-skills">
                                     MIST COIL
                                 </div>
+                                <div id="more-detail"></div>
                                 <!-- detail -->
                                 <div style="color: #ddd; font-size: 18px; white-space: pre-wrap; margin-bottom: 10px;" id="description-title-skills">Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon</div>
                             </div>
@@ -602,10 +603,13 @@
 
             index = parseInt(index);
             for (let key in lis[index]) {
-                if (key == "have-shard") {
+                if (key == "have-shard-or-agh") {
+                    if(lis[index][key][0] == 1){
+                        document.getElementById("more-detail").innerHTML = `<div style="background-color: #1c2e50; color: #ddd; display: inline-flex; text-transform: uppercase; letter-spacing: 1px; padding: 3px 8px; margin: 3px 0px; border-radius: 4px;">การอัปเกรดสกิลโดย ${lis[index][key][1]}</div>`;
+                    } else{
+                        document.getElementById("more-detail").innerHTML = '';
+                    }
                     // pao
-                } else if (key == "have-agh") {
-                    // pao  
                 } else if (key == "video-type-webm" || key == "video-type-mp4") {
                     document.getElementById(key).src = lis[index][key];
                     document.getElementById("video-main").load();
@@ -651,8 +655,7 @@
             [0]: {
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4",
-                "have-shard": [0, ""],
-                "have-agh": [0, ""],
+                "have-shard-or-agh": [0, ""],
                 "image-skills": "",
                 "title-skills": 'MIST COIL',
                 "description-title-skills": 'Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon',
@@ -675,8 +678,7 @@
             [1]: {
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.mp4",
-                "have-shard": [0, ""],
-                "have-agh": [0, ""],
+                "have-shard-or-agh": [1, "SHARD"],
                 "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_aphotic_shield.png",
                 "title-skills": "",
                 "description-title-skills": "",
@@ -699,8 +701,8 @@
             [2]: {
                 "video-type-webm": "",
                 "video-type-mp4": "",
-                "have-shard": [0, ""],
-                "have-agh": [0, ""],
+                "have-shard-or-agh": [0, ""],
+                "have-agh": 1,
                 "image-skills": "",
                 "title-skills": "",
                 "description-title-skills": "",
@@ -723,8 +725,7 @@
             [3]: {
                 "video-type-webm": "",
                 "video-type-mp4": "",
-                "have-shard": [0, ""],
-                "have-agh": [0, ""],
+                "have-shard-or-agh": [0, ""],
                 "image-skills": "",
                 "title-skills": "",
                 "description-title-skills": "",
@@ -747,8 +748,7 @@
             [4]: {
                 "video-type-webm": "",
                 "video-type-mp4": "",
-                "have-shard": [0, ""],
-                "have-agh": [0, ""],
+                "have-shard-or-agh": [0, ""],
                 "image-skills": "",
                 "title-skills": "",
                 "description-title-skills": "",
@@ -771,8 +771,7 @@
             [5]: {
                 "video-type-webm": "",
                 "video-type-mp4": "",
-                "have-shard": [0, ""],
-                "have-agh": [0, ""],
+                "have-shard-or-agh": [0, ""],
                 "image-skills": "",
                 "title-skills": "",
                 "description-title-skills": "",
