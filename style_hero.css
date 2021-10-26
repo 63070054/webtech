@@ -556,3 +556,14 @@ padding: 20px 30px 15px 30px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+<<<<<<< HEAD
+=======
+.bar-grid{
+  width: 30px;
+    height: 30px;
+    background-color: #9e9fa0;
+}
+.test{
+  display: flex;
+}
+>>>>>>> 5600ea706a09b3baea43dee87add555eee83e1c8
