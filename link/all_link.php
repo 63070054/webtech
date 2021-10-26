@@ -4,6 +4,7 @@
 <title>Project Webtech</title>
 <!-- CSS -->
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style_hero3.css">
 <link rel="stylesheet" href="style_hero2.css">
 <link rel="stylesheet" href="style_hero.css">
 <link rel="stylesheet" href="style_news.css">

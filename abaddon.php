@@ -453,37 +453,132 @@
             </div>
         </div>
     </div>
-    
-    <div style="width: 100%; min-height: 0; display: flex; flex-direction: column; align-items: center; background-size: cover; background-repeat: no-repeat; background-image: url('./src/hero/bg.jpg');">
+    <div style="width: 100%;
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./src/hero/abaddon/bg.jpg);">
         <!-- PART VDO  SKILL -->
-        <div class="body-vdo-skill">
-                <div style="width: 100%; text-align: center; font-size: 20px; color: #fff; font-weight: 500; text-transform: uppercase; letter-spacing: 3px; margin-top: 40px; margin-bottom: 30px;">รายละเอียดสกิล:<div>
-                <div id="vdo-skill" style="width: 100%; max-width: 1500px; min-height: 542px; display: flex; flex-direction: row;">
-                    <div style=></div>
+        <div style="width: 100%; min-height: 400px; padding: 80px 0px; margin-top: -10px; display: flex; flex-direction: column; align-items: center; position: relative; z-index: 2;">
+            <!-- PART title -->
+            <div style="width: 100%; text-align: center; font-size: 20px; color: #fff; font-weight: 500; text-transform: uppercase; letter-spacing: 3px; margin-top: 40px; margin-bottom: 30px;">รายละเอียดสกิล:</div>
+            <!-- PART body -->
+            <div style="width: 100%; max-width: 1500px; min-height: 542px; display: flex; flex-direction: row;">
+                <!-- PART Right -->
+                <div style="width: 55%; margin-right: 20px;">
+                    <!-- vdo view -->
+                    <div style="width: 100%; padding-top: 56.25%; height: 0px; position: relative; box-shadow: 3px 3px 8px #000;">
+                        <div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2;"></div>
+                        <video style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" autoplay="" preload="auto" loop="" playsinline="" muted
+                            poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.jpg"><source type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm"><source type="video/mp4" 
+                            src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4">
+                        </video>
+                    </div>
+                    <!-- bar skill -->
+                    <div style="width: 100%; margin-top: -15px; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; position: relative; z-index: 3;">
+                        <div class="icon-skill" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png');"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png');"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png');"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png');"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png');"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png');"></div>
+                    </div>
                 </div>
+                <!-- PART Left -->
+                <div style="width: 45%; min-height: 0; display: flex; flex-direction: column; align-items: center;">
+                    <div style="width: 100%; height: 100%; box-sizing: border-box;">
+                        <!-- zone head -->
+                        <div style="padding: 8px; background-color: #121212; display: flex; flex-direction: row;">
+                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;"
+                                src="./src/hero/abaddon/skill/skill1.png">
+                            <div style="flex-grow: 1; min-height: 0; display: flex; flex-direction: column; margin-top: 5px; margin-left: 8px; margin-right: 12px; align-items: flex-start;">
+                                <!-- title -->
+                                <div style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                                    MIST COIL
+                                </div>
+                                <!-- detail -->
+                                <div style="color: #ddd; font-size: 18px; white-space: pre-wrap; margin-bottom: 10px;">
+                                    Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon
+                                </div>
+                            </div>
+                        </div>
+                        <!-- zone detail -->
+                        <div style="background-color: #000; min-height: 0; display: flex; flex-direction: column; padding: 20px 30px 15px 30px;">
+                            <!-- ver 2 colum -->
+                            <div class="col2">
+                                <div class="inner-col2">
+                                    <div class="text-inner-col2">สกิล:
+                                        <div class="b-text">ยูนิตเป้าหมาย</div>
+                                    </div>
+                                    <div class="text-inner-col2">สกิล:
+                                        <div class="b-text">ยูนิตเป้าหมาย</div>
+                                    </div>
+                                    <div class="text-inner-col2">สกิล:
+                                        <div class="b-text" style="color: rgb(163, 220, 238);">ยูนิตเป้าหมาย</div>
+                                    </div>
+                                </div>
+                                <div class="inner-col2">
+                                <div class="text-inner-col2">สกิล:
+                                        <div class="b-text">ยูนิตเป้าหมาย</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ver 1 colum -->
+                            <div class="col1">
+                                <div class="text-inner-col1">สกิล:
+                                        <div class="b-text">ยูนิตเป้าหมาย</div>
+                                </div>
+                                <div class="text-inner-col1">สกิล:
+                                        <div class="b-text">ยูนิตเป้าหมาย</div>
+                                </div>
+                                <div class="text-inner-col1">สกิล:
+                                        <div class="b-text">ยูนิตเป้าหมาย</div>
+                                </div>
+                            </div>
+                            <!-- ver delay skill -->
+                            <div style="width: 100%; margin-top: 12px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+                                <div style="display: flex; flex-direction: row; align-items: center;">
+                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png&quot;);"></div>
+                                    <div style="margin-left: 8px; color: #fff;">5.5</div>
+                                </div>
+                                <div style="display: flex; flex-direction: row; align-items: center;">
+                                    <div style="width: 16px; height: 16px; border-radius: 3px; background: linear-gradient(#00A4DB, #007196);"></div>
+                                    <div style="margin-left: 8px; color: #fff;">5.5</div>
+                                </div>
+                            </div>
+                            <!-- var more story detail -->
+                            <div style="width: 100%; background-color: #111; margin-top: 20px; margin-bottom: 10px; padding: 10px; font-style: italic; font-size: 14px; color: #aaa;">
+                            ไอระเหยอันน่าพิศวงจากบ่อน้ำพุแห่ง Font of Avernus ได้หลอมรวมเป็นลมหายใจของ Abaddon ผู้ที่ปลดปล่อยมันได้ตามใจหวัง
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
         </div>
         <!-- PART BAR -->
         <div class="bar">
-             <!-- change link back hero here -->
+            <!-- change link back hero here -->
             <div class="bar-side"  href="#" style="background-image: url(./src/hero/abaddon/bar.png);">
                 <img class="bar-hero" style="left: 0px;" src="./src/hero/abaddon/back.png">
                 <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
                     <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
                     <!-- change white font here -->
                     <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
-                    Zeus</div>
-                    
+                    Zeus</div>    
                     <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
                         <!-- change pic type hero here -->
                         <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" 
                         style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
-                        <!-- change white font here -->
-                        <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
+                        <!-- change white font here -->                        <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
                         ระยะไกล</div>
                     </div>
                 </div>
             </div>
-            <div class="bar-center"  href="#">
+            <!-- change link here -->
+            <div class="bar-center" style="height: auto;"  href="#">
                 <div class="bar-box">
                     <div class="bar-grid"></div>
                     <div class="bar-grid"></div>
@@ -494,7 +589,7 @@
                 </div>
                 <div style="color: #fff; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-top: 8px; text-align: center;"> ฮีโร่ทั้งหมด </div>
             </div>
-             <!-- change link back hero here -->
+            <!-- change link back hero here -->
             <div  href="#" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">    
                 <img class="bar-hero" style="right: 0px;" src="./src/hero/abaddon/back.png">
                 <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -502,12 +597,11 @@
                     <!-- change white font here -->
                     <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
                     Zeus</div>
-
                     <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
                         <!-- change pic type hero here -->
                         <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" 
                         style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
-                        <!-- change white font here -->
+                        <!-- change white font here -->                        
                         <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
                         ระยะไกล</div>
                     </div>
@@ -515,6 +609,7 @@
             </div>
         </div>
     </div>
+    
     <?php include './components/footer.php' ?>
     <script>
         var box = document.getElementById("vdo-skill");
