@@ -1,17 +1,20 @@
 <html lang="en">
+
 <head>
     <?php include './link/all_link.php' ?>
 </head>
 
 <body>
-<?php
+    <?php
     $nav_hero_active = 0;
     $nav_news_active = 1;
     include './components/nav.php';
-?>
-    <div class="all-news-title" style="background-image: url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/3703047/44a06189990aecb48c7c5cad5bf4d6d12ab72f2b.png');width: 100%;height: 600px;">
-        <div class="shadow-news" style="background: linear-gradient(rgba(0, 0, 0, 0) 700%,rgba(0, 0, 0, 0.733) 70%,rgb(0, 0, 0) 90%);"></div>
-        <div style="width: 100%;height: 300px;position: absolute;bottom: 0px;z-index: 3;background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.7)), color-stop(100%, black));"></div>
+    ?>
+    <div class="news-title-main">
+        <div class="all-news-title" style="background-image: url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/3703047/44a06189990aecb48c7c5cad5bf4d6d12ab72f2b.png');width: 100vw;height: 600px;">
+            <div class="shadow-news" style="background: linear-gradient(rgba(0, 0, 0, 0) 700%,rgba(0, 0, 0, 0.733) 70%,rgb(0, 0, 0) 90%);"></div>
+            <div style="width: 100vw;height: 300px;position: absolute;bottom: 0px;z-index: 3;background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.7)), color-stop(100%, black));"></div>
+        </div>
         <div class="line-post">
             <div style="font-size: 16px;font-weight: bold;letter-spacing: 2px;background: #ffffff50;color: #fff;padding: 5px 10px;text-transform: uppercase;float: right;position: absolute;right: 0px;top: 0px;">โพสต์โดดเด่น</div>
             <div style="font-size: 18px;color: #ffffff90;text-align: left;text-transform: uppercase;letter-spacing: 2px;margin-bottom: 20px;font-weight: 600;">16 ตุลาคม 2564</div>
@@ -21,12 +24,12 @@
     </div>
     <div class="line-news-update">
         <div class="table-news-update">
-            <a href="news.php" class="text-news-update">ข่าวสาร</a>
-            <a href="updatenews.php" class="text-news-update">อัฟเดต</a>
+            <a href="news.php" class="text-news-update-active">ข่าวสาร</a>
+            <a href="updatenews.php" class="text-news-update">อัปเดต</a>
         </div>
     </div>
 
-    <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//blog/bg_repeater.jpg);width: 100%;height:auto;">
+    <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//blog/bg_repeater.jpg);width: 100vw;height:auto;">
         <div class="table-allnews">
             <a style="width: 400px; height: 250px; margin: 15px;" href="#">
                 <div class="news" style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/3703047/aa9c5cc55358ebc6977e895d5d9c50ecaa718482.png&quot;);">
@@ -89,4 +92,5 @@
     </div>
     <?php include './components/footer.php' ?>
 </body>
+
 </html>

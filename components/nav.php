@@ -17,7 +17,7 @@
                     <a href="patch.php" class="eff-text-glow">
                         แพตช์
                     </a>
-                    <a href="#" class="eff-text-glow">
+                    <a href="updatenews.php" class="eff-text-glow">
                         อัปเดตเกมเพลย์
                     </a>
                     <a href="#" class="eff-text-glow">
