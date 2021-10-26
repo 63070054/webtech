@@ -170,7 +170,7 @@
 <body>
     <?php
     $nav_hero_active = 0;
-    $nav_news_active = 1;
+    $nav_news_active = 0;
     include './components/nav.php';
     ?>
 
