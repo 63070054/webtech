@@ -385,3 +385,6 @@ a{
     height: 30px;
     background-color: #9e9fa0;
 }
+.test{
+  display: flex;
+}
