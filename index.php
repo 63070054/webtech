@@ -82,7 +82,7 @@
             </div>
             <div style="width: 80px; height: 3px; min-height: 3px; background-color: #ff6046; border-radius: 1px;"></div>
             <div style="text-align: center; margin-top: 30px; max-width: 1000px; display: flex; flex-direction: column; align-items: center; justify-items: center; color: #e2dace; font-size: 26px; line-height: 115%; font-weight: 100;">ทุก ๆ วันผู้เล่นนับล้านทั่วโลกก้าวเข้าสู่สนามรบเพื่อสวมบทบาทเป็นหนึ่งในกว่าร้อยฮีโร่ของ Dota ในการต่อสู้ 5 ต่อ 5 ระหว่างทีม Dota เป็นเกมแอ็กชัน RTS แบบผู้เล่นหลายคนที่ลึกล้ำที่สุดเท่าที่เคยมีมา และมีกลยุทธ์ชั้นเชิงใหม่ ๆ ให้ค้นพบเสมอ สามารถเล่นได้ฟรีและจะฟรีตลอดไป – เริ่มปกป้อง Ancient ของคุณตั้งแต่ตอนนี้
-                <a href="#" style="width: fit-content;">
+                <a href="news.php" style="width: fit-content;">
                     <div class="eff-up eff-border-orange" style="border: 3px solid #ffffff50; padding: 15px 25px; margin: 10px 30px; border-radius: 5px; cursor: pointer; width: fit-content; display: flex; flex-direction: row; justify-content: center; align-items: center; transition-duration: .2s;">
                         <div style="font-size: 20px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #fff;">ดูข่าวใหม่</div>
                     </div>
@@ -99,7 +99,7 @@
         <div style="width: 80px; height: 3px; min-height: 3px; background-color: #ff6046; border-radius: 1px;"></div>
         <div style="text-align: center; z-index: 40; width: 100%; padding-bottom: 40px; margin-top: 30px; max-width: 1000px; display: flex; flex-direction: column; align-items: center; justify-items: center; color: #e2dace; font-size: 26px; line-height: 115%; font-weight: 100;">
             ไม่ว่าจะเป็นนักเวทจอมอุบายไปจนถึงอสูรดุร้ายและอันธพาลเจ้าเล่ห์ กลุ่มฮีโร่ของ Dota 2 นั้นมีขนาดใหญ่โตมโหฬารและหลากหลายไร้ขีดจำกัด ปลดปล่อยความสามารถน่าทึ่งและสกิลอัลติเมททำลายล้างเพื่อไปสู่ชัยชนะ
-            <a href="#" style="width: fit-content;">
+            <a href="hero.php" style="width: fit-content;">
                 <div class="eff-up eff-border-orange" style="border: 3px solid #ffffff50; padding: 15px 25px; margin: 10px 30px; border-radius: 5px; cursor: pointer; width: fit-content; display: flex; flex-direction: row; justify-content: center; align-items: center; transition-duration: .2s;">
                     <div style="font-size: 20px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #fff;">ดูฮีโร่ทั้งหมด</div>
                 </div>
