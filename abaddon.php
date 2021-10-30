@@ -17,7 +17,7 @@
 
             <!-- change link hero here [#]-->
             <a class="small-arrow" href="#" style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
-            <a class="small-center" href="#">
+            <a class="small-center" href="hero.php">
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
@@ -25,7 +25,7 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="#" style="transform: scaleX(-1); background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
+            <a class="small-arrow" href="alchemist.php" style="transform: scaleX(-1); background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
         </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero" style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
@@ -95,103 +95,8 @@
 
         <div class="box-skill">
             <div style="color: #fff; font-size: 18px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 6px; text-align: center;">สกิล</div>
-            <div style="display: flex; flex-direction: row; justify-content: center;">
-                <div class="skill" style="transition-property: transform; transition-timing-function: ease-in-out; transition-duration: .1s;">
-                    <!-- change pic skill here  -->
-                    <img style="width: 80px; height: 80px; margin: 0px 6px; cursor: pointer; box-shadow: 0px 0px 20px #000, 0px 0px 20px #000; position: relative;" src="./src/hero/abaddon/skill/skill1.png">
-                    <div class="skill-box-hov">
-                        <div class="skill-inside">
-                            <div style="width: 300px; height: 169px;">
-                                <!-- change pic and vdo skill here  -->
-                                <video muted style="width: 100%; height: 100%;" autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.jpg">
-                                    <source type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm">
-                                    <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4">
-                                </video>
-                            </div>
-                            <!-- change white font text skill here  -->
-                            <div style="height:auto; width: 300px; background: linear-gradient(150deg, #68727C, #14171A); padding: 10px 15px; padding-bottom: 35px;">
-                                <div style="color: #fff; font-size: 18px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">
-                                    Mist Coil
-                                </div>
-                                <div style="color: #ddd; margin-top: 3px; font-size: 15px; margin-right: 15px; letter-spacing: 0px;">
-                                    Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill" style="transition-property: transform; transition-timing-function: ease-in-out; transition-duration: .1s;">
-                    <!-- change pic skill here  -->
-                    <img style="width: 80px; height: 80px; margin: 0px 6px; cursor: pointer; box-shadow: 0px 0px 20px #000, 0px 0px 20px #000; position: relative;" src="./src/hero/abaddon/skill/skill1.png">
-                    <div class="skill-box-hov">
-                        <div class="skill-inside">
-                            <div style="width: 300px; height: 169px;">
-                                <!-- change pic and vdo skill here  -->
-                                <video muted style="width: 100%; height: 100%;" autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.jpg">
-                                    <source type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm">
-                                    <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4">
-                                </video>
-                            </div>
-                            <!-- change white font text skill here  -->
-                            <div style="height:auto; width: 300px; background: linear-gradient(150deg, #68727C, #14171A); padding: 10px 15px; padding-bottom: 35px;">
-                                <div style="color: #fff; font-size: 18px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">
-                                    Mist Coil
-                                </div>
-                                <div style="color: #ddd; margin-top: 3px; font-size: 15px; margin-right: 15px; letter-spacing: 0px;">
-                                    Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill" style="transition-property: transform; transition-timing-function: ease-in-out; transition-duration: .1s;">
-                    <!-- change pic skill here  -->
-                    <img style="width: 80px; height: 80px; margin: 0px 6px; cursor: pointer; box-shadow: 0px 0px 20px #000, 0px 0px 20px #000; position: relative;" src="./src/hero/abaddon/skill/skill1.png">
-                    <div class="skill-box-hov">
-                        <div class="skill-inside">
-                            <div style="width: 300px; height: 169px;">
-                                <!-- change pic and vdo skill here  -->
-                                <video muted style="width: 100%; height: 100%;" autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.jpg">
-                                    <source type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm">
-                                    <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4">
-                                </video>
-                            </div>
-                            <!-- change white font text skill here  -->
-                            <div style="height:auto; width: 300px; background: linear-gradient(150deg, #68727C, #14171A); padding: 10px 15px; padding-bottom: 35px;">
-                                <div style="color: #fff; font-size: 18px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">
-                                    Mist Coil
-                                </div>
-                                <div style="color: #ddd; margin-top: 3px; font-size: 15px; margin-right: 15px; letter-spacing: 0px;">
-                                    Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill" style="transition-property: transform; transition-timing-function: ease-in-out; transition-duration: .1s;">
-                    <!-- change pic skill here  -->
-                    <img style="width: 80px; height: 80px; margin: 0px 6px; cursor: pointer; box-shadow: 0px 0px 20px #000, 0px 0px 20px #000; position: relative;" src="./src/hero/abaddon/skill/skill1.png">
-                    <div class="skill-box-hov">
-                        <div class="skill-inside">
-                            <div style="width: 300px; height: 169px;">
-                                <!-- change pic and vdo skill here  -->
-                                <video muted style="width: 100%; height: 100%;" autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.jpg">
-                                    <source type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm">
-                                    <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4">
-                                </video>
-                            </div>
-                            <!-- change white font text skill here  -->
-                            <div style="height:auto; width: 300px; background: linear-gradient(150deg, #68727C, #14171A); padding: 10px 15px; padding-bottom: 35px;">
-                                <div style="color: #fff; font-size: 18px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">
-                                    Mist Coil
-                                </div>
-                                <div style="color: #ddd; margin-top: 3px; font-size: 15px; margin-right: 15px; letter-spacing: 0px;">
-                                    Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div style="display: flex; flex-direction: row; justify-content: center;" id="all_skills">
+                
             </div>
         </div>
     </div>
@@ -201,58 +106,12 @@
         <div class="row-status-bar">
             <div class="box-status">
                 <div class="detail-status">
-                    <div class="hero-icon-status">
-                        <!-- change pic hero here  -->
-                        <img style="width: 150px; height: 84px;" src="./src/hero/abaddon/abaddon.png">
-                        <div class="hero-bar" style="background: linear-gradient(to right, #286323, #7AF03C);">
-                            <!-- change white font text here  -->
-                            <div style="position: absolute; width: 100%; text-align: center; color: #fff; font-size: 15px; text-shadow: 1px 1px 2px #000; font-family: Radiance,sans-serif; font-weight: 800;">
-                                640
-                            </div>
-                            <div style="color: #286323; flex-grow: 1; text-align: right; font-size: 11px; padding-right: 16px; font-weight: bold;">
-                                +3.2
-                            </div>
-                        </div>
-                        <div class="hero-bar" style="background: linear-gradient(to right, #1056DB, #73F5FE);">
-                            <div style="position: absolute; width: 100%; text-align: center; color: #fff; font-size: 15px; text-shadow: 1px 1px 2px #000; font-family: Radiance,sans-serif; font-weight: 800;">
-                                291
-                            </div>
-                            <div style="color: #286323; flex-grow: 1; text-align: right; font-size: 11px; padding-right: 16px; font-weight: bold;">
-                                +0.9
-                            </div>
-                        </div>
+                    <div class="hero-icon-status" id="all_hero_icon_status">
+                        
+                        
                     </div>
-                    <div class="status">
-                        <div class="type-status">
-                            <img style="width: 30px; height: 30px;" src="./src/icon/strength.png">
-                            <!-- change white font text here  -->
-                            <div style="color: #fff; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
-                                22
-                            </div>
-                            <div style="color: #999; font-size: 15px; text-shadow: 1px 1px 2px #000; margin-left: 8px; flex-grow: 1; text-align: right;">
-                                +2.8
-                            </div>
-                        </div>
-                        <div class="type-status">
-                            <img style="width: 30px; height: 30px;" src="./src/icon/agility.png">
-                            <!-- change white font text here  -->
-                            <div style="color: #fff; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
-                                22
-                            </div>
-                            <div style="color: #999; font-size: 15px; text-shadow: 1px 1px 2px #000; margin-left: 8px; flex-grow: 1; text-align: right;">
-                                +2.8
-                            </div>
-                        </div>
-                        <div class="type-status">
-                            <img style="width: 30px; height: 30px;" src="./src/icon/intelligence.png">
-                            <!-- change white font text here  -->
-                            <div style="color: #fff; font-size: 20px; font-weight: 600; text-shadow: 1px 1px 2px #000; margin-left: 12px;">
-                                22
-                            </div>
-                            <div style="color: #999; font-size: 15px; text-shadow: 1px 1px 2px #000; margin-left: 8px; flex-grow: 1; text-align: right;">
-                                +2.8
-                            </div>
-                        </div>
+                    <div class="status" id="all_status_icon">
+
                     </div>
                 </div>
                 <div class="head-status">
@@ -261,124 +120,8 @@
             </div>
             <div style="width: 1px; height: 100%; display: flex; flex-direction: row; align-items: center; background-color: #4f4f4f;"></div>
             <div class="box-status">
-                <div class="detail-status" style="flex-wrap: wrap; align-items: center;">
-                    <div class="box-bar-position">
-                        <!-- change white font text here  -->
-                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
-                            ตัวแครี่
-                        </div>
-                        <div class="bar-position">
-                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
-
-                            <!-- change width here  -->
-                            <div class="detail-bar" style="width: 33.3%;"></div>
-
-                        </div>
-                    </div>
-                    <div class="box-bar-position">
-                        <!-- change white font text here  -->
-                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
-                            ตัวแครี่
-                        </div>
-                        <div class="bar-position">
-                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
-
-                            <!-- change width here  -->
-                            <div class="detail-bar" style="width: 33.3%;"></div>
-
-                        </div>
-                    </div>
-                    <div class="box-bar-position">
-                        <!-- change white font text here  -->
-                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
-                            ตัวแครี่
-                        </div>
-                        <div class="bar-position">
-                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
-
-                            <!-- change width here  -->
-                            <div class="detail-bar" style="width: 33.3%;"></div>
-
-                        </div>
-                    </div>
-                    <div class="box-bar-position">
-                        <!-- change white font text here  -->
-                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
-                            ตัวแครี่
-                        </div>
-                        <div class="bar-position">
-                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
-
-                            <!-- change width here  -->
-                            <div class="detail-bar" style="width: 33.3%;"></div>
-
-                        </div>
-                    </div>
-                    <div class="box-bar-position">
-                        <!-- change white font text here  -->
-                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
-                            ตัวแครี่
-                        </div>
-                        <div class="bar-position">
-                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
-
-                            <!-- change width here  -->
-                            <div class="detail-bar" style="width: 33.3%;"></div>
-
-                        </div>
-                    </div>
-                    <div class="box-bar-position">
-                        <!-- change white font text here  -->
-                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
-                            ตัวแครี่
-                        </div>
-                        <div class="bar-position">
-                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
-
-                            <!-- change width here  -->
-                            <div class="detail-bar" style="width: 33.3%;"></div>
-
-                        </div>
-                    </div>
-                    <div class="box-bar-position">
-                        <!-- change white font text here  -->
-                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
-                            ตัวแครี่
-                        </div>
-                        <div class="bar-position">
-                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
-
-                            <!-- change width here  -->
-                            <div class="detail-bar" style="width: 33.3%;"></div>
-
-                        </div>
-                    </div>
-                    <div class="box-bar-position">
-                        <!-- change white font text here  -->
-                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
-                            ตัวแครี่
-                        </div>
-                        <div class="bar-position">
-                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
-
-                            <!-- change width here  -->
-                            <div class="detail-bar" style="width: 33.3%;"></div>
-
-                        </div>
-                    </div>
-                    <div class="box-bar-position">
-                        <!-- change white font text here  -->
-                        <div style="width: 100%; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-align: left; color: #fff;">
-                            ตัวแครี่
-                        </div>
-                        <div class="bar-position">
-                            <div style="width: 100%; height: 100%; background-color: #4c4c4c; position: absolute; left: 0; top: 0;"></div>
-
-                            <!-- change width here  -->
-                            <div class="detail-bar" style="width: 33.3%;"></div>
-
-                        </div>
-                    </div>
+                <div class="detail-status" style="flex-wrap: wrap; align-items: center;" id="all_status_detail">
+                    
                 </div>
                 <div class="head-status">
                     ตำแหน่ง
@@ -386,51 +129,8 @@
             </div>
             <div style="width: 1px; height: 100%; display: flex; flex-direction: row; align-items: center; background-color: #4f4f4f;"></div>
             <div class="box-status">
-                <div class="detail-status" style="flex-wrap: wrap; justify-content: space-between;">
-                    <div style="width: 30%; height: 100%; min-height: 0; display: flex; flex-direction: column;">
-                        <div style="margin-left: 8px; text-align: left; text-transform: uppercase; font-size: 16px; font-weight: bold; letter-spacing: 1px; color: #969696; margin-bottom: 4px;">
-                            การโจมตี
-                        </div>
-                        <!-- change white text and src pic icon (in classs var) here -->
-                        <div class="var" style="color: #fff;">
-                            <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/icon/icon_damage.png">
-                            50-60
-                        </div>
-                        <div class="var" style="color: #fff;">
-                            <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/icon/icon_damage.png">
-                            50-60
-                        </div>
-                        <div class="var" style="color: #fff;">
-                            <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/icon/icon_damage.png">
-                            50-60
-                        </div>
-                        <div class="var" style="color: #fff;">
-                            <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/icon/icon_damage.png">
-                            50-60
-                        </div>
-                    </div>
-                    <div style="width: 30%; height: 100%; min-height: 0; display: flex; flex-direction: column;">
-                        <div style="margin-left: 8px; text-align: left; text-transform: uppercase; font-size: 16px; font-weight: bold; letter-spacing: 1px; color: #969696; margin-bottom: 4px;">
-                            การป้องกัน
-                        </div>
-                        <div class="var" style="color: #fff;">
-                            <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/icon/icon_damage.png">
-                            50-60
-                        </div>
-                        <div class="var" style="color: #fff;">
-                            <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/icon/icon_damage.png">
-                            50-60
-                        </div>
-                    </div>
-                    <div style="width: 30%; height: 100%; min-height: 0; display: flex; flex-direction: column;">
-                        <div style="margin-left: 8px; text-align: left; text-transform: uppercase; font-size: 16px; font-weight: bold; letter-spacing: 1px; color: #969696; margin-bottom: 4px;">
-                            การเคลื่อนที่
-                        </div>
-                        <div class="var" style="color: #fff;">
-                            <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/icon/icon_damage.png">
-                            50-60
-                        </div>
-                    </div>
+                <div class="detail-status" style="flex-wrap: wrap; justify-content: space-between;" id="all_status_detail_right">
+                    
                 </div>
                 <div class="head-status">
                     ค่าสถิติ
@@ -594,69 +294,12 @@
 
     <?php include './components/footer.php' ?>
     <script>
-        function changeSkillsDetail(index, ele) {
-            let allEle = document.querySelectorAll(".icon-skill");
-            for (let j = 0; j < allEle.length; j++) {
-                allEle[j].className = "icon-skill not-use";
-            }
-            ele.className = "icon-skill";
-
-            index = parseInt(index);
-            for (let key in lis[index]) {
-                if (key == "have-shard-or-agh") {
-                    if(lis[index][key][0] == 1){
-                        document.getElementById("more-detail").innerHTML = `<div style="background-color: #1c2e50; color: #ddd; display: inline-flex; text-transform: uppercase; letter-spacing: 1px; padding: 3px 8px; margin: 3px 0px; border-radius: 4px;">การอัปเกรดสกิลโดย ${lis[index][key][1]}</div>`;
-                    } else{
-                        document.getElementById("more-detail").innerHTML = '';
-                    }
-                    // pao
-                } else if (key == "video-type-webm" || key == "video-type-mp4") {
-                    document.getElementById(key).src = lis[index][key];
-                    document.getElementById("video-main").load();
-                } else if (key == "image-skills") {
-                    document.getElementById(key).src = lis[index][key];
-                } else {
-
-                    if (typeof(lis[index][key]) == "object") {
-                        let info = ``;
-                        for (let i in lis[index][key]) {
-                            info += `<div class="text-inner-col2">${lis[index][key][i][0]}
-                                        <div class="b-text">${lis[index][key][i][1]}</div>
-                                    </div>`;
-                        }
-                        document.getElementById(key).innerHTML = info;
-                    } else {
-                        if (key == "cooldown") {
-                            if (lis[index][key] != "") {
-                                document.getElementById(key).innerHTML = `
-                                <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png&quot;);"></div>
-                                    <div style="margin-left: 8px; color: #fff;">${lis[index][key]}</div>
-                                    `;
-                            } else {
-                                document.getElementById(key).innerHTML = ``;
-                            }
-                        } else if (key == "mana-cost") {
-                            if (lis[index][key] != "") {
-                                document.getElementById(key).innerHTML = `
-                                <div style="width: 16px; height: 16px; border-radius: 3px; background: linear-gradient(#00A4DB, #007196);"></div>
-                                    <div style="margin-left: 8px; color: #fff;">${lis[index][key]}</div>
-                                `;
-                            } else {
-                                document.getElementById(key).innerHTML = ``;
-                            }
-                        } else {
-                            document.getElementById(key).innerHTML = lis[index][key];
-                        }
-                    }
-                }
-            }
-        }
-        var lis = {
+        var skill_json = {
             [0]: {
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "",
+                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png",
                 "title-skills": 'MIST COIL',
                 "description-title-skills": 'Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon',
                 "col-2-1": [
@@ -794,6 +437,85 @@
 
 
         }
+        var skills = {
+            [0]: {
+                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png",
+                "poster": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.jpg",
+                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm",
+                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4",
+                "name": "Mist Coil",
+                "desc": "Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon"
+            },
+            [1]: {
+                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_aphotic_shield.png",
+                "poster": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.jpg",
+                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.webm",
+                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.mp4",
+                "name": "Aphotic Shield",
+                "desc": "อัญเชิญพลังแห่งความมืดมาวนเวียนอยู่รอบยูนิตเพื่อนร่วมทีม สร้างโล่ป้องกันที่ดูดซับความเสียหายจำนวนหนึ่ง โล่จะระเบิดและสร้างความเสียหายบริเวณโดยรอบเมื่อถูกทำลาย เท่ากับความเสียหายที่มันสามารถดูดซับเอาไว้ได้ ชำระล้างบัฟด้านลบและอาการสตันบางชนิดให้กับยูนิตที่ถูกร่ายใส่ ชนิดการลบล้าง: การลบล้างขั้นสูง"
+            },
+            [2]: {
+                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_frostmourne.png",
+                "poster": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_frostmourne.jpg",
+                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_frostmourne.webm",
+                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_frostmourne.mp4",
+                "name": "Curse of Avernus",
+                "desc": "Abaddon จู่โจมศัตรู ลดความเร็วในการเคลื่อนที่ของเป้าหมาย หากเป้าหมายถูกโจมตีครบ 4 ครั้ง จะทำให้เป้าหมายติดคำสาปเย็นยะเยือก ส่งผลให้ถูกใบ้และเคลื่อนที่ช้าลง และการโจมตีต่อเป้าหมายทั้งหมดนั้นได้รับความเร็วในการโจมตีเพิ่มขึ้น"
+            },
+            [3]: {
+                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_borrowed_time.png",
+                "poster": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.jpg",
+                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.webm",
+                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.mp4",
+                "name": "Borrowed Time",
+                "desc": "เมื่อเปิดใช้งาน ความเสียหายที่คุณได้รับทั้งหมดจะกลายเป็น การฟื้นฟูพลังชีวิตแทนที่จะทำอันตราย บัฟด้านลบเกือบทั้งหมด จะถูกขจัดออก สกิลนี้จะเปิดใช้งานโดยอัตโนมัติ หากไม่ได้อยู่ใน ระหว่างคูลดาวน์และพลังชีวิตของคุณลดลงเหลือต่ำกว่า 400 หน่วย ชนิดการลบล้าง: การลบล้างขั้นสูง"
+            }
+        }
+
+        var status_hero = {
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png": [["640", "3.2", "HP"], ["291", "0.9", "MANA"]]
+        }
+
+        var status_icon_json = {
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" : ["22", "2.8"],
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" : ["23", "2.5"],
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" : ["18", "2.0"]
+        }
+        
+        var status_json = {
+            "ตัวแครี่": "33.3",
+            "ตัวซัพพอร์ต": "66.6",
+            "ตัวนูค": "0",
+            "ตัวหยุด": "0",
+            "ตัวป่า": "0",
+            "ตัวยืน": "66.6",
+            "ตัวหนี": "0",
+            "ตัวดัน": "0",
+            "ตัวเปิด": "0"
+        }
+
+        var status_json_right = {
+            "การโจมตี": [
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_damage.png", "50-60"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_time.png", "1.7"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_range.png", "150"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_projectile_speed.png", "900"]
+            ],
+            "การป้องกัน": [
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_armor.png", "28"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_magic_resist.png", "25%"]
+            ],
+            "การเคลื่อนที่": [
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_movement_speed.png", "325"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_turn_rate.png", "0.6"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_vision.png", "1800 / 800"]
+            ]
+        }
+        document.onload = load_all_skills();
+        document.onload = load_hero_status();
+        document.onload = load_status_icon();
+        document.onload = load_status_detail_left();
+        document.onload = load_status_detail_right();
     </script>
 </body>
 <script>

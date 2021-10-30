@@ -14,7 +14,7 @@
     ?>
 
     <div style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/backgrounds/greyfade.jpg&quot;);width: 100vw;
-    padding: 0px 100px 0px 100px; background-size: 100% auto; background-repeat: no-repeat; background-position: center top; background-attachment: fixed; position: relative; min-height: 0; display: flex; flex-direction: column; align-items: center;">
+    box-sizing: border-box; padding: 0px 100px 0px 100px; background-size: 100% auto; background-repeat: no-repeat; background-position: center top; background-attachment: fixed; position: relative; min-height: 0; display: flex; flex-direction: column; align-items: center;">
         <div style="width: 100%; z-index: 2; margin-top: 50px; position: relative;" data-aos="fade-in" data-aos-duration="1000">
             <div class="herogridpage_Trapezoid_3Rwf-"></div>
             <div style="color: #fff; font-size: 3vw; font-family: Reaver,serif; font-weight: bold; text-align: center;  margin-top: 100px ; margin-bottom: 10px ; text-transform: uppercase; letter-spacing: 3px; line-height: 112%;">เลือกฮีโร่ของคุณ</div>
