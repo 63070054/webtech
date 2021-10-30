@@ -103,7 +103,7 @@ function load_hero_status() {
             ${status_hero[key][1][0]}
             </div>
             <div style="color: #286323; flex-grow: 1; text-align: right; font-size: 11px; padding-right: 16px; font-weight: bold;">
-            ${status_hero[key][1][0]}
+            +${status_hero[key][1][1]}
             </div>
         </div>
         `;

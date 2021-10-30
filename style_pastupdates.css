@@ -1,0 +1,11 @@
+.past-block{
+    display: block;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+    filter: brightness(1);
+}
+.past-block:hover{
+    transform: scale(1.03) translateY(-2px);
+    filter: brightness(1.2);
+    opacity: 1;
+}
