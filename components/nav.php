@@ -25,7 +25,7 @@
                     </a>
                 </div>
             </div>
-            <a href="#" class="nav-text eff-text-glow <?php if ($nav_hero_active) {
+            <a href="hero.php" class="nav-text eff-text-glow <?php if ($nav_hero_active) {
                                                             echo "nav-text-active";
                                                         } ?>">ฮีโร่</a>
             <a href="news.php" class="nav-text eff-text-glow <?php if ($nav_news_active) {
