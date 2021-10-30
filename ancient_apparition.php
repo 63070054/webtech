@@ -32,35 +32,30 @@
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0" style="min-height:100%; transform:translate(0px, 16pc) scale(1.93, 1.93);">
 
                 <!-- change vdo hero here -->
-                <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/alchemist.webm">
+                <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ancient_apparition.webm">
 
             </video>
         </div>
         <div class="title-hero">
             <div style="display: flex; flex-direction: row; align-items: center;">
                 <!-- change white font color hero here -->
-                <img style="width: 32px; height: 32px;" src="./src/icon/strength.png">
+                <img style="width: 32px; height: 32px;" src="./src/icon/INTELLIGENCE.png">
                 <div style="margin-left: 6px; color: #fff; text-transform: uppercase; letter-spacing: 2px; font-weight: 100; font-size: 24px;">
-                    STRENGTH
+                    INTELLIGENCE
                 </div>
             </div>
             <div style="font-family: 'Noto Serif', serif; font-size: 80px; margin-top: 5px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #fff;">
-                ALCHEMIST
+                ANCIENT APPARITION
 
             </div>
 
             <div style="font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: #a5e0f3; margin-top: 5px;">
-                ได้รับโกลด์เพิ่มเติมจากการสังหารยูนิตและรูน BOUNTY
+                ปล่อยระเบิดน้ำแข็งอันทรงพลังจากที่ใดก็ได้ในแผนที่
 
             </div>
             <div style="color: #eee; width: 100%; margin-top: 14px; font-weight: 200; font-size: 20px; letter-spacing: 0px;">
-                เขาสามารถแปรเงินที่ได้จากการฆ่าหรือสังหารแต่ละครั้งเป็น
-                <b>เงินพิเศษ</b>
-                ได้ Alchemist ไม่มีปัญหาในการรวบรวมเครื่องมือที่จะสู้กับศัตรูของเขา เขาสามารถซุ่มโจมตีศัตรูด้วย
-                <b>กรดกัดกร่อน</b>
-                และ
-                <b>สารเคมีที่ไร้ความเสถียร</b>
-                ใส่ศัตรูได้ ซึ่งเขาต่อสู้เพื่อทำให้เจ้าออร์คจอมโลภของเขายังคงเชื่อฟังเขาต่อไป
+                Ancient Apparition สามารถกำจัดศัตรูที่อ่อนแอให้แตกสลายได้ไม่ว่าจะอยู่ที่ไหน เขาสามารถปล่อยพลังสะเก็ดน้ำแข็งที่สร้างความเสียหายอย่างรุนแรงได้ทั่วทั้งสนามรบ ทั้งยังช่วยลดความเร็วศัตรูหรือเพิ่มพลังโจมตีเพื่อให้เพื่อนร่วมทีมของเขาบุกเข้ามายังสนามรบได้ เขาสามารถกดดันศัตรูได้ตลอดเวลา
+
                 <div class="t-hov" style="margin-top: 8px; text-decoration: underline; font-size: 18px; cursor: pointer;">อ่านประวัติเต็ม</div>
             </div>
             <div>
@@ -68,8 +63,8 @@
                 <div style="display: flex; flex-direction: row; align-items: center; margin-top: 8px;">
 
                     <!-- change pic icon [melee or ranged] and  white font color here -->
-                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/melee.svg">
-                    <div style="color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 15px; font-weight: bold;">ระยะประชิด</div>
+                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/ranged.svg">
+                    <div style="color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 15px; font-weight: bold;">ระยะไกล</div>
 
                 </div>
             </div>
@@ -77,7 +72,7 @@
                 <div style="margin-top: 25px; color: #959595; text-transform: uppercase; font-weight: bold; letter-spacing: 2px; font-size: 17px;">ความยาก</div>
                 <div style="display: flex; flex-direction: row; width: 80px; justify-content: space-between; margin-top: 8px; margin-left: 4px;">
                     <div style="width: 13px; height: 13px; border: 1.5px solid #fff; transform: rotateZ(45deg); background-color: #fff;"></div>
-                    <div style="width: 13px; height: 13px; border: 1.5px solid #fff; transform: rotateZ(45deg);"></div>
+                    <div style="width: 13px; height: 13px; border: 1.5px solid #fff; transform: rotateZ(45deg); background-color: #fff;"></div>
                     <div style="width: 13px; height: 13px; border: 1.5px solid #fff; transform: rotateZ(45deg);"></div>
                 </div>
             </div>
@@ -87,10 +82,10 @@
             <img style="width: 22px;height: 22px;" src="./src/icon/strength.png">
             <!-- change white font text skill here  -->
             <div class="line-name-hero">
-                ALCHEMIST
+                ANCIENT APPARITION
             </div>
             <div class="line-name-id">
-                60
+                43
             </div>
             <div style="flex-grow: 1; height: 2px; background-color: #555; margin: 0px 8px 3px 8px;"></div>
         </div>
@@ -166,12 +161,12 @@
                     </div>
                     <!-- bar skill -->
                     <div style="width: 100%; margin-top: -15px; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; position: relative; z-index: 3;">
-                        <div class="icon-skill" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png');" onclick="changeSkillsDetail(0, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_unstable_concoction.png');" onclick="changeSkillsDetail(1, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_goblins_greed.png');" onclick="changeSkillsDetail(2, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png');" onclick="changeSkillsDetail(3, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/903978604399054858/unknown.png');" onclick="changeSkillsDetail(4, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/903978647084494878/unknown.png');" onclick="changeSkillsDetail(5, this)"></div>
+                        <div class="icon-skill" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_cold_feet.png');" onclick="changeSkillsDetail(0, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_vortex.png');" onclick="changeSkillsDetail(1, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_chilling_touch.png');" onclick="changeSkillsDetail(2, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_blast.png');" onclick="changeSkillsDetail(3, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/904017265538789416/unknown.png');" onclick="changeSkillsDetail(4, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/904017339882807336/unknown.png');" onclick="changeSkillsDetail(5, this)"></div>
                     </div>
                 </div>
                 <!-- PART Left -->
@@ -179,15 +174,15 @@
                     <div style="width: 100%; height: 100%; box-sizing: border-box;">
                         <!-- zone head -->
                         <div style="padding: 8px; background-color: #121212; display: flex; flex-direction: row;">
-                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png" id="image-skills">
+                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_cold_feet.png" id="image-skills">
                             <div style="flex-grow: 1; min-height: 0; display: flex; flex-direction: column; margin-top: 5px; margin-left: 8px; margin-right: 12px; align-items: flex-start;">
                                 <!-- title -->
                                 <div style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;" id="title-skills">
-                                    ACID SPRAY
+                                    COLD FEET
                                 </div>
                                 <div id="more-detail"></div>
                                 <!-- detail -->
-                                <div style="color: #ddd; font-size: 18px; white-space: pre-wrap; margin-bottom: 10px;" id="description-title-skills">พ่นน้ำกรดความดันสูงลงบนพื้นที่เป้าหมาย ยูนิตศัตรูที่เข้าสู่พื้นที่ปนเปี้อนนี้จะได้รับความเสียหายต่อวินาที และถูกลดเกราะป้องกันลง</div>
+                                <div style="color: #ddd; font-size: 18px; white-space: pre-wrap; margin-bottom: 10px;" id="description-title-skills">สร้างคำสาปน้ำแข็งใส่ศัตรูเป้าหมายที่สร้างความเสียหายอย่าง ต่อเนื่อง แต่สามารถถูกยกเลิกได้เมื่อเป้าหมายเคลื่อนที่ออกจาก จุดแรกที่เกิดการใช้สกิลนี้ขึ้น ถ้าศัตรูยังคงอยู่ในระยะที่กำหนด เป็นระยะเวลา 4 วินาทีจะถูกแช่แข็งอยู่กับที่และสตัน</div>
                             </div>
                         </div>
                         <!-- zone detail -->
@@ -196,31 +191,37 @@
                             <div class="col2">
                                 <div class="inner-col2" id="col-2-1">
                                     <div class="text-inner-col2">สกิล:
-                                        <div class="b-text">ตำแหน่งเป้าหมาย</div>
+                                        <div class="b-text">ยูนิตเป้าหมาย</div>
+                                    </div>
+                                    <div class="text-inner-col2">ส่งผลต่อ::
+                                        <div class="b-text">ยูนิตฝ่ายศัตรู</div>
                                     </div>
                                     <div class="text-inner-col2">ประเภทความเสียหาย:
-                                        <div class="b-text">กายภาพ</div>
+                                        <div class="b-text">เวทมนตร์</div>
                                     </div>
                                 </div>
                                 <div class="inner-col2" id="col-2-2">
                                     <div class="text-inner-col2">ทะลุการป้องกันเวทโดยสมบูรณ์:
                                         <div class="b-text">ไม่ได้</div>
                                     </div>
+                                    <div class="text-inner-col2">ลบล้าง:
+                                        <div class="b-text">ได้</div>
+                                    </div>
                                 </div>
                             </div>
                             <!-- ver 1 colum -->
                             <div class="col1" id="col-1-1">
-                                <div class="text-inner-col1">รัศมี:
-                                    <div class="b-text">475 / 525 / 575 / 625</div>
+                                <div class="text-inner-col1">ความเสียหายต่อช่วง:
+                                    <div class="b-text">30.0 / 50.0 / 70.0 / 90.0</div>
                                 </div>
-                                <div class="text-inner-col1">ระยะเวลา:
-                                    <div class="b-text">16.0</div>
+                                <div class="text-inner-col1">ระยะสิ้นสุด:
+                                    <div class="b-text">715</div>
                                 </div>
-                                <div class="text-inner-col1">ความเสียหายต่อวินาที:
-                                    <div class="b-text">20 / 25 / 30 / 35</div>
+                                <div class="text-inner-col1">ระยะเวลาสตัน:
+                                    <div class="b-text">2.0 / 2.5 / 3.0 / 3.5</div>
                                 </div>
-                                <div class="text-inner-col1">ลดเกราะป้องกัน:
-                                    <div class="b-text">4 / 5 / 6 / 7</div>
+                                <div class="text-inner-col1">ระยะร่าย:
+                                    <div class="b-text">700 / 800 / 900 / 1000</div>
                                 </div>
                             </div>
                             <!-- ver delay skill -->
@@ -475,7 +476,7 @@
             [3]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png",
                 "poster": "",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.webm",
+                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.mp4",
                 "name": "CHEMICAL RAGE",
                 "desc": "Alchemist ให้ยาอันทำให้คลุ้มคลั่งแก่ Orge ของเขา ลดคูลดาวน์การโจมตีพื้นฐาน เพิ่มความเร็วในการเคลื่อนที่ และเพิ่มอัตราฟื้นฟูพลังชีวิต <br><br>ชนิดการลบล้าง: การลบล้างพื้นฐาน"
