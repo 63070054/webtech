@@ -20,7 +20,7 @@
                     <a href="updatenews.php" class="eff-text-glow">
                         อัปเดตเกมเพลย์
                     </a>
-                    <a href="#" class="eff-text-glow">
+                    <a href="pastupdates.php" class="eff-text-glow">
                         อัปเดตก่อนหน้า
                     </a>
                 </div>
