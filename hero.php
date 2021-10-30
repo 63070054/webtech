@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div style="    width: 100%; min-height: 1500px; margin-top: 15px; transition-property: height; transition-timing-function: ease-out; transition-duration: .2s; animation-duration: 1s; animation-timing-function: ease-out; animation-delay: .1s; animation-iteration-count: 1; animation-name: herogridpage_gridIn_NeQOP; position: relative; height: 3590px;">
+        <div style="    width: 100%; max-width: 1200px; min-height: 1500px; margin-top: 15px; transition-property: height; transition-timing-function: ease-out; transition-duration: .2s; animation-duration: 1s; animation-timing-function: ease-out; animation-delay: .1s; animation-iteration-count: 1; animation-name: herogridpage_gridIn_NeQOP; position: relative; height: 3590px;">
             <a class="icon-hero" href="abaddon.php" style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png&quot;); left: calc(0px + (0 * (100% - 225px)) / 4); top: calc(0px);">
                 <div class="icon-type"><img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" class="herogridpage_PrimaryStatIcon_12etd">
                     <div class="hero-name">Abaddon</div>
