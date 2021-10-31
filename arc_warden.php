@@ -249,7 +249,8 @@
                             </div>
                             <!-- var more story detail -->
                             <div style="width: 100%; background-color: #111; margin-top: 20px; margin-bottom: 10px; padding: 10px; font-style: italic; font-size: 14px; color: #aaa;" id="description-skills">
-                                การปรากฏตัวของ Kaldr ดึงดูดให้ผู้คนที่อยู่รอบตัวเขาให้ถูกดูดเข้าไปในความว่างเปล่าอันหนาวเหน็บเพื่อที่จะขังพวกนั้นไว้ในคุกอันเย็นเยือกชั่วนิรันดร์
+                                ชิ้นส่วนเล็ก ๆ ของพลังงานที่ถูกจองจำไว้ใน Ancient
+
                             </div>
                         </div>
                     </div>
@@ -331,11 +332,11 @@
                     ["ความเสียหายต่อวินาที:", "15 / 30 / 45 / 60"],
                     ["รัศมีค้นหาเพื่อนร่วมทีม: ", "225 "],
                     ["เคลื่อนที่ช้าลง:", "20% / 30% / 40% / 50%"],
-                    ["เคลื่อนที่ช้าลง:", "20% / 30% / 40% / 50%"]
+                    ["ระยะร่าย:", " 500 / 600 / 700 / 800"]
                 ],
                 "cooldown": "",
                 "mana-cost": "",
-                "description-skills": "เทคนิคพลิกแพลงตามวิถีแห่งสันติของพระแห่งเตอร์สตาร์กุรีคือย้อนพลังเวทมนตร์กลับไปหาเจ้าของ"
+                "description-skills": "ชิ้นส่วนเล็ก ๆ ของพลังงานที่ถูกจองจำไว้ใน Ancient"
             },
             [1]: {
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_magnetic_field.webm",
@@ -347,22 +348,29 @@
                 "col-2-1": [
                     ["สกิล:", "ตำแหน่งเป้าหมาย"]
                 ],
-                "col-1-1": [
-                    ["ระยะทาง:", "925 / 1000 / 1075 / 1150"]
+                "col-2-2": [
+                    ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ได้ "]
                 ],
-                "cooldown": "15.0 / 12.0 / 9.0 / 6.0",
-                "mana-cost": "60",
-                "description-skills": "ในการเผชิญหน้าระหว่างเขาและเทพแห่งความตาย Anti-Mage ได้รู้ซึ้งถึงคุณค่าของการหลบหลีกที่ว่องไว"
+                "col-1-1": [
+                    ["รัศมี:: ", " 300 "],
+                    ["ระยะเวลา:", "3.5 / 4.5 / 5.5 / 6.5"],
+                    ["เพิ่มความเร็วในการโจมตี:", "50 / 60 / 70 / 80 "],
+                    ["เพิ่มอัตราหลบหลีก:", "100%"]
+                ],
+                "cooldown": "20.0 ",
+                "mana-cost": "50 / 70 / 90 / 110",
+                "description-skills": "กาลและอวกาศเป็นเพียงเรื่องเล็กน้อยสำหรับผู้มีอายุอย่าง Zet"
             },
             [2]: {
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.mp4",
                 "have-shard-or-agh": [0, ""],
                 "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_spark_wraith.png",
-                "title-skills": "COUNTERSPELL",
-                "description-title-skills": "ได้รับความต้านทานเวทมนตร์ติดตัว และสามารถกดใช้เพื่อสร้างเกราะป้องกันเวทมนตร์รอบ ๆ ตัวคุณที่จะสะท้อนสกิลที่เล็งเป้าหมายมาที่คุณกลับไปยังศัตรู แทนที่จะส่งผลกับคุณ",
+                "title-skills": "SPARK WRAITH",
+                "description-title-skills": "อัญเชิญ Spark Wraith ที่ค่อย ๆ สร้างตัวขึ้นมา และอยู่เฝ้า พื้นที่เป้าหมายจนกว่าศัตรูจะเข้ามาในระยะ เมื่อพบเป้าหมาย Wraith จะหลอมร่างเข้ากับพวกเขา โดยสร้างความเสียหาย เวทมนตร์และทำให้ยูนิตช้าลง",
                 "col-2-1": [
-                    ["สกิล:", "ไม่มีเป้าหมาย"],
+                    ["สกิล:", "ตำแหน่งเป้าหมาย"],
+                    ["ประเภทความเสียหาย:", " เวทมนตร์"]
                 ],
                 "col-2-2": [
                     ["ลบล้าง:", "ได้"],
@@ -470,8 +478,8 @@
                 "poster": "",
                 "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.mp4",
-                "name": " COUNTERSPELL ",
-                "desc": "ได้รับความต้านทานเวทมนตร์ติดตัว และสามารถกดใช้เพื่อสร้างเกราะป้องกันเวทมนตร์รอบ ๆ ตัวคุณที่จะสะท้อนสกิลที่เล็งเป้าหมายมาที่คุณกลับไปยังศัตรู แทนที่จะส่งผลกับคุณ"
+                "name": " SPARK WRAITH",
+                "desc": "อัญเชิญ Spark Wraith ที่ค่อย ๆ สร้างตัวขึ้นมา และอยู่เฝ้า พื้นที่เป้าหมายจนกว่าศัตรูจะเข้ามาในระยะ เมื่อพบเป้าหมาย Wraith จะหลอมร่างเข้ากับพวกเขา โดยสร้างความเสียหาย เวทมนตร์และทำให้ยูนิตช้าลง "
             },
             [3]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_tempest_double.png",
