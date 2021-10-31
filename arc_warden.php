@@ -32,11 +32,11 @@
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0" style="min-height:100%; transform:translate(0px, 16pc) scale(1.93, 1.93);">
 
                 <!-- change vdo hero here -->
-                <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/antimage.webm">
+                <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.webm">
 
             </video>
         </div>
-        <div class="title-hero">
+        <div class=" title-hero">
             <div style="display: flex; flex-direction: row; align-items: center;">
                 <!-- change white font color hero here -->
                 <img style="width: 32px; height: 32px;" src="./src/icon/AGILITY.png">
@@ -334,8 +334,8 @@
                     ["เคลื่อนที่ช้าลง:", "20% / 30% / 40% / 50%"],
                     ["ระยะร่าย:", " 500 / 600 / 700 / 800"]
                 ],
-                "cooldown": "",
-                "mana-cost": "",
+                "cooldown": "16.0",
+                "mana-cost": "75",
                 "description-skills": "ชิ้นส่วนเล็ก ๆ ของพลังงานที่ถูกจองจำไว้ใน Ancient"
             },
             [1]: {
@@ -376,45 +376,43 @@
                     ["ลบล้าง:", "ได้"],
                 ],
                 "col-1-1": [
-                    ["ความต้านทานเวทมนตร์:", " 15% / 25% / 35% / 45%"],
-                    ["ระยะเวลา: ", "1.2"]
+                    ["รัศมีค้นหาศัตรู:", "375"],
+                    ["ดีเลย์การเริ่มทำงาน: ", "2.0 "],
+                    ["ระยะเวลา: ", "45.0 "],
+                    ["ความเร็วของ WRAITH:", "400"],
+                    ["ความเสียหาย:", "100 / 170 / 240 / 310"],
+                    ["ระยะเวลาช้าลง:", "0.4 / 0.5 / 0.6 / 0.7"],
+                    ["เคลื่อนที่ช้าลง:", "100%"]
                 ],
-                "cooldown": "15.0 / 11.0 / 7.0 / 3.0",
-                "mana-cost": "45 / 50 / 55 / 60",
-                "description-skills": "ด้วยจิตตั้งมั่นอันแน่วแน่ Anti-Mage แปรเปลี่ยนความต้านทานภายในตนเป็นการโต้กลับตามที่คาดคะเน"
+                "cooldown": "4.0 / 4.0 / 4.0 / 4.0 ",
+                "mana-cost": "80",
+                "description-skills": "ชิ้นส่วนเล็กน้อยของร่างต้นแบบของ Zet"
             },
             [3]: {
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.mp4",
                 "have-shard-or-agh": [0, ""],
                 "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_tempest_double.png",
-                "title-skills": "MANA VOID",
-                "description-title-skills": "สำหรับทุกหน่วยของมานาที่หายไปจากยูนิตเป้าหมายจะสร้าง ความเสียหายแก่ยูนิตนั้นและศัตรูรอบข้าง เป้าหมายหลักจะ ถูกมินิสตันด้วย",
+                "title-skills": "TEMPEST DOUBLE",
+                "description-title-skills": "แตกองค์ประกอบเป็นอีกร่างในเวลาสั้น ๆ Arc Warden สร้าง ร่างเงาไฟฟ้าสมบูรณ์แบบของเขา ร่างเงาสามารถใช้ไอเท็มและ สกิลในปัจจุบันของ Arc Warden ได้ ยกเว้นของบริโภคส่วนใหญ่และไอเท็มที่ตกเมื่อตาย ร่างเงามีคูลดาวน์ของไอเท็มหรือสกิลแยกกันกับร่างจริง ร่างเงา Tempest Double มอบโกลด์แก่ศัตรูเมื่อถูกสังหาร",
                 "col-2-1": [
-                    ["สกิล:", "ยูนิตเป้าหมาย "],
-                    ["ส่งผลต่อ:", "ยูนิตฝ่ายศัตรู"],
-                    ["ประเภทความเสียหาย:", "เวทมนตร์"]
-                ],
-                "col-2-2": [
-                    ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ได้"],
+                    ["สกิล:", "ไม่มีเป้าหมาย"],
                 ],
                 "col-1-1": [
-                    ["ความเสียหาย:", "0.8 / 0.9 / 1.1"],
-                    ["ระยะเวลาสตัน:", "0.3 "],
-                    ["ความเสียหายจาก FROSTBITE ต่อวินาที: ", "12.5 / 20.0 / 32.0"],
-                    ["รัศมี:", "500"],
+                    ["ระยะเวลา:", "18.0 / 22.0 / 26.0"],
+                    ["โกลด์ค่าหัว:", "180 / 240 / 300"]
                 ],
-                "cooldown": "70.0 / 70.0 / 70.0",
-                "mana-cost": "1100 / 200 / 300",
-                "description-skills": "หลังจากทำให้ศัตรูลงมากองต่อหน้า Anti-Mage จะสำเร็จโทษพวกมันโทษฐานที่ใช้ศาสตร์ลี้ลับ"
+                "cooldown": "60.0 / 50.0 / 40.0",
+                "mana-cost": "0 / 0 / 0 / 0",
+                "description-skills": "บิดเบือนด้วยพลังงานรอบตัวของเขา Arc Warden กลายเป็นสิ่งที่เขาเกลียดมากที่สุด: การแตกตัว"
             },
             [4]: {
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.mp4",
                 "have-shard-or-agh": [1, "SHARD"],
                 "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_magnetic_field.png",
-                "title-skills": "background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_magnetic_field.png');",
-                "description-title-skills": "Counterspell มอบออร่ารัศมี 900 หน่วยซึ่งลดความเสียหายสกิลของศัตรู 10% หากศัตรูอยู่ในระยะ 300 หน่วยจะลดความเสียหายสกิลเพิ่มอีก 20%",
+                "title-skills": "MAGNETIC FIELD",
+                "description-title-skills": "Magnetic Field ผลักศัตรูออกจากพื้นที่ขณะร่าย และมอบความต้านทานเวทมนตร์ +40% แก่เพื่อนร่วมทีมที่อยู่ภายใน รวมทั้งลดความเร็วศัตรูที่อยู่ภายใน 30%",
                 "col-2-1": [
                     ["", ""],
                     ["", ""],
@@ -434,24 +432,24 @@
             [5]: {
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_aghanims_scepter.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_aghanims_scepter.mp4",
-                "have-shard-or-agh": [1, "SCEPTER มอบสกิลใหม่"],
+                "have-shard-or-agh": [1, "SCEPTER"],
                 "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_spark_wraith.png",
-                "title-skills": "MAGNETIC FIELD FRAGMENT",
-                "description-title-skills": "MAGNETIC FIELD ร่างเงาไปยังศัตรูหรือตำแหน่งเป้าหมาย และโจมตีเป้าหมายเป็นเวลา 7 วินาที Counterspell จะส่งผลต่อร่างเงาของ MAGNETIC FIELD Fragment ด้วยเช่นกัน มี 3 ชาร์จ",
+                "title-skills": "SPARK WRAITH",
+                "description-title-skills": "ทำให้ Spark Wraith สร้าง Spark Wraith อันใหม่หลังจากโดนศัตรู ซึ่งจะเริ่มใช้เวลาก่อตัว 3 วินาที",
                 "col-2-1": [
-                    ["สกิล:", "ยูนิตเป้าหมาย "],
-                    ["ส่งผลต่อ:", "ยูนิตฝ่ายศัตรู"]
+                    ["", " "],
+                    ["", ""]
                 ],
                 "col-2-2": [
-                    ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ได้"],
+                    ["", ""],
                 ],
                 "col-1-1": [
                     ["", ""],
                     ["", ""]
                 ],
-                "cooldown": "0.0",
-                "mana-cost": "50",
-                "description-skills": ""
+                "cooldown": "4.0 / 4.0 / 4.0 / 4.0",
+                "mana-cost": "80",
+                "description-skills": "ชิ้นส่วนเล็กน้อยของร่างต้นแบบของ Zet"
             },
 
 
@@ -486,22 +484,22 @@
                 "poster": "",
                 "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.mp4",
-                "name": "MANA VOID",
-                "desc": "สำหรับทุกหน่วยของมานาที่หายไปจากยูนิตเป้าหมายจะสร้าง ความเสียหายแก่ยูนิตนั้นและศัตรูรอบข้าง เป้าหมายหลักจะ ถูกมินิสตันด้วย"
+                "name": "TEMPEST DOUBLE",
+                "desc": "แตกองค์ประกอบเป็นอีกร่างในเวลาสั้น ๆ Arc Warden สร้าง ร่างเงาไฟฟ้าสมบูรณ์แบบของเขา ร่างเงาสามารถใช้ไอเท็มและ สกิลในปัจจุบันของ Arc Warden ได้ ยกเว้นของบริโภคส่วนใหญ่และไอเท็มที่ตกเมื่อตาย ร่างเงามีคูลดาวน์ของไอเท็มหรือสกิลแยกกันกับร่างจริง ร่างเงา Tempest Double มอบโกลด์แก่ศัตรูเมื่อถูกสังหาร"
             }
         }
 
         var status_hero = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png": [
-                ["660", "2.5", "HP"],
-                ["219", "0.6", "MANA"]
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/arc_warden.png": [
+                ["640", "2.5", "HP"],
+                ["363", "1.2", "MANA"]
             ]
         }
 
         var status_icon_json = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png": ["23", "1.6"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png": ["24", "2.8"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png": ["12", "1.8"]
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png": ["22", "2.6"],
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png": ["20", "2.5"],
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png": ["24", "2.6"]
         }
 
         var status_json = {
@@ -518,17 +516,18 @@
 
         var status_json_right = {
             "การโจมตี": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_damage.png", "55-57"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_time.png", "1.4"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_range.png", "150"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_damage.png", "45-57"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_time.png", "1.7"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_range.png", "625"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_projectile_speed.png", "900"]
             ],
             "การป้องกัน": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_armor.png", "4.0"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_armor.png", "2.3"],
                 ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_magic_resist.png", "25%"]
             ],
             "การเคลื่อนที่": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_movement_speed.png", "310"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_turn_rate.png", "0.6"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_movement_speed.png", "285"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_turn_rate.png", "0.7"],
                 ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_vision.png", "1800 / 800"]
             ]
         }

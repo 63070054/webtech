@@ -9,7 +9,7 @@ function changeSkillsDetail(index, ele) {
     for (let key in skill_json[index]) {
         if (key == "have-shard-or-agh") {
             if (skill_json[index][key][0] == 1) {
-                document.getElementById("more-detail").innerHTML = `<div style="background-color: #1c2e50; color: #ddd; display: inline-flex; text-transform: uppercase; letter-spacing: 1px; padding: 3px 8px; margin: 3px 0px; border-radius: 4px;"> test ${skill_json[index][key][1]}</div>`;
+                document.getElementById("more-detail").innerHTML = `<div style="background-color: #1c2e50; color: #ddd; display: inline-flex; text-transform: uppercase; letter-spacing: 1px; padding: 3px 8px; margin: 3px 0px; border-radius: 4px;">${skill_json[index][key][1]}</div>`;
             } else {
                 document.getElementById("more-detail").innerHTML = '';
             }
