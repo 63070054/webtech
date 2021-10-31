@@ -155,8 +155,8 @@
                     <div style="width: 100%; padding-top: 56.25%; height: 0px; position: relative; box-shadow: 3px 3px 8px #000;">
                         <div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2;"></div>
                         <video id="video-main" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" autoplay="" preload="auto" loop="" playsinline="" muted poster="">
-                            <source id="video-type-webm" type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.webm">
-                            <source id="video-type-mp4" type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.mp4">
+                            <source id="video-type-webm" type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm">
+                            <source id="video-type-mp4" type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.mp4">
                         </video>
                     </div>
                     <!-- bar skill -->
@@ -228,16 +228,16 @@
                             <div style="width: 100%; margin-top: 12px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="cooldown">
                                     <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png');"></div>
-                                    <div style="margin-left: 8px; color: #fff;">22.0</div>
+                                    <div style="margin-left: 8px; color: #fff;">12.0 / 11.0 / 10.0 / 9.0</div>
                                 </div>
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="mana-cost">
                                     <div style="width: 16px; height: 16px; border-radius: 3px; background: linear-gradient(#00A4DB, #007196);"></div>
-                                    <div style="margin-left: 8px; color: #fff;">130 / 140 / 150 / 160</div>
+                                    <div style="margin-left: 8px; color: #fff;">125</div>
                                 </div>
                             </div>
                             <!-- var more story detail -->
                             <div style="width: 100%; background-color: #111; margin-top: 20px; margin-bottom: 10px; padding: 10px; font-style: italic; font-size: 14px; color: #aaa;" id="description-skills">
-                                Razzil ผสมสารที่เป็นกรดซึ่งสามารถละลายได้แม้แต่โลหะที่มีความแข็งแกร่งที่สุดโดยใช้การเล่นแร่แปรธาตุอันเก่าแก่ที่สืบทอดมาจากครอบครัว Darkbrew
+                                การปรากฏตัวของ Kaldr ดึงดูดให้ผู้คนที่อยู่รอบตัวเขาให้ถูกดูดเข้าไปในความว่างเปล่าอันหนาวเหน็บเพื่อที่จะขังพวกนั้นไว้ในคุกอันเย็นเยือกชั่วนิรันดร์
                             </div>
                         </div>
                     </div>
@@ -299,136 +299,136 @@
     <script>
         var skill_json = {
             [0]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.mp4",
+                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm",
+                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png",
-                "title-skills": 'ACID SPRAY',
-                "description-title-skills": 'พ่นน้ำกรดความดันสูงลงบนพื้นที่เป้าหมาย ยูนิตศัตรูที่เข้าสู่พื้นที่ปนเปี้อนนี้จะได้รับความเสียหายต่อวินาที และถูกลดเกราะป้องกันลง',
+                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_cold_feet.png",
+                "title-skills": 'COLD FEET',
+                "description-title-skills": 'สร้างคำสาปน้ำแข็งใส่ศัตรูเป้าหมายที่สร้างความเสียหายอย่าง ต่อเนื่อง แต่สามารถถูกยกเลิกได้เมื่อเป้าหมายเคลื่อนที่ออกจาก จุดแรกที่เกิดการใช้สกิลนี้ขึ้น ถ้าศัตรูยังคงอยู่ในระยะที่กำหนด เป็นระยะเวลา 4 วินาทีจะถูกแช่แข็งอยู่กับที่และสตัน',
                 "col-2-1": [
-                    ["สกิล:", "ตำแหน่ งเป้ าหมาย "],
-                    ["ประเภทความเสียหาย", "กายภาพ"]
-                ],
-                "col-2-2": [
-                    ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ไม่ได้"],
-                ],
-                "col-1-1": [
-                    ["รัศมี:", "475 / 525 / 575 / 625"],
-                    ["ระยะเวลา:", "16.0"],
-                    ["ความเสียหายต่อวินาที:", "20 / 25 / 30 / 35"],
-                    ["ลดเกราะป้องกัน:", "4 / 5 / 6 / 7 "]
-                ],
-                "cooldown": "5.5",
-                "mana-cost": "50",
-                "description-skills": "ไอระเหยอันน่าพิศวงจากบ่อน้ำพุแห่ง Font of Avernus ได้หลอมรวมเป็นลมหายใจของ Abaddon ผู้ที่ปลดปล่อยมันได้ตามใจหวัง"
-            },
-            [1]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.mp4",
-                "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_unstable_concoction.png",
-                "title-skills": "UNSTABLE CONCOCTION",
-                "description-title-skills": "Alchemist ผสมน้ำยาที่มีส่วนประกอบไม่แน่นอน ซึ่งเขาสามารถโยนไปยังฮีโร่ฝ่ายศัตรูเพื่อสตันและสร้าง ความเสียหายรอบพื้นที่ที่ระเบิด ยิ่งใช้เวลาผสมนานเท่าไร ความเสียหายและระยะเวลาการสตันก็จะเพิ่มมากขึ้นเท่านั้น หลังจาก 5.0 วินาที น้ำยาจะมีความสามารถในการสร้าง ความเสียหายและเวลาสตันสูงสุด แต่หากไม่โยนภายใน 5.5 วินาที น้ำยาจะระเบิดและส่งผลทั้งหมดแก่ Alchemist เอง!",
-                "col-2-1": [
-                    ["สกิล:", "ไม่มีเป้าหมาย"],
-                    ["ประเภทความเสียหาย", "กายภาพ"]
-                ],
-                "col-2-2": [
-                    ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ไม่ได้"],
-                    ["ลบล้าง:", "ได้โดยการลบล้างขั้นสูงเท่านั้น"]
-                ],
-                "col-1-1": [
-                    ["สตันนานสุด: ", "1.8 / 2.5 / 3.3 / 4.0 "],
-                    ["ความเสียหายสูงสุด:", "150 / 220 / 290 / 360"],
-                    ["รัศมีการระเบิด: ", "250"]
-                ],
-                "cooldown": "13.0",
-                "mana-cost": "100",
-                "description-skills": "จากความผิดพลาดในการพยายามเปลี่ยนภูเขาให้เป็นทองกลับกลายเป็นดี เมื่อสารละลายที่ได้มานั้นมีประสิทธิภาพในการทำลายได้อย่างดีเยี่ยม"
-            },
-            [2]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.mp4",
-                "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_goblins_greed.png",
-                "title-skills": "GREEVIL'S GREED",
-                "description-title-skills": "Alchemist สังเคราะห์โกลด์เพิ่มจากศัตรูและรูน Bounty โดยในแต่ละการสังหาร Alchemist จะได้รับเงินโบนัสขั้นต่ำ รวมกับเงินโบนัสเพิ่มเติม หาก Alchemist สังหารยูนิตถัดไป แล้วได้รับเงินภายในช่วง 36 วินาที เงินโบนัสเพิ่มเติมจะ ถูกเพิ่มเข้าไปในเงินโบนัสทั้งหมดอีกหนึ่งชุด ทำให้เงินโบนัส รวมทั้งหมดเพิ่มมากขึ้น นอกจากนี้ รูน Bounty จะให้เงิน แก่เขามากขึ้น",
-                "col-2-1": [
-                    ["สกิล:", "ติดตัว"],
-                    ["ส่งผลต่อ: ", "ฮีโร่ฝ่ายเดียวกัน"]
+                    ["สกิล:", "ยูนิตเป้าหมาย"],
+                    ["ส่งผลต่อ:", "ยูนิตฝ่ายศัตรู"],
+                    ["ประเภทความเสียหาย:", "เวทมนตร์"]
                 ],
                 "col-2-2": [
                     ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ไม่ได้"],
                     ["ลบล้าง:", "ได้"]
                 ],
                 "col-1-1": [
-                    ["ช่วงเวลาสังหารต่อเนื่อง:", "36 "],
-                    ["เงินโบนัสขั้นต่ำ:", "3"],
-                    ["เงินโบนัสเพิ่มเติม:", "3"],
-                    ["เงินโบนัสสูงสุดต่อการสังหาร:", "15 / 18 / 21 / 24"],
-                    ["คูณเงินรูน BOUNTY:", "1.5 / 2.0 / 2.5 / 3.0"]
+                    ["ความเสียหายต่อช่วง:", "30.0 / 50.0 / 70.0 / 90.0"],
+                    ["ระยะสิ้นสุด:", "715 "],
+                    ["ระยะเวลาสตัน: ", " 2.0 / 2.5 / 3.0 / 3.5"],
+                    ["ระยะร่าย: ", "700 / 800 / 900 / 1000"]
                 ],
-
-                "cooldown": "",
-                "mana-cost": "",
-                "description-skills": "ถึงมันจะไม่ใช่ภูเขา แต่ Razzil ก็ยังชำนาญในด้านการแปรสภาพสิ่งที่เล็กกว่านั้นให้เป็นทองเพื่อเติมเต็มกระเป๋าตังค์ของเขา"
+                "cooldown": "12.0 / 11.0 / 10.0 / 9.0",
+                "mana-cost": "125",
+                "description-skills": "การปรากฏตัวของ Kaldr ดึงดูดให้ผู้คนที่อยู่รอบตัวเขาให้ถูกดูดเข้าไปในความว่างเปล่าอันหนาวเหน็บเพื่อที่จะขังพวกนั้นไว้ในคุกอันเย็นเยือกชั่วนิรันดร์"
             },
-            [3]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.mp4",
+            [1]: {
+                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.webm",
+                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png",
-                "title-skills": "CHEMICAL RAGE",
-                "description-title-skills": "Alchemist ให้ยาอันทำให้คลุ้มคลั่งแก่ Orge ของเขา ลดคูลดาวน์การโจมตีพื้นฐาน เพิ่มความเร็วในการเคลื่อนที่ และเพิ่มอัตราฟื้นฟูพลังชีวิต <br><br>ชนิดการลบล้าง: การลบล้างพื้นฐาน",
+                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_vortex.png",
+                "title-skills": "ICE VORTEX",
+                "description-title-skills": "การปรากฏตัวของ Kaldr ดึงดูดให้ผู้คนที่อยู่รอบตัวเขาให้ถูกดูดเข้าไปในความว่างเปล่าอันหนาวเหน็บเพื่อที่จะขังพวกนั้นไว้ในคุกอันเย็นเยือกชั่วนิรันดร์",
                 "col-2-1": [
-                    ["สกิล:", "ไม่มีเป้าหมาย"],
+                    ["สกิล:", "ตำแหน่งเป้าหมาย"]
                 ],
                 "col-2-2": [
-                    ["ลบล้าง", "ไม่ได้"],
+                    ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ไม่ได้"],
+                    ["ลบล้าง:", "ไม่ได้"]
                 ],
                 "col-1-1": [
-                    ["ระยะเวลา:", "25.0 "],
-                    ["ระยะเวลาการโจมตีพื้นฐาน: ", "1.2 / 1.1 / 1.0"],
-                    ["เพิ่มความเร็วในการเคลื่อนที่:", "7.0 / 8.0 / 9.0 "],
-                    ["เพิ่มพลังโจมตีโดย SCEPTER:", "20"],
-                    ["เพิ่มความเสียหายสกิลโดย SCEPTER: ", "5% "]
+                    ["รัศมี: ", "275"],
+                    ["ช้าลง:", " -15 % / -20% / - 25 % / -30%"],
+                    ["ได้รับความเสียหายเวทมนตร์เพิ่มขึ้น:: ", "-12% / -16% / -20% / -24%"],
+                    ["ระยะเวลา:", "16"]
                 ],
-                "cooldown": "55.0 ",
-                "mana-cost": "50 / 75 / 100 ",
-                "description-skills": "เหล้าที่ Razzil เคยให้ Ogre ดื่มตอนที่พวกเขาแหกคุกได้กลายเป็นยาที่มีประโยชน์ท่ามกลางสงคราม"
+                "cooldown": "7.0 / 6.0 / 5.0 / 4.0",
+                "mana-cost": "40 / 50 / 60 / 70",
+                "description-skills": "ความเยือกเย็น ลมหนาวที่กรัดกร่อนซึ่งอยู่ภายใต้อำนาจของ Kaldr แผ่ซ่านไอเย็นยะเยือกไปทั่วลานแห่งการต่อสู้"
             },
-            [4]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_shard.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_shard.mp4",
-                "have-shard-or-agh": [1, "SHARD มอบสกิลใหม่"],
-                "image-skills": "https://media.discordapp.net/attachments/798049559405396011/903978604399054858/unknown.png",
-                "title-skills": "BERSERK POTION",
-                "description-title-skills": "Alchemist โยนน้ำยาใส่เพื่อนร่วมทีม ทำการลบล้างพื้นฐาน และมอบความเร็วในการโจมตี 50 หน่วย ความเร็วในการเคลื่อนที่ 30 หน่วย และอัตราฟื้นฟูพลังชีวิต 40 หน่วย <br><br>มีผล 10.0 วินาที",
+            [2]: {
+                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.webm",
+                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.mp4",
+                "have-shard-or-agh": [0, ""],
+                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_chilling_touch.png",
+                "title-skills": "CHILLING TOUCH",
+                "description-title-skills": "เพิ่มพลังการโจมตีของ Ancient Apparition ด้วยระยะการโจมตีที่เพิ่มขึ้น ความเสียหายเวทมนตร์อันแสนรุนแรง และลดความเร็วในการเคลื่อนที่",
                 "col-2-1": [
                     ["สกิล:", "ยูนิตเป้าหมาย"],
-                    ["ส่งผลต่อ:", "ยูนิตฝ่ายเดียวกัน"],
-                    ["ประเภทความเสียหาย:: ", "เวทมนตร์"]
+                    ["ส่งผลต่อ: ", "ยูนิตฝ่ายศัตรู"]
+                ],
+                "col-2-2": [
+                    ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ไม่ได้"],
+                    ["ลบล้าง:", "ได้"]
+                ],
+                "col-1-1": [
+                    ["ความเสียหาย: ", "50 / 90 / 130 / 170"],
+                    ["เคลื่อนที่ช้าลง: ", " 100%"],
+                    ["ระยะเวลาช้าลง:: ", "0.5"],
+                    ["เพิ่มระยะการโจมตี:", "60 / 120 / 180 / 240"]
+                ],
+
+                "cooldown": "15.0 / 11.0 / 7.0 / 3.0",
+                "mana-cost": "30 / 45 / 60 / 75",
+                "description-skills": "ความรู้อันไม่สิ้นสุดของ Ancient Apparition นั้นนำพาอาคมแห่งความเยือกเย็นมาสู่การโจมตีของเขา"
+            },
+            [3]: {
+                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.webm",
+                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.mp4",
+                "have-shard-or-agh": [0, ""],
+                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_blast.png",
+                "title-skills": "ICE BLAST",
+                "description-title-skills": "ส่งตัวนำทางไปยังตำแหน่งใดก็ได้ในสนามรบ ซึ่งจะต้องกดเรียก ใช้งานอีกครั้งเพื่อระบุพื้นที่เป้าหมายที่จะถูกระเบิดโดยระเบิด น้ำแข็ง ยิ่งตัวนำทางเคลื่อนที่ไกลจะยิ่งทำให้การระเบิดใหญ่มาก ขึ้น ศัตรูที่โดนระเบิดหรือสัมผัสระเบิดน้ำแข็งที่กำลังเดินทาง จะได้รับสถานะ Frostbite ทำให้ได้รับความเสียหายและไม่ สามารถฟื้นฟูพลังชีวิตได้ ถ้าพลังชีวิตของยูนิตภายใต้สถานะ Frostbite ลดลงจนต่ำกว่าเปอร์เซ็นต์ที่กำหนด ยูนิตนั้นจะ แตกสลายและถูกสังหารทันที",
+                "col-2-1": [
+                    ["สกิล:", "ตำแหน่งเป้าหมาย"],
+                    ["ประเภทความเสียหาย:", "เวทมนตร์"]
                 ],
                 "col-2-2": [
                     ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ได้"],
-                    ["ลบล้าง:", "ได้"]
+                    ["ลบล้าง:", "ไม่ได้"]
                 ],
                 "col-1-1": [
-                    ["ระยะเวลา:", "10.0"],
-                    ["ความเร็วในการโจมตี:", "50"],
-                    ["อัตราฟื้นฟูพลังชีวิต:", "40 "]
+                    ["ความเสียหาย:", "250 / 325 / 400 "],
+                    ["ระยะเวลา FROSTBITE:", " 10.0 / 11.0 / 12.0"],
+                    ["ความเสียหายจาก FROSTBITE ต่อวินาที: ", "12.5 / 20.0 / 32.0"],
+                    ["พลังชีวิตขั้นต่ำที่จะสังหาร:", "12.0% / 13.0% / 14.0%"]
                 ],
-                "cooldown": "35.0",
-                "mana-cost": "125",
+                "cooldown": "60.0 / 50.0 / 40.0",
+                "mana-cost": "175 ",
+                "description-skills": "พายุน้ำแข็งจากอดีตกาลได้พัดผ่านแขนที่เต็มไปด้วยน้ำแข็งของ Kaldr พุ่งชนเข้าใส่โลกจนทำให้ผู้อยู่อาศัยในระแวกนั้นกลายเป็นดั่งอนุสาวรีย์แห่งพลังอมตะของเขา"
+            },
+            [4]: {
+                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_aghanims_shard.webm",
+                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_aghanims_shard.mp4",
+                "have-shard-or-agh": [1, "SHARD มอบสกิลใหม่"],
+                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_vortex.png",
+                "title-skills": "ICE VORTEX",
+                "description-title-skills": "ทำให้ Ice Vortex สร้างความเสียหาย 40 หน่วยต่อวินาที และลดความเร็วในการโจมตี 20 หน่วย",
+                "col-2-1": [
+                    ["", ""],
+                    ["", ""],
+                    ["", ""]
+                ],
+                "col-2-2": [
+                    ["", ""]
+                ],
+                "col-1-1": [
+                    ["", ""]
+
+                ],
+                "cooldown": "",
+                "mana-cost": "",
                 "description-skills": ""
             },
             [5]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_scepter.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_scepter.mp4",
+                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_aghanims_scepter.webm",
+                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_aghanims_scepter.mp4",
                 "have-shard-or-agh": [1, "SCEPTER"],
-                "image-skills": "https://media.discordapp.net/attachments/798049559405396011/903978647084494878/unknown.png",
-                "title-skills": "CHEMICAL RAGE",
-                "description-title-skills": "Alchemist หลอม Aghanim's Scepter เพื่อมอบการอัปเกรด Aghanim's Scepter ทั้งหมดให้แก่เพื่อนร่วมทีม เมื่อคุณมี Scepter เป็นของคุณเอง คุณจะได้โบนัสพลังโจมตีและเพิ่มความเสียหายสกิลสำหรับทุก ๆ Scepter ที่มอบให้เพื่อน",
+                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_chilling_touch.png",
+                "title-skills": "CHILLING TOUCH",
+                "description-title-skills": "ทำให้ไม่มีคูลดาวน์และลดมานาที่ใช้ครึ่งหนึ่ง",
                 "col-2-1": [
                     ["", ""],
                     ["", ""]
@@ -441,86 +441,86 @@
                     ["", ""],
                     ["", ""]
                 ],
-                "cooldown": "55.0",
-                "mana-cost": "50 / 75 / 100",
-                "description-skills": "เหล้าที่ Razzil เคยให้ Ogre ดื่มตอนที่พวกเขาแหกคุกได้กลายเป็นยาที่มีประโยชน์ท่ามกลางสงคราม"
+                "cooldown": "15.0 / 11.0 / 7.0 / 3.0",
+                "mana-cost": "30 / 45 / 60 / 75",
+                "description-skills": "ความรู้อันไม่สิ้นสุดของ Ancient Apparition นั้นนำพาอาคมแห่งความเยือกเย็นมาสู่การโจมตีของเขา"
             },
 
 
         }
         var skills = {
             [0]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png",
+                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_cold_feet.png",
                 "poster": "",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.mp4",
-                "name": "ACID SPRAY",
-                "desc": "พ่นน้ำกรดความดันสูงลงบนพื้นที่เป้าหมาย ยูนิตศัตรูที่เข้าสู่พื้นที่ปนเปี้อนนี้จะได้รับความเสียหายต่อวินาที และถูกลดเกราะป้องกันลง"
+                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm",
+                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm",
+                "name": "COLD FEET",
+                "desc": "การปรากฏตัวของ Kaldr ดึงดูดให้ผู้คนที่อยู่รอบตัวเขาให้ถูกดูดเข้าไปในความว่างเปล่าอันหนาวเหน็บเพื่อที่จะขังพวกนั้นไว้ในคุกอันเย็นเยือกชั่วนิรันดร์"
             },
             [1]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_unstable_concoction.png",
+                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_vortex.png",
                 "poster": "",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.mp4",
-                "name": "UNSTABLE CONCOCTION",
-                "desc": "Alchemist ผสมน้ำยาที่มีส่วนประกอบไม่แน่นอน ซึ่งเขาสามารถโยนไปยังฮีโร่ฝ่ายศัตรูเพื่อสตันและสร้าง ความเสียหายรอบพื้นที่ที่ระเบิด ยิ่งใช้เวลาผสมนานเท่าไร ความเสียหายและระยะเวลาการสตันก็จะเพิ่มมากขึ้นเท่านั้น หลังจาก 5.0 วินาที น้ำยาจะมีความสามารถในการสร้าง ความเสียหายและเวลาสตันสูงสุด แต่หากไม่โยนภายใน 5.5 วินาที น้ำยาจะระเบิดและส่งผลทั้งหมดแก่ Alchemist เอง!"
+                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.webm",
+                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.mp4",
+                "name": "ICE VORTEX",
+                "desc": "สร้างคำสาปน้ำแข็งใส่ศัตรูเป้าหมายที่สร้างความเสียหายอย่าง ต่อเนื่อง แต่สามารถถูกยกเลิกได้เมื่อเป้าหมายเคลื่อนที่ออกจาก จุดแรกที่เกิดการใช้สกิลนี้ขึ้น ถ้าศัตรูยังคงอยู่ในระยะที่กำหนด เป็นระยะเวลา 4 วินาทีจะถูกแช่แข็งอยู่กับที่และสตัน"
             },
             [2]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_goblins_greed.png",
+                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_chilling_touch.png",
                 "poster": "",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.mp4",
-                "name": "Curse of Avernus",
-                "desc": "Alchemist สังเคราะห์โกลด์เพิ่มจากศัตรูและรูน Bounty โดยในแต่ละการสังหาร Alchemist จะได้รับเงินโบนัสขั้นต่ำ รวมกับเงินโบนัสเพิ่มเติม หาก Alchemist สังหารยูนิตถัดไป แล้วได้รับเงินภายในช่วง 36 วินาที เงินโบนัสเพิ่มเติมจะ ถูกเพิ่มเข้าไปในเงินโบนัสทั้งหมดอีกหนึ่งชุด ทำให้เงินโบนัส รวมทั้งหมดเพิ่มมากขึ้น นอกจากนี้ รูน Bounty จะให้เงิน แก่เขามากขึ้น"
+                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.webm",
+                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.mp4",
+                "name": " CHILLING TOUCH ",
+                "desc": "ความรู้ อั นไม่ สิ้ นสุดของ Ancient Apparition นั้ นนำพาอาคมแห่ งความเยือกเย็ นมาสู่ การโจมตีของเขา "
             },
             [3]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png",
+                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_blast.png",
                 "poster": "",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.mp4",
-                "name": "CHEMICAL RAGE",
-                "desc": "Alchemist ให้ยาอันทำให้คลุ้มคลั่งแก่ Orge ของเขา ลดคูลดาวน์การโจมตีพื้นฐาน เพิ่มความเร็วในการเคลื่อนที่ และเพิ่มอัตราฟื้นฟูพลังชีวิต <br><br>ชนิดการลบล้าง: การลบล้างพื้นฐาน"
+                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.webm",
+                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.mp4",
+                "name": "ICE BLAST",
+                "desc": "ส่งตัวนำทางไปยังตำแหน่งใดก็ได้ในสนามรบ ซึ่งจะต้องกดเรียก ใช้งานอีกครั้งเพื่อระบุพื้นที่เป้าหมายที่จะถูกระเบิดโดยระเบิด น้ำแข็ง ยิ่งตัวนำทางเคลื่อนที่ไกลจะยิ่งทำให้การระเบิดใหญ่มาก ขึ้น ศัตรูที่โดนระเบิดหรือสัมผัสระเบิดน้ำแข็งที่กำลังเดินทาง จะได้รับสถานะ Frostbite ทำให้ได้รับความเสียหายและไม่ สามารถฟื้นฟูพลังชีวิตได้ ถ้าพลังชีวิตของยูนิตภายใต้สถานะ Frostbite ลดลงจนต่ำกว่าเปอร์เซ็นต์ที่กำหนด ยูนิตนั้นจะ แตกสลายและถูกสังหารทันที"
             }
         }
 
         var status_hero = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png": [
-                ["700", "2.8", "HP"],
-                ["375", "1.3", "MANA"]
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ancient_apparition.png": [
+                ["600", "2.3", "HP"],
+                ["351", "1.1", "MANA"]
             ]
         }
 
         var status_icon_json = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png": ["25", "2.9"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png": ["22", "1.5"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png": ["25", "1.8"]
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png": ["20", "1.9"],
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png": ["20", "2.2"],
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png": ["23", "3.4"]
         }
 
         var status_json = {
-            "ตัวแครี่": "66.6",
-            "ตัวซัพพอร์ต": "33.3",
+            "ตัวแครี่": "",
+            "ตัวซัพพอร์ต": "66.6",
             "ตัวนูค": "33.3",
             "ตัวหยุด": "33.3",
             "ตัวป่า": "0",
-            "ตัวยืน": "66.6",
+            "ตัวยืน": "",
             "ตัวหนี": "0",
             "ตัวดัน": "0",
-            "ตัวเปิด": "33.3"
+            "ตัวเปิด": ""
         }
 
         var status_json_right = {
             "การโจมตี": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_damage.png", "52-58"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_damage.png", "44-54"],
                 ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_time.png", "1.7"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_range.png", "150"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_projectile_speed.png", "900"]
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_range.png", "675"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_projectile_speed.png", "120"]
             ],
             "การป้องกัน": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_armor.png", "2.7"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_armor.png", "2.3"],
                 ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_magic_resist.png", "25%"]
             ],
             "การเคลื่อนที่": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_movement_speed.png", "305"],
+                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_movement_speed.png", "285"],
                 ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_turn_rate.png", "0.6"],
                 ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_vision.png", "1800 / 800"]
             ]
