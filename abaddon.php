@@ -16,7 +16,7 @@
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
 
             <!-- change link hero here [#]-->
-            <a class="small-arrow" href="#" style="background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
+            <a class="small-arrow" href="arc_warden.php" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
             <a class="small-center" href="hero.php">
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
@@ -25,7 +25,7 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="alchemist.php" style="transform: scaleX(-1); background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png&quot;);"></a>
+            <a class="small-arrow" href="alchemist.php" style="transform: scaleX(-1); background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
         </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero" style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
@@ -224,7 +224,7 @@
                             <!-- ver delay skill -->
                             <div style="width: 100%; margin-top: 12px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="cooldown">
-                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png&quot;);"></div>
+                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png');"></div>
                                     <div style="margin-left: 8px; color: #fff;">5.5</div>
                                 </div>
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="mana-cost">
@@ -244,50 +244,57 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="#" style="background-image: url(./src/hero/abaddon/bar.png);">
-                <img class="bar-hero" style="left: 0px;" src="./src/hero/abaddon/back.png">
-                <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
-                    <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
-                    <!-- change white font here -->
-                    <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
-                        ARC WARDEN</div>
-                    <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
-                        <!-- change pic type hero here -->
-                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+            <div class="bar-side" href="arc_warden.php" style="background-image: url(./src/hero/abaddon/bar.png);">
+                <a href="arc_warden.php">
+                    <img class="bar-hero" style="left: 0px;" src="./src/hero/abaddon/back.png">
+                    <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
+                        <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
                         <!-- change white font here -->
-                        <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
-                            ระยะไกล</div>
+                        <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
+                            ARC WARDEN</div>
+                        <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
+                            <!-- change pic type hero here -->
+                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <!-- change white font here -->
+                            <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
+                                ระยะไกล</div>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <!-- change link here -->
-            <div class="bar-center" style="height: auto;" href="#">
-                <div class="bar-box">
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                </div>
-                <div style="color: #fff; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-top: 8px; text-align: center;"> ฮีโร่ทั้งหมด </div>
-            </div>
-            <!-- change link back hero here -->
-            <div href="#" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">
-                <img class="bar-hero" style="right: 0px;" src="./src/hero/abaddon/next.png">
-                <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
-                    <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
-                    <!-- change white font here -->
-                    <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
-                        ALCHEMIST</div>
-                    <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
-                        <!-- change pic type hero here -->
-                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
-                        <!-- change white font here -->
-                        <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
-                            ระยะไกล</div>
+            <div class="bar-center" style="height: auto;" href="hero.php">
+                <a href="hero.php">
+                    <div class="bar-box">
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
                     </div>
-                </div>
+                    <div style="color: #fff; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-top: 8px; text-align: center;"> ฮีโร่ทั้งหมด </div>
+                </a>
+
+            </div>
+            <!-- change link next hero here -->
+            <div href="alchemist.php" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">
+                <a href="alchemist.php">
+                    <img class="bar-hero" style="right: 0px;" src="./src/hero/abaddon/next.png">
+                    <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
+                        <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ถัดไป</div>
+                        <!-- change white font here -->
+                        <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
+                            ALCHEMIST</div>
+                        <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
+                            <!-- change pic type hero here -->
+                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <!-- change white font here -->
+                            <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
+                                ระยะประชิด</div>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -303,9 +310,10 @@
                 "title-skills": 'MIST COIL',
                 "description-title-skills": 'Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon',
                 "col-2-1": [
+
                     ["สกิล:", "ยูนิตเป้าหมาย"],
                     ["ส่งผลต่อ:", "ฮีโร่"],
-                    ["ประเภทความเสียหาย", "เวทมนตร์"]
+                    ["ประเภทความเสียหาย", "<span style='color: rgb(163, 220, 238);'>เวทมนตร์</span>"]
                 ],
                 "col-2-2": [
                     ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "เพื่อนร่วมทีม: ใช่ ศัตรู: ไม่"],
@@ -328,7 +336,7 @@
                 "col-2-1": [
                     ["สกิล:", "ยูนิตเป้าหมาย"],
                     ["ส่งผลต่อ:", "ฮีโร่"],
-                    ["ประเภทความเสียหาย", "เวทมนตร์"]
+                    ["ประเภทความเสียหาย", "<span style='color: rgb(163, 220, 238);'>เวทมนตร์</span>"]
                 ],
                 "col-2-2": [
                     ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ไม่ได้"],
@@ -396,7 +404,7 @@
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aghanims_shard.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aghanims_shard.mp4",
                 "have-shard-or-agh": [1, "SHARD"],
-                "image-skills": "https://cdn.discordapp.com/attachments/798049559405396011/903946383676043264/unknown.png",
+                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_frostmourne.png",
                 "title-skills": "CURSE OF AVERNUS",
                 "description-title-skills": "ทำให้ Mist Coil และ Aphotic Shield ส่งผลทับซ้อน Curse of Avernus ต่อศัตรู เพิ่มการลดความเร็วพื้นฐาน 10% ลดคูลดาวน์ Mist Coil และ Aphotic Shield 1 วินาที",
                 "col-2-1": [
@@ -419,7 +427,7 @@
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aghanims_scepter.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aghanims_scepter.mp4",
                 "have-shard-or-agh": [1, "SCEPTER"],
-                "image-skills": "https://media.discordapp.net/attachments/798049559405396011/903946551846653952/unknown.png",
+                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_borrowed_time.png",
                 "title-skills": "BORROWED TIME",
                 "description-title-skills": "เพิ่มระยะเวลา ขณะที่ Borrowed Time ถูกใช้งานอยู่ เมื่อใดก็ตามเมื่อเพื่อนร่วมทีมได้รับความเสียหายมากกว่า 525 หน่วย ในขณะที่อยู่ในระยะ 1600 หน่วยของ Abaddon กระสุน Mist Coil หนึ่งลูกจะถูกยิงไปยังเพื่อนร่วมทีมคนนั้นโดยอัตโนมัติ",
                 "col-2-1": [
@@ -485,7 +493,7 @@
 
         var status_icon_json = {
             "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png": ["22", "2.8"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png": ["23", "2.5"],
+            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png": ["23", "1.5"],
             "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png": ["18", "2.0"]
         }
 

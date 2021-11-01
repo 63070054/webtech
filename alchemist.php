@@ -16,7 +16,7 @@
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
 
             <!-- change link hero here [#]-->
-            <a class="small-arrow" href="#" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="abaddon.php" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
             <a class="small-center" href="hero.php">
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
@@ -25,7 +25,7 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="alchemist.php" style="transform: scaleX(-1); background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="ancient_apparition.php" style="transform: scaleX(-1); background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
         </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero" style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
@@ -199,7 +199,7 @@
                                         <div class="b-text">ตำแหน่งเป้าหมาย</div>
                                     </div>
                                     <div class="text-inner-col2">ประเภทความเสียหาย:
-                                        <div class="b-text">กายภาพ</div>
+                                        <div class="b-text"><span style='color: rgb(255, 0, 0);'>กายภาพ</span> </div>
                                     </div>
                                 </div>
                                 <div class="inner-col2" id="col-2-2">
@@ -246,50 +246,57 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="#" style="background-image: url(./src/hero/abaddon/bar.png);">
-                <img class="bar-hero" style="left: 0px;" src="./src/hero/abaddon/back.png">
-                <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
-                    <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
-                    <!-- change white font here -->
-                    <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
-                        ARC WARDEN</div>
-                    <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
-                        <!-- change pic type hero here -->
-                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+            <div class="bar-side" href="arc_warden.php" style="background-image: url(./src/hero/abaddon/bar.png);">
+                <a href="arc_warden.php">
+                    <img class="bar-hero" style="left: 0px;" src="./src/hero/alchemist/back.png">
+                    <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
+                        <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
                         <!-- change white font here -->
-                        <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
-                            ระยะไกล</div>
+                        <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
+                            ABADDON</div>
+                        <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
+                            <!-- change pic type hero here -->
+                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <!-- change white font here -->
+                            <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
+                                ระยะประชิด</div>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <!-- change link here -->
-            <div class="bar-center" style="height: auto;" href="#">
-                <div class="bar-box">
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                    <div class="bar-grid"></div>
-                </div>
-                <div style="color: #fff; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-top: 8px; text-align: center;"> ฮีโร่ทั้งหมด </div>
-            </div>
-            <!-- change link back hero here -->
-            <div href="#" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">
-                <img class="bar-hero" style="right: 0px;" src="./src/hero/abaddon/next.png">
-                <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
-                    <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
-                    <!-- change white font here -->
-                    <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
-                        ALCHEMIST</div>
-                    <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
-                        <!-- change pic type hero here -->
-                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
-                        <!-- change white font here -->
-                        <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
-                            ระยะไกล</div>
+            <div class="bar-center" style="height: auto;" href="hero.php">
+                <a href="hero.php">
+                    <div class="bar-box">
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
+                        <div class="bar-grid"></div>
                     </div>
-                </div>
+                    <div style="color: #fff; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-top: 8px; text-align: center;"> ฮีโร่ทั้งหมด </div>
+                </a>
+
+            </div>
+            <!-- change link next hero here -->
+            <div href="alchemist.php" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">
+                <a href="ancient_apparition.php">
+                    <img class="bar-hero" style="right: 0px;" src="./src/hero/alchemist/next.png">
+                    <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
+                        <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ถัดไป</div>
+                        <!-- change white font here -->
+                        <div style="font-size: 28px; color: #fff; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; line-height: 112%; text-shadow: 1px 1px 4px #000;">
+                            ANCIENT APPARITION</div>
+                        <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
+                            <!-- change pic type hero here -->
+                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <!-- change white font here -->
+                            <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
+                                ระยะประไกล</div>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -306,7 +313,7 @@
                 "description-title-skills": 'พ่นน้ำกรดความดันสูงลงบนพื้นที่เป้าหมาย ยูนิตศัตรูที่เข้าสู่พื้นที่ปนเปี้อนนี้จะได้รับความเสียหายต่อวินาที และถูกลดเกราะป้องกันลง',
                 "col-2-1": [
                     ["สกิล:", "ตำแหน่ งเป้ าหมาย "],
-                    ["ประเภทความเสียหาย", "กายภาพ"]
+                    ["ประเภทความเสียหาย", "<span style='color: rgb(255, 0, 0);'>กายภาพ</span> "]
                 ],
                 "col-2-2": [
                     ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ไม่ได้"],
@@ -330,7 +337,7 @@
                 "description-title-skills": "Alchemist ผสมน้ำยาที่มีส่วนประกอบไม่แน่นอน ซึ่งเขาสามารถโยนไปยังฮีโร่ฝ่ายศัตรูเพื่อสตันและสร้าง ความเสียหายรอบพื้นที่ที่ระเบิด ยิ่งใช้เวลาผสมนานเท่าไร ความเสียหายและระยะเวลาการสตันก็จะเพิ่มมากขึ้นเท่านั้น หลังจาก 5.0 วินาที น้ำยาจะมีความสามารถในการสร้าง ความเสียหายและเวลาสตันสูงสุด แต่หากไม่โยนภายใน 5.5 วินาที น้ำยาจะระเบิดและส่งผลทั้งหมดแก่ Alchemist เอง!",
                 "col-2-1": [
                     ["สกิล:", "ไม่มีเป้าหมาย"],
-                    ["ประเภทความเสียหาย", "กายภาพ"]
+                    ["ประเภทความเสียหาย", "<span style='color: rgb(255, 0, 0);'>กายภาพ</span> "]
                 ],
                 "col-2-2": [
                     ["ทะลุการป้องกันเวทโดยสมบูรณ์:", "ไม่ได้"],
@@ -424,7 +431,7 @@
             [5]: {
                 "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_scepter.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_scepter.mp4",
-                "have-shard-or-agh": [1, "SCEPTER"],
+                "have-shard-or-agh": [1, "การอัปเกรดสกิลโดย SCEPTER"],
                 "image-skills": "https://media.discordapp.net/attachments/798049559405396011/903978647084494878/unknown.png",
                 "title-skills": "CHEMICAL RAGE",
                 "description-title-skills": "Alchemist หลอม Aghanim's Scepter เพื่อมอบการอัปเกรด Aghanim's Scepter ทั้งหมดให้แก่เพื่อนร่วมทีม เมื่อคุณมี Scepter เป็นของคุณเอง คุณจะได้โบนัสพลังโจมตีและเพิ่มความเสียหายสกิลสำหรับทุก ๆ Scepter ที่มอบให้เพื่อน",
