@@ -293,7 +293,7 @@
                             <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
                             <!-- change white font here -->
                             <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
-                                ระยะประไกล</div>
+                                ระยะไกล</div>
                         </div>
                     </div>
                 </a>
