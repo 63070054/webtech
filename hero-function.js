@@ -14,7 +14,7 @@ function changeSkillsDetail(index, ele) {
                 document.getElementById("more-detail").innerHTML = '';
             }
             // pao
-        } else if (key == "video-type-webm" || key == "video-type-mp4") {
+        } else if (key == "video-type-mp4") {
             document.getElementById(key).src = skill_json[index][key];
             document.getElementById("video-main").load();
         } else if (key == "image-skills") {
@@ -33,7 +33,7 @@ function changeSkillsDetail(index, ele) {
                 if (key == "cooldown") {
                     if (skill_json[index][key] != "") {
                         document.getElementById(key).innerHTML = `
-    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png&quot;);"></div>
+    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;./src/hero/cooldown.png&quot;);"></div>
     <div style="margin-left: 8px; color: #fff;">${skill_json[index][key]}</div>
     `;
                     } else {

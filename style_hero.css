@@ -9,7 +9,7 @@ a{
   font-family: "Noto Serif", serif;
   height: auto;
   background-color: rgb(23, 90, 68);
-  background-image: url(./src/hero/abaddon/bg.jpg);
+  background-image: url('./src/hero/bg_main.jpg');
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
@@ -366,6 +366,8 @@ transition-timing-function: ease-in-out;
 transition-duration: .2s;
 text-decoration: none;
 color: inherit;
+height: 100%;
+box-sizing: border-box;
 }
 .bar-center:hover{
 filter: brightness(1.6);

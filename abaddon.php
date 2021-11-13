@@ -16,7 +16,7 @@
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
 
             <!-- change link hero here [#]-->
-            <a class="small-arrow" href="arc_warden.php" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="arc_warden.php" style="background-image: url('./src/hero/arrow_solid_left.png');"></a>
             <a class="small-center" href="hero.php">
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
@@ -25,21 +25,21 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="alchemist.php" style="transform: scaleX(-1); background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="alchemist.php" style="transform: scaleX(-1); background-image: url('./src/hero/arrow_solid_left.png');"></a>
         </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero" style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0" style="min-height:100%; transform:translate(0px, 16pc) scale(1.93, 1.93);">
 
                 <!-- change vdo hero here -->
-                <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abaddon.webm">
+                <source type="video/webm" src="./src/hero/abaddon/video_abaddon.webm">
 
             </video>
         </div>
         <div class="title-hero">
             <div style="display: flex; flex-direction: row; align-items: center;">
                 <!-- change white font color hero here -->
-                <img style="width: 32px; height: 32px;" src="./src/icon/strength.png">
+                <img style="width: 32px; height: 32px;" src="./src/hero/icon_str_colorful.png">
                 <div style="margin-left: 6px; color: #fff; text-transform: uppercase; letter-spacing: 2px; font-weight: 100; font-size: 24px;">
                     STRENGTH
                 </div>
@@ -66,7 +66,7 @@
                 <div style="display: flex; flex-direction: row; align-items: center; margin-top: 8px;">
 
                     <!-- change pic icon [melee or ranged] and  white font color here -->
-                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/melee.svg">
+                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/hero/icon_melee.svg">
                     <div style="color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 15px; font-weight: bold;">ระยะประชิด</div>
 
                 </div>
@@ -82,7 +82,7 @@
         </div>
         <div class="line-name">
             <!-- change pic icon type hero and  white font color here -->
-            <img style="width: 22px;height: 22px;" src="./src/icon/strength.png">
+            <img style="width: 22px;height: 22px;" src="./src/hero/icon_str_colorful.png">
             <!-- change white font text skill here  -->
             <div class="line-name-hero">
                 ABADDON
@@ -145,7 +145,7 @@
         align-items: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url(./src/hero/abaddon/bg.jpg);">
+        background-image: url('./src/hero/bg_main.jpg');">
         <!-- PART VDO  SKILL -->
         <div style="width: 100%; min-height: 400px; padding: 80px 0px; margin-top: -10px; display: flex; flex-direction: column; align-items: center; position: relative; z-index: 2;">
             <!-- PART title -->
@@ -157,19 +157,18 @@
                     <!-- vdo view -->
                     <div style="width: 100%; padding-top: 56.25%; height: 0px; position: relative; box-shadow: 3px 3px 8px #000;">
                         <div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2;"></div>
-                        <video id="video-main" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" autoplay="" preload="auto" loop="" playsinline="" muted poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.jpg">
-                            <source id="video-type-webm" type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm">
-                            <source id="video-type-mp4" type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4">
+                        <video id="video-main" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" autoplay="" preload="auto" loop="" playsinline="" muted>
+                            <source id="video-type-mp4" type="video/mp4" src="./src/hero/abaddon/skill/video_skill1.mp4">
                         </video>
                     </div>
                     <!-- bar skill -->
                     <div style="width: 100%; margin-top: -15px; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; position: relative; z-index: 3;">
-                        <div class="icon-skill" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png');" onclick="changeSkillsDetail(0, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_aphotic_shield.png');" onclick="changeSkillsDetail(1, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_frostmourne.png');" onclick="changeSkillsDetail(2, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_borrowed_time.png');" onclick="changeSkillsDetail(3, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.discordapp.com/attachments/798049559405396011/903946383676043264/unknown.png');" onclick="changeSkillsDetail(4, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/903946551846653952/unknown.png');" onclick="changeSkillsDetail(5, this)"></div>
+                        <div class="icon-skill" style="background-image: url('./src/hero/abaddon/skill/skill1.png');" onclick="changeSkillsDetail(0, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/abaddon/skill/skill2.png');" onclick="changeSkillsDetail(1, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/abaddon/skill/skill3.png');" onclick="changeSkillsDetail(2, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/abaddon/skill/skill4.png');" onclick="changeSkillsDetail(3, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/abaddon/skill/skill5.png');" onclick="changeSkillsDetail(4, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/abaddon/skill/skill6.png');" onclick="changeSkillsDetail(5, this)"></div>
                     </div>
                 </div>
                 <!-- PART Left -->
@@ -224,7 +223,7 @@
                             <!-- ver delay skill -->
                             <div style="width: 100%; margin-top: 12px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="cooldown">
-                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png');"></div>
+                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('./src/hero/cooldown.png');"></div>
                                     <div style="margin-left: 8px; color: #fff;">5.5</div>
                                 </div>
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="mana-cost">
@@ -244,7 +243,7 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="arc_warden.php" style="background-image: url(./src/hero/abaddon/bar.png);">
+            <div class="bar-side" href="arc_warden.php" style="background-image: url('./src/hero/bar.png');">
                 <a href="arc_warden.php">
                     <img class="bar-hero" style="left: 0px;" src="./src/hero/abaddon/back.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -254,7 +253,7 @@
                             ARC WARDEN</div>
                         <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
                             <!-- change pic type hero here -->
-                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <img src="./src/hero/icon_agi_colorful.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
                             <!-- change white font here -->
                             <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
                                 ระยะไกล</div>
@@ -263,7 +262,7 @@
                 </a>
             </div>
             <!-- change link here -->
-            <div class="bar-center" style="height: auto;" href="hero.php">
+            <div class="bar-center" href="hero.php">
                 <a href="hero.php">
                     <div class="bar-box">
                         <div class="bar-grid"></div>
@@ -278,7 +277,7 @@
 
             </div>
             <!-- change link next hero here -->
-            <div href="alchemist.php" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">
+            <div href="alchemist.php" class="bar-side" style="background-image: url('./src/hero/bar.png'); justify-content: flex-start;">
                 <a href="alchemist.php">
                     <img class="bar-hero" style="right: 0px;" src="./src/hero/abaddon/next.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -288,7 +287,7 @@
                             ALCHEMIST</div>
                         <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
                             <!-- change pic type hero here -->
-                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <img src="./src/hero/icon_str_colorful.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
                             <!-- change white font here -->
                             <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
                                 ระยะประชิด</div>
@@ -303,10 +302,9 @@
     <script>
         var skill_json = {
             [0]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4",
+                "video-type-mp4": "./src/hero/abaddon/skill/video_skill1.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png",
+                "image-skills": "./src/hero/abaddon/skill/skill1.png",
                 "title-skills": 'MIST COIL',
                 "description-title-skills": 'Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon',
                 "col-2-1": [
@@ -327,10 +325,9 @@
                 "description-skills": "ไอระเหยอันน่าพิศวงจากบ่อน้ำพุแห่ง Font of Avernus ได้หลอมรวมเป็นลมหายใจของ Abaddon ผู้ที่ปลดปล่อยมันได้ตามใจหวัง"
             },
             [1]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.mp4",
+                "video-type-mp4": "./src/hero/abaddon/skill/video_skill2.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_aphotic_shield.png",
+                "image-skills": "./src/hero/abaddon/skill/skill2.png",
                 "title-skills": "APHOTIC SHIELD",
                 "description-title-skills": "อัญเชิญพลังแห่งความมืดมาวนเวียนอยู่รอบยูนิตเพื่อนร่วมทีม สร้างโล่ป้องกันที่ดูดซับความเสียหายจำนวนหนึ่ง โล่จะระเบิดและสร้างความเสียหายบริเวณโดยรอบเมื่อถูกทำลาย เท่ากับความเสียหายที่มันสามารถดูดซับเอาไว้ได้ ชำระล้างบัฟด้านลบและอาการสตันบางชนิดให้กับยูนิตที่ถูกร่ายใส่ <br> <br>ชนิดการลบล้าง: การลบล้างขั้นสูง",
                 "col-2-1": [
@@ -352,10 +349,9 @@
                 "description-skills": "พลังแห่งหมอกทมิฬ ปรากฎขึ้นเพื่อดูดซับการโจมตี ดั่งเช่นหมอกสีดำที่ดูดกลืนแสงได้"
             },
             [2]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_frostmourne.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_frostmourne.mp4",
+                "video-type-mp4": "./src/hero/abaddon/skill/video_skill3.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_frostmourne.png",
+                "image-skills": "./src/hero/abaddon/skill/skill3.png",
                 "title-skills": "CURSE OF AVERNUS",
                 "description-title-skills": "Abaddon จู่โจมศัตรู ลดความเร็วในการเคลื่อนที่ของเป้าหมาย หากเป้าหมายถูกโจมตีครบ 4 ครั้ง จะทำให้เป้าหมายติดคำสาปเย็นยะเยือก ส่งผลให้ถูกใบ้และเคลื่อนที่ช้าลง และการโจมตีต่อเป้าหมายทั้งหมดนั้นได้รับความเร็วในการโจมตีเพิ่มขึ้น",
                 "col-2-1": [
@@ -377,10 +373,9 @@
                 "description-skills": "แม้ผู้ถูกล้างบาปจะดึงพลังความแข็งแกร่งมาจากบ่อไอน้ำศักดิ์สิทธิ์ พรแห่ง Avernus นั้นสามารถทำให้ผู้ไร้ประสบการณ์ต้องทรุดโทรม"
             },
             [3]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.mp4",
+                "video-type-mp4": "./src/hero/abaddon/skill/video_skill4.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_borrowed_time.png",
+                "image-skills": "./src/hero/abaddon/skill/skill4.png",
                 "title-skills": "BORROWED TIME",
                 "description-title-skills": "เมื่อเปิดใช้งาน ความเสียหายที่คุณได้รับทั้งหมดจะกลายเป็น การฟื้นฟูพลังชีวิตแทนที่จะทำอันตราย บัฟด้านลบเกือบทั้งหมด จะถูกขจัดออก สกิลนี้จะเปิดใช้งานโดยอัตโนมัติ หากไม่ได้อยู่ใน ระหว่างคูลดาวน์และพลังชีวิตของคุณลดลงเหลือต่ำกว่า 400 หน่วย  <br><br> ชนิดการลบล้าง: การลบล้างขั้นสูง",
                 "col-2-1": [
@@ -401,10 +396,9 @@
                 "description-skills": "ที่สุดของความสามารถเหนือธรรมชาติของ Avernus พลังนี้ทำลายความเข้าใจของทุกชีวิต สิ่งที่ควรจะเจ็บกลับถูกรักษา และสิ่งที่ควรจะฆ่ากลับมอบพลังให้"
             },
             [4]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aghanims_shard.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aghanims_shard.mp4",
+                "video-type-mp4": "./src/hero/abaddon/skill/video_skill5.mp4",
                 "have-shard-or-agh": [1, "SHARD"],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_frostmourne.png",
+                "image-skills": "./src/hero/abaddon/skill/skill5.png",
                 "title-skills": "CURSE OF AVERNUS",
                 "description-title-skills": "ทำให้ Mist Coil และ Aphotic Shield ส่งผลทับซ้อน Curse of Avernus ต่อศัตรู เพิ่มการลดความเร็วพื้นฐาน 10% ลดคูลดาวน์ Mist Coil และ Aphotic Shield 1 วินาที",
                 "col-2-1": [
@@ -424,10 +418,9 @@
                 "description-skills": ""
             },
             [5]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aghanims_scepter.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aghanims_scepter.mp4",
+                "video-type-mp4": "./src/hero/abaddon/skill/video_skill6.mp4",
                 "have-shard-or-agh": [1, "SCEPTER"],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_borrowed_time.png",
+                "image-skills": "./src/hero/abaddon/skill/skill6.png",
                 "title-skills": "BORROWED TIME",
                 "description-title-skills": "เพิ่มระยะเวลา ขณะที่ Borrowed Time ถูกใช้งานอยู่ เมื่อใดก็ตามเมื่อเพื่อนร่วมทีมได้รับความเสียหายมากกว่า 525 หน่วย ในขณะที่อยู่ในระยะ 1600 หน่วยของ Abaddon กระสุน Mist Coil หนึ่งลูกจะถูกยิงไปยังเพื่อนร่วมทีมคนนั้นโดยอัตโนมัติ",
                 "col-2-1": [
@@ -447,54 +440,46 @@
                 "description-skills": "ที่สุดของความสามารถเหนือธรรมชาติของ Avernus พลังนี้ทำลายความเข้าใจของทุกชีวิต สิ่งที่ควรจะเจ็บกลับถูกรักษา และสิ่งที่ควรจะฆ่ากลับมอบพลังให้"
             },
 
-
+            
         }
         var skills = {
             [0]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png",
-                "poster": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.jpg",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_death_coil.mp4",
+                "img": "./src/hero/abaddon/skill/skill1.png",
+                "mp4": "./src/hero/abaddon/skill/video_skill1.mp4",
                 "name": "Mist Coil",
                 "desc": "Abaddon ปลดปล่อยกลุ่มหมอกแห่งความตาย ซึ่งสร้างความเสียหายแก่ยูนิตศัตรูหรือรักษายูนิตฝ่ายเดียวกัน แลกกับพลังชีวิตบางส่วนของ Abaddon"
             },
             [1]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_aphotic_shield.png",
-                "poster": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.jpg",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_aphotic_shield.mp4",
+                "img": "./src/hero/abaddon/skill/skill2.png",
+                "mp4": "./src/hero/abaddon/skill/video_skill2.mp4",
                 "name": "Aphotic Shield",
                 "desc": "อัญเชิญพลังแห่งความมืดมาวนเวียนอยู่รอบยูนิตเพื่อนร่วมทีม สร้างโล่ป้องกันที่ดูดซับความเสียหายจำนวนหนึ่ง โล่จะระเบิดและสร้างความเสียหายบริเวณโดยรอบเมื่อถูกทำลาย เท่ากับความเสียหายที่มันสามารถดูดซับเอาไว้ได้ ชำระล้างบัฟด้านลบและอาการสตันบางชนิดให้กับยูนิตที่ถูกร่ายใส่ ชนิดการลบล้าง: การลบล้างขั้นสูง"
             },
             [2]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_frostmourne.png",
-                "poster": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_frostmourne.jpg",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_frostmourne.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_frostmourne.mp4",
+                "img": "./src/hero/abaddon/skill/skill3.png",
+                "mp4": "./src/hero/abaddon/skill/video_skill3.mp4",
                 "name": "Curse of Avernus",
                 "desc": "Abaddon จู่โจมศัตรู ลดความเร็วในการเคลื่อนที่ของเป้าหมาย หากเป้าหมายถูกโจมตีครบ 4 ครั้ง จะทำให้เป้าหมายติดคำสาปเย็นยะเยือก ส่งผลให้ถูกใบ้และเคลื่อนที่ช้าลง และการโจมตีต่อเป้าหมายทั้งหมดนั้นได้รับความเร็วในการโจมตีเพิ่มขึ้น"
             },
             [3]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_borrowed_time.png",
-                "poster": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.jpg",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/abaddon/abaddon_borrowed_time.mp4",
+                "img": "./src/hero/abaddon/skill/skill4.png",
+                "mp4": "./src/hero/abaddon/skill/video_skill4.mp4",
                 "name": "Borrowed Time",
                 "desc": "เมื่อเปิดใช้งาน ความเสียหายที่คุณได้รับทั้งหมดจะกลายเป็น การฟื้นฟูพลังชีวิตแทนที่จะทำอันตราย บัฟด้านลบเกือบทั้งหมด จะถูกขจัดออก สกิลนี้จะเปิดใช้งานโดยอัตโนมัติ หากไม่ได้อยู่ใน ระหว่างคูลดาวน์และพลังชีวิตของคุณลดลงเหลือต่ำกว่า 400 หน่วย ชนิดการลบล้าง: การลบล้างขั้นสูง"
             }
         }
 
         var status_hero = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png": [
+            "./src/hero/abaddon.png": [
                 ["640", "3.2", "HP"],
                 ["291", "0.9", "MANA"]
             ]
         }
 
         var status_icon_json = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png": ["22", "2.8"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png": ["23", "1.5"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png": ["18", "2.0"]
+            "./src/hero/icon_str_colorful.png": ["22", "2.8"],
+            "./src/hero/icon_agi_colorful.png": ["23", "1.5"],
+            "./src/hero/icon_int_colorful.png": ["18", "2.0"]
         }
 
         var status_json = {
@@ -511,19 +496,19 @@
 
         var status_json_right = {
             "การโจมตี": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_damage.png", "50-60"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_time.png", "1.7"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_range.png", "150"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_projectile_speed.png", "900"]
+                ["./src/hero/icon_damage.png", "50-60"],
+                ["./src/hero/icon_attack_time.png", "1.7"],
+                ["./src/hero/icon_attack_range.png", "150"],
+                ["./src/hero/icon_projectile_speed.png", "900"]
             ],
             "การป้องกัน": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_armor.png", "28"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_magic_resist.png", "25%"]
+                ["./src/hero/icon_armor.png", "28"],
+                ["./src/hero/icon_magic_resist.png", "25%"]
             ],
             "การเคลื่อนที่": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_movement_speed.png", "325"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_turn_rate.png", "0.6"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_vision.png", "1800 / 800"]
+                ["./src/hero/icon_movement_speed.png", "325"],
+                ["./src/hero/icon_turn_rate.png", "0.6"],
+                ["./src/hero/icon_vision.png", "1800 / 800"]
             ]
         }
         document.onload = load_all_skills();

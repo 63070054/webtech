@@ -1,13 +1,13 @@
 <nav>
     <div style="width: 100%; height: 100%; display: flex; flex-direction: row; align-items: center;">
         <a href="index.php" style="width: 200px; min-width: 200px;">
-            <div style="width: 200px; min-width: 200px; height: 50px; min-height: 50px; background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/global/dota2_logo_horiz.png); background-size: contain; background-repeat: no-repeat; background-position: center center; margin-right: 40px;" class="eff-text-glow"></div>
+            <div style="width: 200px; min-width: 200px; height: 50px; min-height: 50px; background-image: url('./src/nav/logo_dota2.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; margin-right: 40px;" class="eff-text-glow"></div>
         </a>
         <div style="margin-left: 50px;flex-grow: 1; height: 100%; display: flex; flex-direction: row; align-items: center; position: relative;">
             <div class="dropdown">
                 <button class="dropbtn nav-text eff-text-glow">
                     เกม
-                    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_over.png">
+                    <img src="./src/nav/arrow_down.png">
                 </button>
 
                 <div class="dropdown-content" style="width: 100px;" id="game">
@@ -38,9 +38,9 @@
                 <a href="#" class="nav-text eff-text-glow" style="font-size: 10px !important;">เข้าสู่ระบบ</a>
                 <div class="dropdown" id="lang">
                     <button class="dropbtn nav-text eff-text-glow" style="font-size: 10px !important;">
-                        <div style="width: 12px; height: 12px; margin-right: 8px; opacity: .8; margin-bottom: 1px; background-size: contain; background-repeat: no-repeat; background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//icons/language.svg);"></div>
+                        <div style="width: 12px; height: 12px; margin-right: 8px; opacity: .8; margin-bottom: 1px; background-size: contain; background-repeat: no-repeat; background-image: url('./src/nav/language.svg');"></div>
                         เลือกภาษา
-                        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_over.png">
+                        <img src="./src/nav/arrow_down.png">
                     </button>
                     <div class="languageselector_LanguageList_1vJep">
 
@@ -80,7 +80,7 @@
             </div>
             <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank">
                 <div class="eff-border-orange eff-up" style="border: 3px solid #ffffff50; padding: 15px 25px; margin: 10px 30px; border-radius: 5px; cursor: pointer; width: fit-content; display: flex; flex-direction: row; justify-content: center; align-items: center; transition-duration: 0.2s;">
-                    <div style="width: 20px; height: 20px; margin-right: 10px; background-size: contain; background-repeat: no-repeat; background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//icons/steam_icon.svg);"></div>
+                    <div style="width: 20px; height: 20px; margin-right: 10px; background-size: contain; background-repeat: no-repeat; background-image: url('./src/nav/logo_steam.svg');"></div>
                     <div style="font-size: 20px;font-weight: 700;letter-spacing: 2px;text-transform: uppercase;color: #fff;">เล่นฟรี</div>
                 </div>
             </a>

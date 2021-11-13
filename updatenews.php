@@ -12,7 +12,7 @@
     ?>
 
     <div class="news-title-main">
-        <div class="all-news-title" style="background-image: url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/3703047/44a06189990aecb48c7c5cad5bf4d6d12ab72f2b.png');width: 100vw;height: 600px;">
+        <div class="all-news-title" style="background-image: url('./src/news/bg_head.png');width: 100vw;height: 600px;">
             <div class="shadow-news" style="background: linear-gradient(rgba(0, 0, 0, 0) 700%,rgba(0, 0, 0, 0.733) 70%,rgb(0, 0, 0) 90%);"></div>
             <div style="width: 100vw;height: 300px;position: absolute;bottom: 0px;z-index: 3;background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.7)), color-stop(100%, black));"></div>
         </div>
@@ -20,7 +20,7 @@
             <div style="font-size: 16px;font-weight: bold;letter-spacing: 2px;background: #ffffff50;color: #fff;padding: 5px 10px;text-transform: uppercase;float: right;position: absolute;right: 0px;top: 0px;">โพสต์โดดเด่น</div>
             <div style="font-size: 18px;color: #ffffff90;text-align: left;text-transform: uppercase;letter-spacing: 2px;margin-bottom: 20px;font-weight: 600;">16 ตุลาคม 2564</div>
             <div style="font-size: 60px;font-weight: 700;margin-bottom: 20px;text-shadow: 0px 0px 10px #000;letter-spacing: 1px;line-height: 110%;color: #e5ded9;text-align: left;">This Fall Marci Joins the Fight</div>
-            <a href="#" class="learn-more">อ่านเพิ่มเติม<img class="learn-more-arrow" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_left.png"></a>
+            <a href="#" class="learn-more">อ่านเพิ่มเติม<img class="learn-more-arrow" src="./src/index/arrow_left.png"></a>
         </div>
     </div>
     <div class="line-news-update">
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//blog/bg_repeater.jpg);width: 100vw;height:auto;">
+    <div style="background-image: url('./src/news/bg_main.jpg');width: 100vw;height:auto;">
         <div class="big-boxnew" style="padding-bottom: 50px;">
             <div class="boxnew">
                 <div class="date-news">12 กันยายน 2564</div>
