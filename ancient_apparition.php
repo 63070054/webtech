@@ -16,7 +16,7 @@
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
 
             <!-- change link hero here [#]-->
-            <a class="small-arrow" href="alchemist.php" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="alchemist.php" style="background-image: url('./src/hero/arrow_solid_left.png');"></a>
             <a class="small-center" href="hero.php">
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
@@ -25,21 +25,21 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="anti_mage.php" style="transform: scaleX(-1); background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="anti_mage.php" style="transform: scaleX(-1); background-image: url('./src/hero/arrow_solid_left.png');"></a>
         </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero" style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0" style="min-height:100%; transform:translate(0px, 16pc) scale(1.93, 1.93);">
 
                 <!-- change vdo hero here -->
-                <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ancient_apparition.webm">
+                <source type="video/webm" src="./src/hero/ancient_apparition/video_aa.webm">
 
             </video>
         </div>
         <div class="title-hero">
             <div style="display: flex; flex-direction: row; align-items: center;">
                 <!-- change white font color hero here -->
-                <img style="width: 32px; height: 32px;" src="./src/icon/INTELLIGENCE.png">
+                <img style="width: 32px; height: 32px;" src="./src/hero/icon_int_colorful.png">
                 <div style="margin-left: 6px; color: #fff; text-transform: uppercase; letter-spacing: 2px; font-weight: 100; font-size: 24px;">
                     INTELLIGENCE
                 </div>
@@ -63,7 +63,7 @@
                 <div style="display: flex; flex-direction: row; align-items: center; margin-top: 8px;">
 
                     <!-- change pic icon [melee or ranged] and  white font color here -->
-                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/ranged.svg">
+                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/hero/icon_ranged.svg">
                     <div style="color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 15px; font-weight: bold;">ระยะไกล</div>
 
                 </div>
@@ -79,7 +79,7 @@
         </div>
         <div class="line-name">
             <!-- change pic icon type hero and  white font color here -->
-            <img style="width: 22px;height: 22px;" src="./src/icon/intelligence.png">
+            <img style="width: 22px;height: 22px;" src="./src/hero/icon_int_colorful.png">
             <!-- change white font text skill here  -->
             <div class="line-name-hero">
                 ANCIENT APPARITION
@@ -155,18 +155,17 @@
                     <div style="width: 100%; padding-top: 56.25%; height: 0px; position: relative; box-shadow: 3px 3px 8px #000;">
                         <div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2;"></div>
                         <video id="video-main" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" autoplay="" preload="auto" loop="" playsinline="" muted poster="">
-                            <source id="video-type-webm" type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm">
-                            <source id="video-type-mp4" type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.mp4">
+                            <source id="video-type-mp4" type="video/mp4" src="./src/hero/ancient_apparition/skill/video_skill1.mp4">
                         </video>
                     </div>
                     <!-- bar skill -->
                     <div style="width: 100%; margin-top: -15px; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; position: relative; z-index: 3;">
-                        <div class="icon-skill" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_cold_feet.png');" onclick="changeSkillsDetail(0, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_vortex.png');" onclick="changeSkillsDetail(1, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_chilling_touch.png');" onclick="changeSkillsDetail(2, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_blast.png');" onclick="changeSkillsDetail(3, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/904017265538789416/unknown.png');" onclick="changeSkillsDetail(4, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/904017339882807336/unknown.png');" onclick="changeSkillsDetail(5, this)"></div>
+                        <div class="icon-skill" style="background-image: url('./src/hero/ancient_apparition/skill/skill1.png');" onclick="changeSkillsDetail(0, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/ancient_apparition/skill/skill2.png');" onclick="changeSkillsDetail(1, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/ancient_apparition/skill/skill3.png');" onclick="changeSkillsDetail(2, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/ancient_apparition/skill/skill4.png');" onclick="changeSkillsDetail(3, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/ancient_apparition/skill/skill5.png');" onclick="changeSkillsDetail(4, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/ancient_apparition/skill/skill6.png');" onclick="changeSkillsDetail(5, this)"></div>
                     </div>
                 </div>
                 <!-- PART Left -->
@@ -174,7 +173,7 @@
                     <div style="width: 100%; height: 100%; box-sizing: border-box;">
                         <!-- zone head -->
                         <div style="padding: 8px; background-color: #121212; display: flex; flex-direction: row;">
-                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_cold_feet.png" id="image-skills">
+                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="./src/hero/ancient_apparition/skill/skill1.png" id="image-skills">
                             <div style="flex-grow: 1; min-height: 0; display: flex; flex-direction: column; margin-top: 5px; margin-left: 8px; margin-right: 12px; align-items: flex-start;">
                                 <!-- title -->
                                 <div style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;" id="title-skills">
@@ -227,7 +226,7 @@
                             <!-- ver delay skill -->
                             <div style="width: 100%; margin-top: 12px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="cooldown">
-                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png');"></div>
+                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('./src/hero/cooldown.png');"></div>
                                     <div style="margin-left: 8px; color: #fff;">12.0 / 11.0 / 10.0 / 9.0</div>
                                 </div>
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="mana-cost">
@@ -247,7 +246,7 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="alchemist.php" style="background-image: url(./src/hero/abaddon/bar.png);">
+            <div class="bar-side" href="alchemist.php" style="background-image: url(./src/hero/bar.png);">
                 <a href="alchemist.php">
                     <img class="bar-hero" style="left: 0px;" src="./src/hero/ancient_apparition/back.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -266,7 +265,7 @@
                 </a>
             </div>
             <!-- change link here -->
-            <div class="bar-center" style="height: auto;" href="hero.php">
+            <div class="bar-center" href="hero.php">
                 <a href="hero.php">
                     <div class="bar-box">
                         <div class="bar-grid"></div>
@@ -281,7 +280,7 @@
 
             </div>
             <!-- change link next hero here -->
-            <div href="anti_mage.php" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">
+            <div href="anti_mage.php" class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
                 <a href="anti_mage.php">
                     <img class="bar-hero" style="right: 0px;" src="./src/hero/ancient_apparition/next.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -306,10 +305,9 @@
     <script>
         var skill_json = {
             [0]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.mp4",
+                "video-type-mp4": "./src/hero/ancient_apparition/skill/video_skill1.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_cold_feet.png",
+                "image-skills": "./src/hero/ancient_apparition/skill/skill1.png",
                 "title-skills": 'COLD FEET',
                 "description-title-skills": 'สร้างคำสาปน้ำแข็งใส่ศัตรูเป้าหมายที่สร้างความเสียหายอย่าง ต่อเนื่อง แต่สามารถถูกยกเลิกได้เมื่อเป้าหมายเคลื่อนที่ออกจาก จุดแรกที่เกิดการใช้สกิลนี้ขึ้น ถ้าศัตรูยังคงอยู่ในระยะที่กำหนด เป็นระยะเวลา 4 วินาทีจะถูกแช่แข็งอยู่กับที่และสตัน',
                 "col-2-1": [
@@ -332,10 +330,9 @@
                 "description-skills": "การปรากฏตัวของ Kaldr ดึงดูดให้ผู้คนที่อยู่รอบตัวเขาให้ถูกดูดเข้าไปในความว่างเปล่าอันหนาวเหน็บเพื่อที่จะขังพวกนั้นไว้ในคุกอันเย็นเยือกชั่วนิรันดร์"
             },
             [1]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.mp4",
+                "video-type-mp4": "./src/hero/ancient_apparition/skill/video_skill2.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_vortex.png",
+                "image-skills": "./src/hero/ancient_apparition/skill/skill2.png",
                 "title-skills": "ICE VORTEX",
                 "description-title-skills": "การปรากฏตัวของ Kaldr ดึงดูดให้ผู้คนที่อยู่รอบตัวเขาให้ถูกดูดเข้าไปในความว่างเปล่าอันหนาวเหน็บเพื่อที่จะขังพวกนั้นไว้ในคุกอันเย็นเยือกชั่วนิรันดร์",
                 "col-2-1": [
@@ -356,10 +353,9 @@
                 "description-skills": "ความเยือกเย็น ลมหนาวที่กรัดกร่อนซึ่งอยู่ภายใต้อำนาจของ Kaldr แผ่ซ่านไอเย็นยะเยือกไปทั่วลานแห่งการต่อสู้"
             },
             [2]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.mp4",
+                "video-type-mp4": "./src/hero/ancient_apparition/skill/video_skill3.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_chilling_touch.png",
+                "image-skills": "./src/hero/ancient_apparition/skill/skill3.png",
                 "title-skills": "CHILLING TOUCH",
                 "description-title-skills": "เพิ่มพลังการโจมตีของ Ancient Apparition ด้วยระยะการโจมตีที่เพิ่มขึ้น ความเสียหายเวทมนตร์อันแสนรุนแรง และลดความเร็วในการเคลื่อนที่",
                 "col-2-1": [
@@ -382,10 +378,9 @@
                 "description-skills": "ความรู้อันไม่สิ้นสุดของ Ancient Apparition นั้นนำพาอาคมแห่งความเยือกเย็นมาสู่การโจมตีของเขา"
             },
             [3]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.mp4",
+                "video-type-mp4": "./src/hero/ancient_apparition/skill/video_skill4.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_blast.png",
+                "image-skills": "./src/hero/ancient_apparition/skill/skill4.png",
                 "title-skills": "ICE BLAST",
                 "description-title-skills": "ส่งตัวนำทางไปยังตำแหน่งใดก็ได้ในสนามรบ ซึ่งจะต้องกดเรียก ใช้งานอีกครั้งเพื่อระบุพื้นที่เป้าหมายที่จะถูกระเบิดโดยระเบิด น้ำแข็ง ยิ่งตัวนำทางเคลื่อนที่ไกลจะยิ่งทำให้การระเบิดใหญ่มาก ขึ้น ศัตรูที่โดนระเบิดหรือสัมผัสระเบิดน้ำแข็งที่กำลังเดินทาง จะได้รับสถานะ Frostbite ทำให้ได้รับความเสียหายและไม่ สามารถฟื้นฟูพลังชีวิตได้ ถ้าพลังชีวิตของยูนิตภายใต้สถานะ Frostbite ลดลงจนต่ำกว่าเปอร์เซ็นต์ที่กำหนด ยูนิตนั้นจะ แตกสลายและถูกสังหารทันที",
                 "col-2-1": [
@@ -407,10 +402,9 @@
                 "description-skills": "พายุน้ำแข็งจากอดีตกาลได้พัดผ่านแขนที่เต็มไปด้วยน้ำแข็งของ Kaldr พุ่งชนเข้าใส่โลกจนทำให้ผู้อยู่อาศัยในระแวกนั้นกลายเป็นดั่งอนุสาวรีย์แห่งพลังอมตะของเขา"
             },
             [4]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_aghanims_shard.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_aghanims_shard.mp4",
+                "video-type-mp4": "./src/hero/ancient_apparition/skill/video_skill5.mp4",
                 "have-shard-or-agh": [1, "SHARD มอบสกิลใหม่"],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_vortex.png",
+                "image-skills": "./src/hero/ancient_apparition/skill/skill5.png",
                 "title-skills": "ICE VORTEX",
                 "description-title-skills": "ทำให้ Ice Vortex สร้างความเสียหาย 40 หน่วยต่อวินาที และลดความเร็วในการโจมตี 20 หน่วย",
                 "col-2-1": [
@@ -430,10 +424,9 @@
                 "description-skills": ""
             },
             [5]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_aghanims_scepter.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_aghanims_scepter.mp4",
+                "video-type-mp4": "./src/hero/ancient_apparition/skill/video_skill6.mp4",
                 "have-shard-or-agh": [1, "SCEPTER"],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_chilling_touch.png",
+                "image-skills": "./src/hero/ancient_apparition/skill/skill6.png",
                 "title-skills": "CHILLING TOUCH",
                 "description-title-skills": "ทำให้ไม่มีคูลดาวน์และลดมานาที่ใช้ครึ่งหนึ่ง",
                 "col-2-1": [
@@ -457,41 +450,33 @@
         }
         var skills = {
             [0]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_cold_feet.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm",
+                "img": "./src/hero/ancient_apparition/skill/skill1.png",
+                "mp4": "./src/hero/ancient_apparition/skill/video_skill1.mp4",
                 "name": "COLD FEET",
                 "desc": "การปรากฏตัวของ Kaldr ดึงดูดให้ผู้คนที่อยู่รอบตัวเขาให้ถูกดูดเข้าไปในความว่างเปล่าอันหนาวเหน็บเพื่อที่จะขังพวกนั้นไว้ในคุกอันเย็นเยือกชั่วนิรันดร์"
             },
             [1]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_vortex.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.mp4",
+                "img": "./src/hero/ancient_apparition/skill/skill2.png",
+                "mp4": "./src/hero/ancient_apparition/skill/video_skill2.mp4",
                 "name": "ICE VORTEX",
                 "desc": "สร้างคำสาปน้ำแข็งใส่ศัตรูเป้าหมายที่สร้างความเสียหายอย่าง ต่อเนื่อง แต่สามารถถูกยกเลิกได้เมื่อเป้าหมายเคลื่อนที่ออกจาก จุดแรกที่เกิดการใช้สกิลนี้ขึ้น ถ้าศัตรูยังคงอยู่ในระยะที่กำหนด เป็นระยะเวลา 4 วินาทีจะถูกแช่แข็งอยู่กับที่และสตัน"
             },
             [2]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_chilling_touch.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.mp4",
+                "img": "./src/hero/ancient_apparition/skill/skill3.png",
+                "mp4": "./src/hero/ancient_apparition/skill/video_skill3.mp4",
                 "name": " CHILLING TOUCH ",
                 "desc": "ความรู้ อั นไม่ สิ้ นสุดของ Ancient Apparition นั้ นนำพาอาคมแห่ งความเยือกเย็ นมาสู่ การโจมตีของเขา "
             },
             [3]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_blast.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.mp4",
+                "img": "./src/hero/ancient_apparition/skill/skill4.png",
+                "mp4": "./src/hero/ancient_apparition/skill/video_skill4.mp4",
                 "name": "ICE BLAST",
                 "desc": "ส่งตัวนำทางไปยังตำแหน่งใดก็ได้ในสนามรบ ซึ่งจะต้องกดเรียก ใช้งานอีกครั้งเพื่อระบุพื้นที่เป้าหมายที่จะถูกระเบิดโดยระเบิด น้ำแข็ง ยิ่งตัวนำทางเคลื่อนที่ไกลจะยิ่งทำให้การระเบิดใหญ่มาก ขึ้น ศัตรูที่โดนระเบิดหรือสัมผัสระเบิดน้ำแข็งที่กำลังเดินทาง จะได้รับสถานะ Frostbite ทำให้ได้รับความเสียหายและไม่ สามารถฟื้นฟูพลังชีวิตได้ ถ้าพลังชีวิตของยูนิตภายใต้สถานะ Frostbite ลดลงจนต่ำกว่าเปอร์เซ็นต์ที่กำหนด ยูนิตนั้นจะ แตกสลายและถูกสังหารทันที"
             }
         }
 
         var status_hero = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ancient_apparition.png": [
+            "./src/hero/ancient_apparition.png": [
                 ["600", "2.3", "HP"],
                 ["351", "1.1", "MANA"]
             ]

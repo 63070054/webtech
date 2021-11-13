@@ -16,7 +16,7 @@
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
 
             <!-- change link hero here [#]-->
-            <a class="small-arrow" href="abaddon.php" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="abaddon.php" style="background-image: url('./src/hero/arrow_solid_left.png');"></a>
             <a class="small-center" href="hero.php">
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
@@ -25,21 +25,21 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="ancient_apparition.php" style="transform: scaleX(-1); background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="ancient_apparition.php" style="transform: scaleX(-1); background-image: url('./src/hero/arrow_solid_left.png');"></a>
         </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero" style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0" style="min-height:100%; transform:translate(0px, 16pc) scale(1.93, 1.93);">
 
                 <!-- change vdo hero here -->
-                <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/alchemist.webm">
+                <source type="video/webm" src="./src/hero/alchemist/video_alchemist.webm">
 
             </video>
         </div>
         <div class="title-hero">
             <div style="display: flex; flex-direction: row; align-items: center;">
                 <!-- change white font color hero here -->
-                <img style="width: 32px; height: 32px;" src="./src/icon/strength.png">
+                <img style="width: 32px; height: 32px;" src="./src/hero/icon_str_colorful.png">
                 <div style="margin-left: 6px; color: #fff; text-transform: uppercase; letter-spacing: 2px; font-weight: 100; font-size: 24px;">
                     STRENGTH
                 </div>
@@ -68,7 +68,7 @@
                 <div style="display: flex; flex-direction: row; align-items: center; margin-top: 8px;">
 
                     <!-- change pic icon [melee or ranged] and  white font color here -->
-                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/melee.svg">
+                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/hero/icon_melee.svg">
                     <div style="color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 15px; font-weight: bold;">ระยะประชิด</div>
 
                 </div>
@@ -84,7 +84,7 @@
         </div>
         <div class="line-name">
             <!-- change pic icon type hero and  white font color here -->
-            <img style="width: 22px;height: 22px;" src="./src/icon/strength.png">
+            <img style="width: 22px;height: 22px;" src="./src/hero/icon_str_colorful.png">
             <!-- change white font text skill here  -->
             <div class="line-name-hero">
                 ALCHEMIST
@@ -160,17 +160,17 @@
                     <div style="width: 100%; padding-top: 56.25%; height: 0px; position: relative; box-shadow: 3px 3px 8px #000;">
                         <div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2;"></div>
                         <video id="video-main" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" autoplay="" preload="auto" loop="" playsinline="" muted poster="">
-                            <source id="video-type-mp4" type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.mp4">
+                            <source id="video-type-mp4" type="video/mp4" src="./src/hero/alchemist/skill/video_skill1.mp4">
                         </video>
                     </div>
                     <!-- bar skill -->
                     <div style="width: 100%; margin-top: -15px; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; position: relative; z-index: 3;">
-                        <div class="icon-skill" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png');" onclick="changeSkillsDetail(0, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_unstable_concoction.png');" onclick="changeSkillsDetail(1, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_goblins_greed.png');" onclick="changeSkillsDetail(2, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png');" onclick="changeSkillsDetail(3, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/903978604399054858/unknown.png');" onclick="changeSkillsDetail(4, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/903978647084494878/unknown.png');" onclick="changeSkillsDetail(5, this)"></div>
+                        <div class="icon-skill" style="background-image: url('./src/hero/alchemist/skill/skill1.png');" onclick="changeSkillsDetail(0, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/alchemist/skill/skill2.png');" onclick="changeSkillsDetail(1, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/alchemist/skill/skill3.png');" onclick="changeSkillsDetail(2, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/alchemist/skill/skill4.png');" onclick="changeSkillsDetail(3, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/alchemist/skill/skill5.png');" onclick="changeSkillsDetail(4, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/alchemist/skill/skill6.png');" onclick="changeSkillsDetail(5, this)"></div>
                     </div>
                 </div>
                 <!-- PART Left -->
@@ -178,7 +178,7 @@
                     <div style="width: 100%; height: 100%; box-sizing: border-box;">
                         <!-- zone head -->
                         <div style="padding: 8px; background-color: #121212; display: flex; flex-direction: row;">
-                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png" id="image-skills">
+                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="./src/hero/alchemist/skill/skill1.png" id="image-skills">
                             <div style="flex-grow: 1; min-height: 0; display: flex; flex-direction: column; margin-top: 5px; margin-left: 8px; margin-right: 12px; align-items: flex-start;">
                                 <!-- title -->
                                 <div style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;" id="title-skills">
@@ -225,7 +225,7 @@
                             <!-- ver delay skill -->
                             <div style="width: 100%; margin-top: 12px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="cooldown">
-                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png');"></div>
+                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('./src/hero/cooldown.png');"></div>
                                     <div style="margin-left: 8px; color: #fff;">22.0</div>
                                 </div>
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="mana-cost">
@@ -245,7 +245,7 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="arc_warden.php" style="background-image: url(./src/hero/abaddon/bar.png);">
+            <div class="bar-side" href="arc_warden.php" style="background-image: url(./src/hero/bar.png);">
                 <a href="arc_warden.php">
                     <img class="bar-hero" style="left: 0px;" src="./src/hero/alchemist/back.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -264,7 +264,7 @@
                 </a>
             </div>
             <!-- change link here -->
-            <div class="bar-center" style="height: auto;" href="hero.php">
+            <div class="bar-center" href="hero.php">
                 <a href="hero.php">
                     <div class="bar-box">
                         <div class="bar-grid"></div>
@@ -279,7 +279,7 @@
 
             </div>
             <!-- change link next hero here -->
-            <div href="alchemist.php" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">
+            <div href="alchemist.php" class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
                 <a href="ancient_apparition.php">
                     <img class="bar-hero" style="right: 0px;" src="./src/hero/alchemist/next.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -304,9 +304,9 @@
     <script>
         var skill_json = {
             [0]: {
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.mp4",
+                "video-type-mp4": "./src/hero/alchemist/skill/video_skill1.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png",
+                "image-skills": "./src/hero/alchemist/skill/skill1.png",
                 "title-skills": 'ACID SPRAY',
                 "description-title-skills": 'พ่นน้ำกรดความดันสูงลงบนพื้นที่เป้าหมาย ยูนิตศัตรูที่เข้าสู่พื้นที่ปนเปี้อนนี้จะได้รับความเสียหายต่อวินาที และถูกลดเกราะป้องกันลง',
                 "col-2-1": [
@@ -327,9 +327,9 @@
                 "description-skills": "ไอระเหยอันน่าพิศวงจากบ่อน้ำพุแห่ง Font of Avernus ได้หลอมรวมเป็นลมหายใจของ Abaddon ผู้ที่ปลดปล่อยมันได้ตามใจหวัง"
             },
             [1]: {
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.mp4",
+                "video-type-mp4": "./src/hero/alchemist/skill/video_skill2.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_unstable_concoction.png",
+                "image-skills": "./src/hero/alchemist/skill/skill2.png",
                 "title-skills": "UNSTABLE CONCOCTION",
                 "description-title-skills": "Alchemist ผสมน้ำยาที่มีส่วนประกอบไม่แน่นอน ซึ่งเขาสามารถโยนไปยังฮีโร่ฝ่ายศัตรูเพื่อสตันและสร้าง ความเสียหายรอบพื้นที่ที่ระเบิด ยิ่งใช้เวลาผสมนานเท่าไร ความเสียหายและระยะเวลาการสตันก็จะเพิ่มมากขึ้นเท่านั้น หลังจาก 5.0 วินาที น้ำยาจะมีความสามารถในการสร้าง ความเสียหายและเวลาสตันสูงสุด แต่หากไม่โยนภายใน 5.5 วินาที น้ำยาจะระเบิดและส่งผลทั้งหมดแก่ Alchemist เอง!",
                 "col-2-1": [
@@ -350,9 +350,9 @@
                 "description-skills": "จากความผิดพลาดในการพยายามเปลี่ยนภูเขาให้เป็นทองกลับกลายเป็นดี เมื่อสารละลายที่ได้มานั้นมีประสิทธิภาพในการทำลายได้อย่างดีเยี่ยม"
             },
             [2]: {
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.mp4",
+                "video-type-mp4": "./src/hero/alchemist/skill/video_skill3.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_goblins_greed.png",
+                "image-skills": "./src/hero/alchemist/skill/skill3.png",
                 "title-skills": "GREEVIL'S GREED",
                 "description-title-skills": "Alchemist สังเคราะห์โกลด์เพิ่มจากศัตรูและรูน Bounty โดยในแต่ละการสังหาร Alchemist จะได้รับเงินโบนัสขั้นต่ำ รวมกับเงินโบนัสเพิ่มเติม หาก Alchemist สังหารยูนิตถัดไป แล้วได้รับเงินภายในช่วง 36 วินาที เงินโบนัสเพิ่มเติมจะ ถูกเพิ่มเข้าไปในเงินโบนัสทั้งหมดอีกหนึ่งชุด ทำให้เงินโบนัส รวมทั้งหมดเพิ่มมากขึ้น นอกจากนี้ รูน Bounty จะให้เงิน แก่เขามากขึ้น",
                 "col-2-1": [
@@ -376,9 +376,9 @@
                 "description-skills": "ถึงมันจะไม่ใช่ภูเขา แต่ Razzil ก็ยังชำนาญในด้านการแปรสภาพสิ่งที่เล็กกว่านั้นให้เป็นทองเพื่อเติมเต็มกระเป๋าตังค์ของเขา"
             },
             [3]: {
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.mp4",
+                "video-type-mp4": "./src/hero/alchemist/skill/video_skill4.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png",
+                "image-skills": "./src/hero/alchemist/skill/skill4.png",
                 "title-skills": "CHEMICAL RAGE",
                 "description-title-skills": "Alchemist ให้ยาอันทำให้คลุ้มคลั่งแก่ Orge ของเขา ลดคูลดาวน์การโจมตีพื้นฐาน เพิ่มความเร็วในการเคลื่อนที่ และเพิ่มอัตราฟื้นฟูพลังชีวิต <br><br>ชนิดการลบล้าง: การลบล้างพื้นฐาน",
                 "col-2-1": [
@@ -399,9 +399,9 @@
                 "description-skills": "เหล้าที่ Razzil เคยให้ Ogre ดื่มตอนที่พวกเขาแหกคุกได้กลายเป็นยาที่มีประโยชน์ท่ามกลางสงคราม"
             },
             [4]: {
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_shard.mp4",
+                "video-type-mp4": "./src/hero/alchemist/skill/video_skill5.mp4",
                 "have-shard-or-agh": [1, "SHARD มอบสกิลใหม่"],
-                "image-skills": "https://media.discordapp.net/attachments/798049559405396011/903978604399054858/unknown.png",
+                "image-skills": "./src/hero/alchemist/skill/skill5.png",
                 "title-skills": "BERSERK POTION",
                 "description-title-skills": "Alchemist โยนน้ำยาใส่เพื่อนร่วมทีม ทำการลบล้างพื้นฐาน และมอบความเร็วในการโจมตี 50 หน่วย ความเร็วในการเคลื่อนที่ 30 หน่วย และอัตราฟื้นฟูพลังชีวิต 40 หน่วย <br><br>มีผล 10.0 วินาที",
                 "col-2-1": [
@@ -423,9 +423,9 @@
                 "description-skills": ""
             },
             [5]: {
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_scepter.mp4",
+                "video-type-mp4": "./src/hero/alchemist/skill/video_skill6.mp4",
                 "have-shard-or-agh": [1, "การอัปเกรดสกิลโดย SCEPTER"],
-                "image-skills": "https://media.discordapp.net/attachments/798049559405396011/903978647084494878/unknown.png",
+                "image-skills": "./src/hero/alchemist/skill/skill6.png",
                 "title-skills": "CHEMICAL RAGE",
                 "description-title-skills": "Alchemist หลอม Aghanim's Scepter เพื่อมอบการอัปเกรด Aghanim's Scepter ทั้งหมดให้แก่เพื่อนร่วมทีม เมื่อคุณมี Scepter เป็นของคุณเอง คุณจะได้โบนัสพลังโจมตีและเพิ่มความเสียหายสกิลสำหรับทุก ๆ Scepter ที่มอบให้เพื่อน",
                 "col-2-1": [
@@ -449,26 +449,26 @@
         }
         var skills = {
             [0]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.mp4",
+                "img": "./src/hero/alchemist/skill/skill1.png",
+                "mp4": "./src/hero/alchemist/skill/video_skill1.mp4",
                 "name": "ACID SPRAY",
                 "desc": "พ่นน้ำกรดความดันสูงลงบนพื้นที่เป้าหมาย ยูนิตศัตรูที่เข้าสู่พื้นที่ปนเปี้อนนี้จะได้รับความเสียหายต่อวินาที และถูกลดเกราะป้องกันลง"
             },
             [1]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_unstable_concoction.png",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.mp4",
+                "img": "./src/hero/alchemist/skill/skill2.png",
+                "mp4": "./src/hero/alchemist/skill/video_skill2.mp4",
                 "name": "UNSTABLE CONCOCTION",
                 "desc": "Alchemist ผสมน้ำยาที่มีส่วนประกอบไม่แน่นอน ซึ่งเขาสามารถโยนไปยังฮีโร่ฝ่ายศัตรูเพื่อสตันและสร้าง ความเสียหายรอบพื้นที่ที่ระเบิด ยิ่งใช้เวลาผสมนานเท่าไร ความเสียหายและระยะเวลาการสตันก็จะเพิ่มมากขึ้นเท่านั้น หลังจาก 5.0 วินาที น้ำยาจะมีความสามารถในการสร้าง ความเสียหายและเวลาสตันสูงสุด แต่หากไม่โยนภายใน 5.5 วินาที น้ำยาจะระเบิดและส่งผลทั้งหมดแก่ Alchemist เอง!"
             },
             [2]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_goblins_greed.png",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.mp4",
+                "img": "./src/hero/alchemist/skill/skill3.png",
+                "mp4": "./src/hero/alchemist/skill/video_skill3.mp4",
                 "name": "Curse of Avernus",
                 "desc": "Alchemist สังเคราะห์โกลด์เพิ่มจากศัตรูและรูน Bounty โดยในแต่ละการสังหาร Alchemist จะได้รับเงินโบนัสขั้นต่ำ รวมกับเงินโบนัสเพิ่มเติม หาก Alchemist สังหารยูนิตถัดไป แล้วได้รับเงินภายในช่วง 36 วินาที เงินโบนัสเพิ่มเติมจะ ถูกเพิ่มเข้าไปในเงินโบนัสทั้งหมดอีกหนึ่งชุด ทำให้เงินโบนัส รวมทั้งหมดเพิ่มมากขึ้น นอกจากนี้ รูน Bounty จะให้เงิน แก่เขามากขึ้น"
             },
             [3]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.mp4",
+                "img": "./src/hero/alchemist/skill/skill4.png",
+                "mp4": "./src/hero/alchemist/skill/video_skill4.mp4",
                 "name": "CHEMICAL RAGE",
                 "desc": "Alchemist ให้ยาอันทำให้คลุ้มคลั่งแก่ Orge ของเขา ลดคูลดาวน์การโจมตีพื้นฐาน เพิ่มความเร็วในการเคลื่อนที่ และเพิ่มอัตราฟื้นฟูพลังชีวิต <br><br>ชนิดการลบล้าง: การลบล้างพื้นฐาน"
             }

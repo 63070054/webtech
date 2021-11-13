@@ -16,7 +16,7 @@
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
 
             <!-- change link hero here [#]-->
-            <a class="small-arrow" href="#" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="#" style="background-image: url('./src/hero/arrow_solid_left.png');"></a>
             <a class="small-center" href="hero.php">
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
@@ -25,21 +25,21 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="alchemist.php" style="transform: scaleX(-1); background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="alchemist.php" style="transform: scaleX(-1); background-image: url('./src/hero/arrow_solid_left.png');"></a>
         </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero" style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0" style="min-height:100%; transform:translate(0px, 16pc) scale(1.93, 1.93);">
 
                 <!-- change vdo hero here -->
-                <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.webm">
+                <source type="video/webm" src="./src/hero/arc_warden/video_arcwarden.webm">
 
             </video>
         </div>
         <div class=" title-hero">
             <div style="display: flex; flex-direction: row; align-items: center;">
                 <!-- change white font color hero here -->
-                <img style="width: 32px; height: 32px;" src="./src/icon/AGILITY.png">
+                <img style="width: 32px; height: 32px;" src="./src/hero/icon_agi_colorful.png">
                 <div style="margin-left: 6px; color: #fff; text-transform: uppercase; letter-spacing: 2px; font-weight: 100; font-size: 24px;">
                     AGILITY
                 </div>
@@ -65,7 +65,7 @@
                 <div style="display: flex; flex-direction: row; align-items: center; margin-top: 8px;">
 
                     <!-- change pic icon [melee or ranged] and  white font color here -->
-                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/ranged.svg">
+                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/hero/icon_ranged.svg">
                     <div style="color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 15px; font-weight: bold;">ระยะไกล
                     </div>
 
@@ -82,7 +82,7 @@
         </div>
         <div class="line-name">
             <!-- change pic icon type hero and  white font color here -->
-            <img style="width: 22px;height: 22px;" src="./src/icon/AGILITY.png">
+            <img style="width: 22px;height: 22px;" src="./src/hero/icon_agi_colorful.png">
             <!-- change white font text skill here  -->
             <div class="line-name-hero">
                 ARC WARDEN
@@ -159,18 +159,17 @@
                     <div style="width: 100%; padding-top: 56.25%; height: 0px; position: relative; box-shadow: 3px 3px 8px #000;">
                         <div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2;"></div>
                         <video id="video-main" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" autoplay="" preload="auto" loop="" playsinline="" muted poster="">
-                            <source id="video-type-webm" type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_flux.webm">
-                            <source id="video-type-mp4" type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_flux.mp4">
+                            <source id="video-type-mp4" type="video/mp4" src="./src/hero/arc_warden/skill/video_skill1.mp4">
                         </video>
                     </div>
                     <!-- bar skill -->
                     <div style="width: 100%; margin-top: -15px; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; position: relative; z-index: 3;">
-                        <div class="icon-skill" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_flux.png');" onclick="changeSkillsDetail(0, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_magnetic_field.png');" onclick="changeSkillsDetail(1, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_spark_wraith.png');" onclick="changeSkillsDetail(2, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_tempest_double.png');" onclick="changeSkillsDetail(3, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/904253926352769044/unknown.png');" onclick="changeSkillsDetail(4, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/904253969415667732/unknown.png');" onclick="changeSkillsDetail(5, this)"></div>
+                        <div class="icon-skill" style="background-image: url('./src/hero/arc_warden/skill/skill1.png');" onclick="changeSkillsDetail(0, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/arc_warden/skill/skill2.png');" onclick="changeSkillsDetail(1, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/arc_warden/skill/skill3.png');" onclick="changeSkillsDetail(2, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/arc_warden/skill/skill4.png');" onclick="changeSkillsDetail(3, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/arc_warden/skill/skill5.png');" onclick="changeSkillsDetail(4, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/arc_warden/skill/skill6.png');" onclick="changeSkillsDetail(5, this)"></div>
                     </div>
                 </div>
                 <!-- PART Left -->
@@ -178,7 +177,7 @@
                     <div style="width: 100%; height: 100%; box-sizing: border-box;">
                         <!-- zone head -->
                         <div style="padding: 8px; background-color: #121212; display: flex; flex-direction: row;">
-                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_flux.png" id="image-skills">
+                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="./src/hero/arc_warden/skill/skill1.png" id="image-skills">
                             <div style="flex-grow: 1; min-height: 0; display: flex; flex-direction: column; margin-top: 5px; margin-left: 8px; margin-right: 12px; align-items: flex-start;">
                                 <!-- title -->
                                 <div style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;" id="title-skills">
@@ -238,7 +237,7 @@
                             <!-- ver delay skill -->
                             <div style="width: 100%; margin-top: 12px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
                                 <div style="display: flex; flex-direction: row; align-items: center;" id="cooldown">
-                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/cooldown.png');"></div>
+                                    <div style="width: 16px; height: 16px; border-radius: 3px; background-size: cover; background-repeat: no-repeat; background-image: url('./src/hero/cooldown.png');"></div>
                                     <div style="margin-left: 8px; color: #fff;">16.0
                                     </div>
                                 </div>
@@ -260,7 +259,7 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="anti_mage.php" style="background-image: url(./src/hero/abaddon/bar.png);">
+            <div class="bar-side" href="anti_mage.php" style="background-image: url(./src/hero/bar.png);">
                 <a href="anti_mage.php">
                     <img class="bar-hero" style="left: 0px;" src="./src/hero/arc_warden/back.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -279,7 +278,7 @@
                 </a>
             </div>
             <!-- change link here -->
-            <div class="bar-center" style="height: auto;" href="hero.php">
+            <div class="bar-center" href="hero.php">
                 <a href="hero.php">
                     <div class="bar-box">
                         <div class="bar-grid"></div>
@@ -294,7 +293,7 @@
 
             </div>
             <!-- change link next hero here -->
-            <div href="abaddon.php" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">
+            <div href="abaddon.php" class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
                 <a href="abaddon.php">
                     <img class="bar-hero" style="right: 0px;" src="./src/hero/arc_warden/next.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -319,10 +318,9 @@
     <script>
         var skill_json = {
             [0]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_flux.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_flux.mp4",
+                "video-type-mp4": "./src/hero/arc_warden/skill/video_skill1.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_flux.png",
+                "image-skills": "./src/hero/arc_warden/skill/skill1.png",
                 "title-skills": 'FLUX',
                 "description-title-skills": 'ฉีดยูนิตศัตรูตัวเดียวด้วยพลังงานผันผวนและระเหย ลดความเร็ว ในการเคลื่อนที่และสร้างความเสียหายต่อเนื่องกับเป้าหมาย ผลของสกิลจะไม่ทำงานหากมียูนิตศัตรูตัวอื่นอยู่ใกล้กับเป้าหมาย',
                 "col-2-1": [
@@ -346,10 +344,9 @@
                 "description-skills": "ชิ้นส่วนเล็ก ๆ ของพลังงานที่ถูกจองจำไว้ใน Ancient"
             },
             [1]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_magnetic_field.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_magnetic_field.mp4",
+                "video-type-mp4": "./src/hero/arc_warden/skill/video_skill2.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_magnetic_field.png",
+                "image-skills": "./src/hero/arc_warden/skill/skill2.png",
                 "title-skills": "MAGNETIC FIELD",
                 "description-title-skills": "สร้างสนามพลังงานแม่เหล็กวงกลมที่จะป้องกันและเพิ่มความเร็ว ในการโจมตีให้แก่ฮีโร่และสิ่งก่อสร้างฝ่ายเดียวกันที่อยู่ในพื้นที่ โดยทำให้หลบหลีกการโจมตีทุกอย่างจากภายนอกสนามพลังงานได้",
                 "col-2-1": [
@@ -369,10 +366,9 @@
                 "description-skills": "กาลและอวกาศเป็นเพียงเรื่องเล็กน้อยสำหรับผู้มีอายุอย่าง Zet"
             },
             [2]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.mp4",
+                "video-type-mp4": "./src/hero/arc_warden/skill/video_skill3.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_spark_wraith.png",
+                "image-skills": "./src/hero/arc_warden/skill/skill3.png",
                 "title-skills": "SPARK WRAITH",
                 "description-title-skills": "อัญเชิญ Spark Wraith ที่ค่อย ๆ สร้างตัวขึ้นมา และอยู่เฝ้า พื้นที่เป้าหมายจนกว่าศัตรูจะเข้ามาในระยะ เมื่อพบเป้าหมาย Wraith จะหลอมร่างเข้ากับพวกเขา โดยสร้างความเสียหาย เวทมนตร์และทำให้ยูนิตช้าลง",
                 "col-2-1": [
@@ -396,10 +392,9 @@
                 "description-skills": "ชิ้นส่วนเล็กน้อยของร่างต้นแบบของ Zet"
             },
             [3]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.mp4",
+                "video-type-mp4": "./src/hero/arc_warden/skill/video_skill4.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_tempest_double.png",
+                "image-skills": "./src/hero/arc_warden/skill/skill4.png",
                 "title-skills": "TEMPEST DOUBLE",
                 "description-title-skills": "แตกองค์ประกอบเป็นอีกร่างในเวลาสั้น ๆ Arc Warden สร้าง ร่างเงาไฟฟ้าสมบูรณ์แบบของเขา ร่างเงาสามารถใช้ไอเท็มและ สกิลในปัจจุบันของ Arc Warden ได้ ยกเว้นของบริโภคส่วนใหญ่และไอเท็มที่ตกเมื่อตาย ร่างเงามีคูลดาวน์ของไอเท็มหรือสกิลแยกกันกับร่างจริง ร่างเงา Tempest Double มอบโกลด์แก่ศัตรูเมื่อถูกสังหาร",
                 "col-2-1": [
@@ -414,10 +409,9 @@
                 "description-skills": "บิดเบือนด้วยพลังงานรอบตัวของเขา Arc Warden กลายเป็นสิ่งที่เขาเกลียดมากที่สุด: การแตกตัว"
             },
             [4]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.mp4",
+                "video-type-mp4": "./src/hero/arc_warden/skill/video_skill5.mp4",
                 "have-shard-or-agh": [1, "SHARD"],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_magnetic_field.png",
+                "image-skills": "./src/hero/arc_warden/skill/skill5.png",
                 "title-skills": "MAGNETIC FIELD",
                 "description-title-skills": "Magnetic Field ผลักศัตรูออกจากพื้นที่ขณะร่าย และมอบความต้านทานเวทมนตร์ +40% แก่เพื่อนร่วมทีมที่อยู่ภายใน รวมทั้งลดความเร็วศัตรูที่อยู่ภายใน 30%",
                 "col-2-1": [
@@ -437,10 +431,9 @@
                 "description-skills": ""
             },
             [5]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_aghanims_scepter.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_aghanims_scepter.mp4",
+                "video-type-mp4": "./src/hero/arc_warden/skill/video_skill2.mp4",
                 "have-shard-or-agh": [1, "SCEPTER"],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_spark_wraith.png",
+                "image-skills": "./src/hero/arc_warden/skill/skill6.png",
                 "title-skills": "SPARK WRAITH",
                 "description-title-skills": "ทำให้ Spark Wraith สร้าง Spark Wraith อันใหม่หลังจากโดนศัตรู ซึ่งจะเริ่มใช้เวลาก่อตัว 3 วินาที",
                 "col-2-1": [
@@ -463,41 +456,33 @@
         }
         var skills = {
             [0]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_flux.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_flux.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_flux.mp4",
+                "img": "./src/hero/arc_warden/skill/skill1.png",
+                "mp4": "./src/hero/arc_warden/skill/video_skill1.mp4",
                 "name": "FLUX",
                 "desc": "ฉีดยูนิตศัตรูตัวเดียวด้วยพลังงานผันผวนและระเหย ลดความเร็ว ในการเคลื่อนที่และสร้างความเสียหายต่อเนื่องกับเป้าหมาย ผลของสกิลจะไม่ทำงานหากมียูนิตศัตรูตัวอื่นอยู่ใกล้กับเป้าหมาย"
             },
             [1]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_magnetic_field.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_magnetic_field.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_magnetic_field.mp4",
+                "img": "./src/hero/arc_warden/skill/skill2.png",
+                "mp4": "./src/hero/arc_warden/skill/video_skill2.mp4",
                 "name": "MAGNETIC FIELD",
                 "desc": "สร้างสนามพลังงานแม่เหล็กวงกลมที่จะป้องกันและเพิ่มความเร็ว ในการโจมตีให้แก่ฮีโร่และสิ่งก่อสร้างฝ่ายเดียวกันที่อยู่ในพื้นที่ โดยทำให้หลบหลีกการโจมตีทุกอย่างจากภายนอกสนามพลังงานได้"
             },
             [2]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_spark_wraith.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.mp4",
+                "img": "./src/hero/arc_warden/skill/skill3.png",
+                "mp4": "./src/hero/arc_warden/skill/video_skill3.mp4",
                 "name": " SPARK WRAITH",
                 "desc": "อัญเชิญ Spark Wraith ที่ค่อย ๆ สร้างตัวขึ้นมา และอยู่เฝ้า พื้นที่เป้าหมายจนกว่าศัตรูจะเข้ามาในระยะ เมื่อพบเป้าหมาย Wraith จะหลอมร่างเข้ากับพวกเขา โดยสร้างความเสียหาย เวทมนตร์และทำให้ยูนิตช้าลง "
             },
             [3]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_tempest_double.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.mp4",
+                "img": "./src/hero/arc_warden/skill/skill4.png",
+                "mp4": "./src/hero/arc_warden/skill/video_skill4.mp4",
                 "name": "TEMPEST DOUBLE",
                 "desc": "แตกองค์ประกอบเป็นอีกร่างในเวลาสั้น ๆ Arc Warden สร้าง ร่างเงาไฟฟ้าสมบูรณ์แบบของเขา ร่างเงาสามารถใช้ไอเท็มและ สกิลในปัจจุบันของ Arc Warden ได้ ยกเว้นของบริโภคส่วนใหญ่และไอเท็มที่ตกเมื่อตาย ร่างเงามีคูลดาวน์ของไอเท็มหรือสกิลแยกกันกับร่างจริง ร่างเงา Tempest Double มอบโกลด์แก่ศัตรูเมื่อถูกสังหาร"
             }
         }
 
         var status_hero = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/arc_warden.png": [
+            "./src/hero/arc_warden.png": [
                 ["640", "2.5", "HP"],
                 ["363", "1.2", "MANA"]
             ]

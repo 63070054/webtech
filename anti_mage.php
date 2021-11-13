@@ -16,7 +16,7 @@
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
 
             <!-- change link hero here [#]-->
-            <a class="small-arrow" href="ancient_apparition.php" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="ancient_apparition.php" style="background-image: url('./src/hero/arrow_solid_left.png');"></a>
             <a class="small-center" href="hero.php">
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
@@ -25,21 +25,21 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="arc_warden.php" style="transform: scaleX(-1); background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="arc_warden.php" style="transform: scaleX(-1); background-image: url('./src/hero/arrow_solid_left.png');"></a>
         </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero" style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
             <video muted autoplay preload="auto" loop="" playsinline="" data-video="0" style="min-height:100%; transform:translate(0px, 16pc) scale(1.93, 1.93);">
 
                 <!-- change vdo hero here -->
-                <source type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/antimage.webm">
+                <source type="video/webm" src="./src/hero/anti_mage/video_antimage.webm">
 
             </video>
         </div>
         <div class="title-hero">
             <div style="display: flex; flex-direction: row; align-items: center;">
                 <!-- change white font color hero here -->
-                <img style="width: 32px; height: 32px;" src="./src/icon/AGILITY.png">
+                <img style="width: 32px; height: 32px;" src="./src/hero/icon_agi_colorful.png">
                 <div style="margin-left: 6px; color: #fff; text-transform: uppercase; letter-spacing: 2px; font-weight: 100; font-size: 24px;">
                     AGILITY
                 </div>
@@ -64,7 +64,7 @@
                 <div style="display: flex; flex-direction: row; align-items: center; margin-top: 8px;">
 
                     <!-- change pic icon [melee or ranged] and  white font color here -->
-                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/melee.svg">
+                    <img style="width: 24px; height: 24px; margin-right: 8px;" src="./src/hero/icon_melee.svg">
                     <div style="color: #fff; text-transform: uppercase; letter-spacing: 2px; font-size: 15px; font-weight: bold;">ระยะประชิด
                     </div>
 
@@ -81,7 +81,7 @@
         </div>
         <div class="line-name">
             <!-- change pic icon type hero and  white font color here -->
-            <img style="width: 22px;height: 22px;" src="./src/icon/AGILITY.png">
+            <img style="width: 22px;height: 22px;" src="./src/hero/icon_agi_colorful.png">
             <!-- change white font text skill here  -->
             <div class="line-name-hero">
                 ANTI-MAGE
@@ -158,18 +158,17 @@
                     <div style="width: 100%; padding-top: 56.25%; height: 0px; position: relative; box-shadow: 3px 3px 8px #000;">
                         <div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2;"></div>
                         <video id="video-main" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" autoplay="" preload="auto" loop="" playsinline="" muted poster="">
-                            <source id="video-type-webm" type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_break.webm">
-                            <source id="video-type-mp4" type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_break.mp4">
+                            <source id="video-type-mp4" type="video/mp4" src="./src/hero/anti_mage/skill/video_skill1.mp4">
                         </video>
                     </div>
                     <!-- bar skill -->
                     <div style="width: 100%; margin-top: -15px; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; position: relative; z-index: 3;">
-                        <div class="icon-skill" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_break.png');" onclick="changeSkillsDetail(0, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_blink.png');" onclick="changeSkillsDetail(1, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_counterspell.png');" onclick="changeSkillsDetail(2, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_void.png');" onclick="changeSkillsDetail(3, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://cdn.discordapp.com/attachments/798049559405396011/904223924924055592/unknown.png');" onclick="changeSkillsDetail(4, this)"></div>
-                        <div class="icon-skill not-use" style="background-image: url('https://media.discordapp.net/attachments/798049559405396011/904223856724705311/unknown.png');" onclick="changeSkillsDetail(5, this)"></div>
+                        <div class="icon-skill" style="background-image: url('./src/hero/anti_mage/skill/skill1.png');" onclick="changeSkillsDetail(0, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/anti_mage/skill/skill2.png');" onclick="changeSkillsDetail(1, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/anti_mage/skill/skill3.png');" onclick="changeSkillsDetail(2, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/anti_mage/skill/skill4.png');" onclick="changeSkillsDetail(3, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/anti_mage/skill/skill5.png');" onclick="changeSkillsDetail(4, this)"></div>
+                        <div class="icon-skill not-use" style="background-image: url('./src/hero/anti_mage/skill/skill6.png');" onclick="changeSkillsDetail(5, this)"></div>
                     </div>
                 </div>
                 <!-- PART Left -->
@@ -177,7 +176,7 @@
                     <div style="width: 100%; height: 100%; box-sizing: border-box;">
                         <!-- zone head -->
                         <div style="padding: 8px; background-color: #121212; display: flex; flex-direction: row;">
-                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_break.png" id="image-skills">
+                            <img style="width: 96px; height: 96px; margin: 10px 15px 10px 10px; box-shadow: 0px 0px 8px #000;" src="./src/hero/anti_mage/skill/skill1.png" id="image-skills">
                             <div style="flex-grow: 1; min-height: 0; display: flex; flex-direction: column; margin-top: 5px; margin-left: 8px; margin-right: 12px; align-items: flex-start;">
                                 <!-- title -->
                                 <div style="color: #fff; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;" id="title-skills">
@@ -220,6 +219,14 @@
                                 </div>
                             </div>
                             <!-- ver delay skill -->
+                            <div style="width: 100%; margin-top: 12px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+                                <div style="display: flex; flex-direction: row; align-items: center;" id="cooldown">
+                                    
+                                </div>
+                                <div style="display: flex; flex-direction: row; align-items: center;" id="mana-cost">
+                                    
+                                </div>
+                            </div>
                             <!-- var more story detail -->
                             <div style="width: 100%; background-color: #111; margin-top: 20px; margin-bottom: 10px; padding: 10px; font-style: italic; font-size: 14px; color: #aaa;" id="description-skills">
                                 เทคนิคพลิกแพลงตามวิถีแห่งสันติของพระแห่งเตอร์สตาร์กุรีคือย้อนพลังเวทมนตร์กลับไปหาเจ้าของ
@@ -233,7 +240,7 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="ancient_apparition.php" style="background-image: url(./src/hero/abaddon/bar.png);">
+            <div class="bar-side" href="ancient_apparition.php" style="background-image: url(./src/hero/bar.png);">
                 <a href="ancient_apparition.php">
                     <img class="bar-hero" style="left: 0px;" src="./src/hero/anti_mage/back.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -252,7 +259,7 @@
                 </a>
             </div>
             <!-- change link here -->
-            <div class="bar-center" style="height: auto;" href="hero.php">
+            <div class="bar-center" href="hero.php">
                 <a href="hero.php">
                     <div class="bar-box">
                         <div class="bar-grid"></div>
@@ -267,7 +274,7 @@
 
             </div>
             <!-- change link next hero here -->
-            <div href="arc_warden.php" class="bar-side" style="background-image: url(./src/hero/abaddon/bar.png); justify-content: flex-start;">
+            <div href="arc_warden.php" class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
                 <a href="arc_warden.php">
                     <img class="bar-hero" style="right: 0px;" src="./src/hero/anti_mage/next.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -292,10 +299,9 @@
     <script>
         var skill_json = {
             [0]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_break.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_break.mp4",
+                "video-type-mp4": "./src/hero/anti_mage/skill/video_skill1.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_break.png",
+                "image-skills": "./src/hero/anti_mage/skill/skill1.png",
                 "title-skills": 'MANA BREAK',
                 "description-title-skills": 'เผาผลาญมานาของศัตรูในการโจมตีแต่ละครั้ง Mana Break จะสร้างความเสียหายแก่เป้าหมายโดยคิดจาก 50% ของมานา ที่ถูกเผาผลาญ Mana Break จะแสดงผล 50% หากเกิดจากร่างเงา',
                 "col-2-1": [
@@ -315,10 +321,9 @@
                 "description-skills": "เทคนิคพลิกแพลงตามวิถีแห่งสันติของพระแห่งเตอร์สตาร์กุรีคือย้อนพลังเวทมนตร์กลับไปหาเจ้าของ"
             },
             [1]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_blink.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_blink.mp4",
+                "video-type-mp4": "./src/hero/anti_mage/skill/video_skill2.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_blink.png",
+                "image-skills": "./src/hero/anti_mage/skill/skill2.png",
                 "title-skills": "BLINK",
                 "description-title-skills": "การเคลื่อนย้ายในระยะสั้น ๆ ซึ่งทำให้ Anti-Mage สามารถ เข้าและออกจากการต่อสู้ได้อย่างอิสระ",
                 "col-2-1": [
@@ -332,10 +337,9 @@
                 "description-skills": "ในการเผชิญหน้าระหว่างเขาและเทพแห่งความตาย Anti-Mage ได้รู้ซึ้งถึงคุณค่าของการหลบหลีกที่ว่องไว"
             },
             [2]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_counterspell.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_counterspell.mp4",
+                "video-type-mp4": "./src/hero/anti_mage/skill/video_skill3.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_counterspell.png",
+                "image-skills": "./src/hero/anti_mage/skill/skill3.png",
                 "title-skills": "COUNTERSPELL",
                 "description-title-skills": "ได้รับความต้านทานเวทมนตร์ติดตัว และสามารถกดใช้เพื่อสร้างเกราะป้องกันเวทมนตร์รอบ ๆ ตัวคุณที่จะสะท้อนสกิลที่เล็งเป้าหมายมาที่คุณกลับไปยังศัตรู แทนที่จะส่งผลกับคุณ",
                 "col-2-1": [
@@ -353,10 +357,9 @@
                 "description-skills": "ด้วยจิตตั้งมั่นอันแน่วแน่ Anti-Mage แปรเปลี่ยนความต้านทานภายในตนเป็นการโต้กลับตามที่คาดคะเน"
             },
             [3]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_void.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_void.mp4",
+                "video-type-mp4": "./src/hero/anti_mage/skill/video_skill4.mp4",
                 "have-shard-or-agh": [0, ""],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_void.png",
+                "image-skills": "./src/hero/anti_mage/skill/skill4.png",
                 "title-skills": "MANA VOID",
                 "description-title-skills": "สำหรับทุกหน่วยของมานาที่หายไปจากยูนิตเป้าหมายจะสร้าง ความเสียหายแก่ยูนิตนั้นและศัตรูรอบข้าง เป้าหมายหลักจะ ถูกมินิสตันด้วย",
                 "col-2-1": [
@@ -378,10 +381,9 @@
                 "description-skills": "หลังจากทำให้ศัตรูลงมากองต่อหน้า Anti-Mage จะสำเร็จโทษพวกมันโทษฐานที่ใช้ศาสตร์ลี้ลับ"
             },
             [4]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_counterspell.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_counterspell.mp4",
+                "video-type-mp4": "./src/hero/anti_mage/skill/video_skill5.mp4",
                 "have-shard-or-agh": [1, "SHARD"],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_counterspell.png",
+                "image-skills": "./src/hero/anti_mage/skill/skill5.png",
                 "title-skills": "COUNTERSPELL",
                 "description-title-skills": "Counterspell มอบออร่ารัศมี 900 หน่วยซึ่งลดความเสียหายสกิลของศัตรู 10% หากศัตรูอยู่ในระยะ 300 หน่วยจะลดความเสียหายสกิลเพิ่มอีก 20%",
                 "col-2-1": [
@@ -401,10 +403,9 @@
                 "description-skills": ""
             },
             [5]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_aghanims_scepter.webm",
-                "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_aghanims_scepter.mp4",
+                "video-type-mp4": "./src/hero/anti_mage/skill/video_skill6.mp4",
                 "have-shard-or-agh": [1, "SCEPTER มอบสกิลใหม่"],
-                "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_overload.png",
+                "image-skills": "./src/hero/anti_mage/skill/skill6.png",
                 "title-skills": "BLINK FRAGMENT",
                 "description-title-skills": "Blink ร่างเงาไปยังศัตรูหรือตำแหน่งเป้าหมาย และโจมตีเป้าหมายเป็นเวลา 7 วินาที Counterspell จะส่งผลต่อร่างเงาของ Blink Fragment ด้วยเช่นกัน มี 3 ชาร์จ",
                 "col-2-1": [
@@ -427,41 +428,33 @@
         }
         var skills = {
             [0]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_break.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_break.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_break.webm",
+                "img": "./src/hero/anti_mage/skill/skill1.png",
+                "mp4": "./src/hero/anti_mage/skill/video_skill1.mp4",
                 "name": "MANA BREAK",
                 "desc": "เผาผลาญมานาของศัตรูในการโจมตีแต่ละครั้ง Mana Break จะสร้างความเสียหายแก่เป้าหมายโดยคิดจาก 50% ของมานา ที่ถูกเผาผลาญ Mana Break จะแสดงผล 50% หากเกิดจากร่างเงา"
             },
             [1]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_blink.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_blink.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_blink.mp4",
+                "img": "./src/hero/anti_mage/skill/skill2.png",
+                "mp4": "./src/hero/anti_mage/skill/video_skill2.mp4",
                 "name": "BLINK",
                 "desc": "การเคลื่อนย้ายในระยะสั้น ๆ ซึ่งทำให้ Anti-Mage สามารถ เข้าและออกจากการต่อสู้ได้อย่างอิสระ"
             },
             [2]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_counterspell.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_counterspell.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_counterspell.mp4",
+                "img": "./src/hero/anti_mage/skill/skill3.png",
+                "mp4": "./src/hero/anti_mage/skill/video_skill3.mp4",
                 "name": " COUNTERSPELL ",
                 "desc": "ได้รับความต้านทานเวทมนตร์ติดตัว และสามารถกดใช้เพื่อสร้างเกราะป้องกันเวทมนตร์รอบ ๆ ตัวคุณที่จะสะท้อนสกิลที่เล็งเป้าหมายมาที่คุณกลับไปยังศัตรู แทนที่จะส่งผลกับคุณ"
             },
             [3]: {
-                "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_void.png",
-                
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_void.webm",
-                "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/antimage/antimage_mana_void.mp4",
+                "img": "./src/hero/anti_mage/skill/skill4.png",
+                "mp4": "./src/hero/anti_mage/skill/video_skill4.mp4",
                 "name": "MANA VOID",
                 "desc": "สำหรับทุกหน่วยของมานาที่หายไปจากยูนิตเป้าหมายจะสร้าง ความเสียหายแก่ยูนิตนั้นและศัตรูรอบข้าง เป้าหมายหลักจะ ถูกมินิสตันด้วย"
             }
         }
 
         var status_hero = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png": [
+            "./src/hero/antimage.png": [
                 ["660", "2.5", "HP"],
                 ["219", "0.6", "MANA"]
             ]
