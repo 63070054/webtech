@@ -263,7 +263,7 @@
                 <div style="width: 100%; border-left: 2px solid #ffffff10; margin-bottom: 30px; background: linear-gradient(90deg, rgba(0, 0, 0, 0.38) 3.07%, rgba(6, 37, 65, 0.3) 88.06%);box-shadow: 0px 0px 50px #000; min-height: 0;display: flex; padding: 20px 0px; flex-direction: column;">
                     <div style="padding-bottom: 0px; width: 100%; min-height: 0; display: flex; flex-direction: column; padding: 0px 40px; margin-bottom: 20px;">
                         <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
-                            <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/overwhelming_blink.png);  width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
+                            <div style="background-image: url('src/patch/Overwhelming Blink.png');  width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
                             <div style="flex-grow: 1; min-height: 0; display: flex; flex-direction: column;">
                                 <div style="font-size: 20px; font-weight: 600; color: #fff; text-transform: uppercase; letter-spacing: 2px;">Overwhelming Blink</div>
                             </div>
@@ -286,7 +286,7 @@
 
                     <div class="one" style="padding-bottom: 60px;">
                         <div class="two">
-                            <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/pogo_stick.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
+                            <div style="background-image: url(src/patch/pogo_stick.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
                             <div class="four">
                                 <div class="five">Tumbler's Toy</div>
                             </div>
@@ -305,7 +305,7 @@
 
                     <div class="one" style="padding-bottom: 60px;">
                         <div class="two">
-                            <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/misericorde.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
+                            <div style="background-image: url(src/patch/misericorde.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
                             <div class="four">
                                 <div class="five">Brigand's Blade</div>
                             </div>
@@ -319,7 +319,7 @@
                     </div>
                     <div class="one" style="padding-bottom: 60px;">
                         <div class="two">
-                            <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/nether_shawl.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
+                            <div style="background-image: url(src/patch/nether_shawl.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
                             <div class="four">
                                 <div class="five">Nether Shawl</div>
                             </div>
@@ -341,7 +341,7 @@
                     </div>
                     <div class="one" style="padding-bottom: 60px;">
                         <div class="two">
-                            <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/mirror_shield.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
+                            <div style="background-image: url(src/patch/mirror_shield.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
                             <div class="four">
                                 <div class="five">Mirror Shield</div>
                             </div>
@@ -355,7 +355,7 @@
                     </div>
                     <div class="one" style="padding-bottom: 60px;">
                         <div class="two">
-                            <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/ex_machina.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
+                            <div style="background-image: url(src/patch/ex_machina.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
                             <div class="four">
                                 <div class="five">Ex Machina</div>
                             </div>
@@ -369,7 +369,7 @@
                     </div>
                     <div class="one" style="padding-bottom: 0px;">
                         <div class="two">
-                            <div style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/fallen_sky.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
+                            <div style="background-image: url(src/patch/fallen_sky.png); width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
                             <div class="four">
                                 <div class="five">Fallen Sky</div>
                             </div>
@@ -394,7 +394,7 @@
 
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bane.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/bane.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Bane</div>
                                 <div class="namethree"></div>
@@ -402,7 +402,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_nightmare.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/bane_nightmare.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Nightmare</div>
                                     <div class="setfour">
@@ -413,7 +413,7 @@
                                 </div>
                             </div>
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_brain_sap.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/bane_brain_sap.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Brain Sap</div>
                                     <div class="setfour">
@@ -428,7 +428,7 @@
 
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/batrider.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/batrider.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Batrider</div>
                                 <div class="namethree"></div>
@@ -444,7 +444,7 @@
 
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/beastmaster.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/beastmaster.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Beastmaster</div>
                                 <div class="namethree"></div>
@@ -452,7 +452,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_call_of_the_wild_hawk.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/beastmaster_call_of_the_wild_hawk.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Call of the Wild Hawk</div>
                                     <div class="setfour">
@@ -466,7 +466,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bristleback.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/bristleback.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Bristleback</div>
                                 <div class="namethree"></div>
@@ -474,7 +474,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bristleback_warpath.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/bristleback_warpath.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Warpath</div>
                                     <div class="setfour">
@@ -488,7 +488,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/broodmother.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/broodmother.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Broodmother</div>
                                 <div class="namethree"></div>
@@ -496,7 +496,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/broodmother_spin_web.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/broodmother_spin_web.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Spin Web</div>
                                     <div class="setfour">
@@ -507,7 +507,7 @@
                                 </div>
                             </div>
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/broodmother_spawn_spiderlings.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/broodmother_spawn_spiderlings.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Spawn Spiderlings</div>
                                     <div class="setfour">
@@ -521,7 +521,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/clinkz.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/clinkz.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Clinkz</div>
                                 <div class="namethree"></div>
@@ -529,7 +529,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/clinkz_strafe.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/clinkz_strafe.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Burning Barrage</div>
                                     <div class="setfour">
@@ -552,7 +552,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rattletrap.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/rattletrap.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Clockwerk</div>
                                 <div class="namethree"></div>
@@ -567,7 +567,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dawnbreaker.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/dawnbreaker.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Dawnbreaker</div>
                                 <div class="namethree"></div>
@@ -575,7 +575,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/dawnbreaker_fire_wreath.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/dawnbreaker_fire_wreath.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Starbreaker</div>
                                     <div class="setfour">
@@ -591,7 +591,7 @@
                                 </div>
                             </div>
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/dawnbreaker_celestial_hammer.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/dawnbreaker_celestial_hammer.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Celestial Hammer</div>
                                     <div class="setfour">
@@ -605,7 +605,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/dazzle.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Dazzle</div>
                                 <div class="namethree"></div>
@@ -620,7 +620,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/death_prophet.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/death_prophet.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Death Prophet</div>
                                 <div class="namethree"></div>
@@ -628,7 +628,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/death_prophet_spirit_siphon.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/death_prophet_spirit_siphon.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Spirit Siphon</div>
                                     <div class="setfour">
@@ -642,7 +642,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/gyrocopter.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/gyrocopter.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Gyrocopter</div>
                                 <div class="namethree"></div>
@@ -650,7 +650,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/gyrocopter_flak_cannon.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/gyrocopter_flak_cannon.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Flak Cannon</div>
                                     <div class="setfour">
@@ -664,7 +664,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mars.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/mars.png);"></div>
                             <div class="name">
                                 <div class="nametwo">MARS</div>
                                 <div class="namethree"></div>
@@ -672,7 +672,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/mars_gods_rebuke.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/mars_gods_rebuke.png);"></div>
                                 <div class="name">
                                     <div class="setthree">God's Rebuke</div>
                                     <div class="setfour">
@@ -686,7 +686,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/monkey_king.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/monkey_king.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Monkey King</div>
                                 <div class="namethree"></div>
@@ -694,7 +694,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/monkey_king_wukongs_command.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/monkey_king_wukongs_command.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Wukong's Command</div>
                                     <div class="setfour">
@@ -708,7 +708,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/naga_siren.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/naga_siren.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Naga Siren</div>
                                 <div class="namethree"></div>
@@ -716,7 +716,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/naga_siren_mirror_image.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/naga_siren_mirror_image.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Mirror Image</div>
                                     <div class="setfour">
@@ -730,7 +730,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/night_stalker.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/night_stalker.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Night Stalker</div>
                                 <div class="namethree"></div>
@@ -748,7 +748,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pangolier.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/pangolier.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Pangolier</div>
                                 <div class="namethree"></div>
@@ -763,7 +763,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_assassin.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/phantom_assassin.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Phantom Assassin</div>
                                 <div class="namethree"></div>
@@ -771,7 +771,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/phantom_assassin_fan_of_knives.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/phantom_assassin_fan_of_knives.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Fan of Knives</div>
                                     <div class="setfour">
@@ -785,7 +785,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pugna.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/pugna.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Pugna</div>
                                 <div class="namethree"></div>
@@ -793,7 +793,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pugna_nether_blast.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/pugna_nether_blast.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Nether Blast</div>
                                     <div class="setfour">
@@ -807,7 +807,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/riki.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/riki.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Riki</div>
                                 <div class="namethree"></div>
@@ -815,7 +815,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/riki_smoke_screen.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/riki_smoke_screen.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Smoke Screen</div>
                                     <div class="setfour">
@@ -829,7 +829,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/silencer.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Silencer</div>
                                 <div class="namethree"></div>
@@ -837,7 +837,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_curse_of_the_silent.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/silencer_curse_of_the_silent.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Arcane Curse</div>
                                     <div class="setfour">
@@ -848,7 +848,7 @@
                                 </div>
                             </div>
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_last_word.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/silencer_last_word.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Last Word</div>
                                     <div class="setfour">
@@ -862,7 +862,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/sven.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Sven</div>
                                 <div class="namethree"></div>
@@ -877,7 +877,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shredder.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/shredder.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Timbersaw</div>
                                 <div class="namethree"></div>
@@ -885,7 +885,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/shredder_chakram.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/shredder_chakram.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Chakram</div>
                                     <div class="setfour">
@@ -899,7 +899,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/tinker.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Tinker</div>
                                 <div class="namethree"></div>
@@ -907,7 +907,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tinker_rearm.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/tinker_rearm.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Rearm</div>
                                     <div class="setfour">
@@ -918,7 +918,7 @@
                                 </div>
                             </div>
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tinker_heat_seeking_missile.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/tinker_heat_seeking_missile.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Heat-Seeking Missile</div>
                                     <div class="setfour">
@@ -932,7 +932,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tiny.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/tiny.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Tiny</div>
                                 <div class="namethree"></div>
@@ -940,7 +940,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_toss.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/tiny_toss.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Toss</div>
                                     <div class="setfour">
@@ -951,7 +951,7 @@
                                 </div>
                             </div>
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_tree_grab.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/tiny_tree_grab.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Tree Grab</div>
                                     <div class="setfour">
@@ -970,7 +970,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/undying.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/undying.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Undying</div>
                                 <div class="namethree"></div>
@@ -978,7 +978,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/undying_tombstone.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/undying_tombstone.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Tombstone</div>
                                     <div class="setfour">
@@ -992,7 +992,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ursa.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/ursa.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Ursa</div>
                                 <div class="namethree"></div>
@@ -1000,7 +1000,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ursa_fury_swipes.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/ursa_fury_swipes.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Fury Swipes</div>
                                     <div class="setfour">
@@ -1014,7 +1014,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengefulspirit.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/vengefulspirit.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Vengeful Spirit</div>
                                 <div class="namethree"></div>
@@ -1029,7 +1029,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/warlock.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/warlock.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Warlock</div>
                                 <div class="namethree"></div>
@@ -1037,7 +1037,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/warlock_fatal_bonds.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/warlock_fatal_bonds.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Fatal Bonds</div>
                                     <div class="setfour">
@@ -1048,7 +1048,7 @@
                                 </div>
                             </div>
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/warlock_rain_of_chaos.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/warlock_rain_of_chaos.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Chaotic Offering</div>
                                     <div class="setfour">
@@ -1067,7 +1067,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/weaver.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/weaver.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Weaver</div>
                                 <div class="namethree"></div>
@@ -1081,7 +1081,7 @@
                         </div>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/weaver_the_swarm.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/weaver_the_swarm.png);"></div>
                                 <div class="name">
                                     <div class="setthree">The Swarm</div>
                                     <div class="setfour">
@@ -1095,7 +1095,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/winter_wyvern.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/winter_wyvern.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Winter Wyvern</div>
                                 <div class="namethree"></div>
@@ -1103,7 +1103,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/winter_wyvern_arctic_burn.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/winter_wyvern_arctic_burn.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Arctic Burn</div>
                                     <div class="setfour">
@@ -1117,7 +1117,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skeleton_king.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/skeleton_king.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Wraith King</div>
                                 <div class="namethree"></div>
@@ -1125,7 +1125,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_mortal_strike.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/skeleton_king_mortal_strike.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Mortal Strike</div>
                                     <div class="setfour">
@@ -1139,7 +1139,7 @@
                     </div>
                     <div class="nhero">
                         <a class="ck" href="#">
-                            <div class="ten" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zuus.png);"></div>
+                            <div class="ten" style="background-image: url(src/patch/zuus.png);"></div>
                             <div class="name">
                                 <div class="nametwo">Zeus</div>
                                 <div class="namethree"></div>
@@ -1147,7 +1147,7 @@
                         </a>
                         <div class="zero">
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_static_field.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/zuus_static_field.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Static Field</div>
                                     <div class="setfour">
@@ -1158,7 +1158,7 @@
                                 </div>
                             </div>
                             <div class="setone">
-                                <div class="settwo" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_thundergods_wrath.png);"></div>
+                                <div class="settwo" style="background-image: url(src/patch/zuus_thundergods_wrath.png);"></div>
                                 <div class="name">
                                     <div class="setthree">Thundergod's Wrath</div>
                                     <div class="setfour">
