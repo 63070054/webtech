@@ -160,7 +160,6 @@
                     <div style="width: 100%; padding-top: 56.25%; height: 0px; position: relative; box-shadow: 3px 3px 8px #000;">
                         <div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2;"></div>
                         <video id="video-main" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" autoplay="" preload="auto" loop="" playsinline="" muted poster="">
-                            <source id="video-type-webm" type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.webm">
                             <source id="video-type-mp4" type="video/mp4" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.mp4">
                         </video>
                     </div>
@@ -256,7 +255,7 @@
                             ABADDON</div>
                         <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
                             <!-- change pic type hero here -->
-                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <img src="./src/hero/icon_str_colorful.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
                             <!-- change white font here -->
                             <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
                                 ระยะประชิด</div>
@@ -290,7 +289,7 @@
                             ANCIENT APPARITION</div>
                         <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
                             <!-- change pic type hero here -->
-                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <img src="./src/hero/icon_int_colorful.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
                             <!-- change white font here -->
                             <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
                                 ระยะไกล</div>
@@ -305,7 +304,6 @@
     <script>
         var skill_json = {
             [0]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.mp4",
                 "have-shard-or-agh": [0, ""],
                 "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png",
@@ -329,7 +327,6 @@
                 "description-skills": "ไอระเหยอันน่าพิศวงจากบ่อน้ำพุแห่ง Font of Avernus ได้หลอมรวมเป็นลมหายใจของ Abaddon ผู้ที่ปลดปล่อยมันได้ตามใจหวัง"
             },
             [1]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.mp4",
                 "have-shard-or-agh": [0, ""],
                 "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_unstable_concoction.png",
@@ -353,7 +350,6 @@
                 "description-skills": "จากความผิดพลาดในการพยายามเปลี่ยนภูเขาให้เป็นทองกลับกลายเป็นดี เมื่อสารละลายที่ได้มานั้นมีประสิทธิภาพในการทำลายได้อย่างดีเยี่ยม"
             },
             [2]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.mp4",
                 "have-shard-or-agh": [0, ""],
                 "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_goblins_greed.png",
@@ -380,7 +376,6 @@
                 "description-skills": "ถึงมันจะไม่ใช่ภูเขา แต่ Razzil ก็ยังชำนาญในด้านการแปรสภาพสิ่งที่เล็กกว่านั้นให้เป็นทองเพื่อเติมเต็มกระเป๋าตังค์ของเขา"
             },
             [3]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.mp4",
                 "have-shard-or-agh": [0, ""],
                 "image-skills": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png",
@@ -404,7 +399,6 @@
                 "description-skills": "เหล้าที่ Razzil เคยให้ Ogre ดื่มตอนที่พวกเขาแหกคุกได้กลายเป็นยาที่มีประโยชน์ท่ามกลางสงคราม"
             },
             [4]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_shard.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_shard.mp4",
                 "have-shard-or-agh": [1, "SHARD มอบสกิลใหม่"],
                 "image-skills": "https://media.discordapp.net/attachments/798049559405396011/903978604399054858/unknown.png",
@@ -429,7 +423,6 @@
                 "description-skills": ""
             },
             [5]: {
-                "video-type-webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_scepter.webm",
                 "video-type-mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_aghanims_scepter.mp4",
                 "have-shard-or-agh": [1, "การอัปเกรดสกิลโดย SCEPTER"],
                 "image-skills": "https://media.discordapp.net/attachments/798049559405396011/903978647084494878/unknown.png",
@@ -457,32 +450,24 @@
         var skills = {
             [0]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png",
-                "poster": "",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_acid_spray.mp4",
                 "name": "ACID SPRAY",
                 "desc": "พ่นน้ำกรดความดันสูงลงบนพื้นที่เป้าหมาย ยูนิตศัตรูที่เข้าสู่พื้นที่ปนเปี้อนนี้จะได้รับความเสียหายต่อวินาที และถูกลดเกราะป้องกันลง"
             },
             [1]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_unstable_concoction.png",
-                "poster": "",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_unstable_concoction.mp4",
                 "name": "UNSTABLE CONCOCTION",
                 "desc": "Alchemist ผสมน้ำยาที่มีส่วนประกอบไม่แน่นอน ซึ่งเขาสามารถโยนไปยังฮีโร่ฝ่ายศัตรูเพื่อสตันและสร้าง ความเสียหายรอบพื้นที่ที่ระเบิด ยิ่งใช้เวลาผสมนานเท่าไร ความเสียหายและระยะเวลาการสตันก็จะเพิ่มมากขึ้นเท่านั้น หลังจาก 5.0 วินาที น้ำยาจะมีความสามารถในการสร้าง ความเสียหายและเวลาสตันสูงสุด แต่หากไม่โยนภายใน 5.5 วินาที น้ำยาจะระเบิดและส่งผลทั้งหมดแก่ Alchemist เอง!"
             },
             [2]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_goblins_greed.png",
-                "poster": "",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_goblins_greed.mp4",
                 "name": "Curse of Avernus",
                 "desc": "Alchemist สังเคราะห์โกลด์เพิ่มจากศัตรูและรูน Bounty โดยในแต่ละการสังหาร Alchemist จะได้รับเงินโบนัสขั้นต่ำ รวมกับเงินโบนัสเพิ่มเติม หาก Alchemist สังหารยูนิตถัดไป แล้วได้รับเงินภายในช่วง 36 วินาที เงินโบนัสเพิ่มเติมจะ ถูกเพิ่มเข้าไปในเงินโบนัสทั้งหมดอีกหนึ่งชุด ทำให้เงินโบนัส รวมทั้งหมดเพิ่มมากขึ้น นอกจากนี้ รูน Bounty จะให้เงิน แก่เขามากขึ้น"
             },
             [3]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png",
-                "poster": "",
-                "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/alchemist/alchemist_chemical_rage.mp4",
                 "name": "CHEMICAL RAGE",
                 "desc": "Alchemist ให้ยาอันทำให้คลุ้มคลั่งแก่ Orge ของเขา ลดคูลดาวน์การโจมตีพื้นฐาน เพิ่มความเร็วในการเคลื่อนที่ และเพิ่มอัตราฟื้นฟูพลังชีวิต <br><br>ชนิดการลบล้าง: การลบล้างพื้นฐาน"
@@ -490,16 +475,16 @@
         }
 
         var status_hero = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png": [
+            "./src/hero/alchemist.png": [
                 ["700", "2.8", "HP"],
                 ["375", "1.3", "MANA"]
             ]
         }
 
         var status_icon_json = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png": ["25", "2.9"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png": ["22", "1.5"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png": ["25", "1.8"]
+            "./src/hero/icon_str_colorful.png": ["25", "2.9"],
+            "./src/hero/icon_agi_colorful.png": ["22", "1.5"],
+            "./src/hero/icon_int_colorful.png": ["25", "1.8"]
         }
 
         var status_json = {
@@ -516,19 +501,19 @@
 
         var status_json_right = {
             "การโจมตี": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_damage.png", "52-58"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_time.png", "1.7"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_range.png", "150"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_projectile_speed.png", "900"]
+                ["./src/hero/icon_damage.png", "52-58"],
+                ["./src/hero/icon_attack_time.png", "1.7"],
+                ["./src/hero/icon_attack_range.png", "150"],
+                ["./src/hero/icon_projectile_speed.png", "900"]
             ],
             "การป้องกัน": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_armor.png", "2.7"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_magic_resist.png", "25%"]
+                ["./src/hero/icon_armor.png", "2.7"],
+                ["./src/hero/icon_magic_resist.png", "25%"]
             ],
             "การเคลื่อนที่": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_movement_speed.png", "305"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_turn_rate.png", "0.6"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_vision.png", "1800 / 800"]
+                ["./src/hero/icon_movement_speed.png", "305"],
+                ["./src/hero/icon_turn_rate.png", "0.6"],
+                ["./src/hero/icon_vision.png", "1800 / 800"]
             ]
         }
         document.onload = load_all_skills();

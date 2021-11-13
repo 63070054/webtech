@@ -257,7 +257,7 @@
                             ALCHEMIST</div>
                         <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
                             <!-- change pic type hero here -->
-                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <img src="./src/hero/icon_str_colorful.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
                             <!-- change white font here -->
                             <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
                                 ระยะประชิด</div>
@@ -291,7 +291,7 @@
                             ANTI-MAGE</div>
                         <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
                             <!-- change pic type hero here -->
-                            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
+                            <img src="./src/hero/icon_agi_colorful.png" style="width: 20px; height: 20px; margin-right: 10px; filter: drop-shadow(1px 1px 4px black);">
                             <!-- change white font here -->
                             <div style="color: #ddd; font-size: 15px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000;">
                                 ระยะประชิด</div>
@@ -458,7 +458,7 @@
         var skills = {
             [0]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_cold_feet.png",
-                "poster": "",
+                
                 "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_cold_feet.webm",
                 "name": "COLD FEET",
@@ -466,7 +466,7 @@
             },
             [1]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_vortex.png",
-                "poster": "",
+                
                 "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_vortex.mp4",
                 "name": "ICE VORTEX",
@@ -474,7 +474,7 @@
             },
             [2]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_chilling_touch.png",
-                "poster": "",
+                
                 "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_chilling_touch.mp4",
                 "name": " CHILLING TOUCH ",
@@ -482,7 +482,7 @@
             },
             [3]: {
                 "img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ancient_apparition_ice_blast.png",
-                "poster": "",
+                
                 "webm": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.webm",
                 "mp4": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/ancient_apparition/ancient_apparition_ice_blast.mp4",
                 "name": "ICE BLAST",
@@ -498,9 +498,9 @@
         }
 
         var status_icon_json = {
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png": ["20", "1.9"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png": ["20", "2.2"],
-            "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png": ["23", "3.4"]
+            "./src/hero/icon_str_colorful.png": ["20", "1.9"],
+            "./src/hero/icon_agi_colorful.png": ["20", "2.2"],
+            "./src/hero/icon_int_colorful.png": ["23", "3.4"]
         }
 
         var status_json = {
@@ -517,19 +517,19 @@
 
         var status_json_right = {
             "การโจมตี": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_damage.png", "44-54"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_time.png", "1.7"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_attack_range.png", "675"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_projectile_speed.png", "120"]
+                ["./src/hero/icon_damage.png", "44-54"],
+                ["./src/hero/icon_attack_time.png", "1.7"],
+                ["./src/hero/icon_attack_range.png", "675"],
+                ["./src/hero/icon_projectile_speed.png", "120"]
             ],
             "การป้องกัน": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_armor.png", "2.3"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_magic_resist.png", "25%"]
+                ["./src/hero/icon_armor.png", "2.3"],
+                ["./src/hero/icon_magic_resist.png", "25%"]
             ],
             "การเคลื่อนที่": [
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_movement_speed.png", "285"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_turn_rate.png", "0.6"],
-                ["https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//heroes/stats/icon_vision.png", "1800 / 800"]
+                ["./src/hero/icon_movement_speed.png", "285"],
+                ["./src/hero/icon_turn_rate.png", "0.6"],
+                ["./src/hero/icon_vision.png", "1800 / 800"]
             ]
         }
         document.onload = load_all_skills();
