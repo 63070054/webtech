@@ -431,7 +431,7 @@
                 "description-skills": ""
             },
             [5]: {
-                "video-type-mp4": "./src/hero/arc_warden/skill/video_skill2.mp4",
+                "video-type-mp4": "./src/hero/arc_warden/skill/video_skill6.mp4",
                 "have-shard-or-agh": [1, "SCEPTER"],
                 "image-skills": "./src/hero/arc_warden/skill/skill6.png",
                 "title-skills": "SPARK WRAITH",
