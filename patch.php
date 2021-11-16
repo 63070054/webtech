@@ -263,7 +263,7 @@
                 <div style="width: 100%; border-left: 2px solid #ffffff10; margin-bottom: 30px; background: linear-gradient(90deg, rgba(0, 0, 0, 0.38) 3.07%, rgba(6, 37, 65, 0.3) 88.06%);box-shadow: 0px 0px 50px #000; min-height: 0;display: flex; padding: 20px 0px; flex-direction: column;">
                     <div style="padding-bottom: 0px; width: 100%; min-height: 0; display: flex; flex-direction: column; padding: 0px 40px; margin-bottom: 20px;">
                         <div style="width: 100%; display: flex; flex-direction: row; align-items: center;">
-                            <div style="background-image: url('src/patch/Overwhelming Blink.png');  width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
+                            <div style="background-image: url('src/patch/overwhelming_blink.png');  width: 72px; height: 52px; background-size: cover; background-repeat: no-repeat; box-shadow: 0px 0px 20px #000; margin-right: 16px; margin-bottom: 10px;"></div>
                             <div style="flex-grow: 1; min-height: 0; display: flex; flex-direction: column;">
                                 <div style="font-size: 20px; font-weight: 600; color: #fff; text-transform: uppercase; letter-spacing: 2px;">Overwhelming Blink</div>
                             </div>
