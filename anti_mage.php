@@ -240,7 +240,7 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="ancient_apparition.php" style="background-image: url(./src/hero/bar.png);">
+            <div class="bar-side" style="background-image: url(./src/hero/bar.png);">
                 <a href="ancient_apparition.php">
                     <img class="bar-hero" style="left: 0px;" src="./src/hero/anti_mage/back.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -274,7 +274,7 @@
 
             </div>
             <!-- change link next hero here -->
-            <div href="arc_warden.php" class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
+            <div class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
                 <a href="arc_warden.php">
                     <img class="bar-hero" style="right: 0px;" src="./src/hero/anti_mage/next.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">

@@ -246,7 +246,7 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="alchemist.php" style="background-image: url(./src/hero/bar.png);">
+            <div class="bar-side" style="background-image: url(./src/hero/bar.png);">
                 <a href="alchemist.php">
                     <img class="bar-hero" style="left: 0px;" src="./src/hero/ancient_apparition/back.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -265,7 +265,7 @@
                 </a>
             </div>
             <!-- change link here -->
-            <div class="bar-center" href="hero.php">
+            <div class="bar-center">
                 <a href="hero.php">
                     <div class="bar-box">
                         <div class="bar-grid"></div>
@@ -280,7 +280,7 @@
 
             </div>
             <!-- change link next hero here -->
-            <div href="anti_mage.php" class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
+            <div class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
                 <a href="anti_mage.php">
                     <img class="bar-hero" style="right: 0px;" src="./src/hero/ancient_apparition/next.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">

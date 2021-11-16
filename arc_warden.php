@@ -16,7 +16,7 @@
         <div class="box-small" style="right: 30px; transform: scale(0.8);">
 
             <!-- change link hero here [#]-->
-            <a class="small-arrow" href="#" style="background-image: url('./src/hero/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="anti_mage.php" style="background-image: url('./src/hero/arrow_solid_left.png');"></a>
             <a class="small-center" href="hero.php">
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
@@ -25,7 +25,7 @@
                 <div class="small-grid"></div>
                 <div class="small-grid"></div>
             </a>
-            <a class="small-arrow" href="alchemist.php" style="transform: scaleX(-1); background-image: url('./src/hero/arrow_solid_left.png');"></a>
+            <a class="small-arrow" href="abaddon.php" style="transform: scaleX(-1); background-image: url('./src/hero/arrow_solid_left.png');"></a>
         </div>
         <div style="width: 100%; height: 400px; position: absolute; bottom: 0; background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 90%, black 100%); z-index: 1;"></div>
         <div class="top-hero" style="display:flex; justify-content: center; position:absolute; width: 80%; height:100%; top: 0px; right: -5%;">
@@ -259,7 +259,7 @@
         <!-- PART BAR -->
         <div class="bar">
             <!-- change link back hero here -->
-            <div class="bar-side" href="anti_mage.php" style="background-image: url(./src/hero/bar.png);">
+            <div class="bar-side" style="background-image: url(./src/hero/bar.png);">
                 <a href="anti_mage.php">
                     <img class="bar-hero" style="left: 0px;" src="./src/hero/arc_warden/back.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
@@ -278,7 +278,7 @@
                 </a>
             </div>
             <!-- change link here -->
-            <div class="bar-center" href="hero.php">
+            <div class="bar-center">
                 <a href="hero.php">
                     <div class="bar-box">
                         <div class="bar-grid"></div>
@@ -293,7 +293,7 @@
 
             </div>
             <!-- change link next hero here -->
-            <div href="abaddon.php" class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
+            <div class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
                 <a href="abaddon.php">
                     <img class="bar-hero" style="right: 0px;" src="./src/hero/arc_warden/next.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">

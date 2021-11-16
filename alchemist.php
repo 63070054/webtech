@@ -246,7 +246,7 @@
         <div class="bar">
             <!-- change link back hero here -->
             <div class="bar-side" href="arc_warden.php" style="background-image: url(./src/hero/bar.png);">
-                <a href="arc_warden.php">
+                <a href="abaddon.php">
                     <img class="bar-hero" style="left: 0px;" src="./src/hero/alchemist/back.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
                         <div style="font-size: 15px; color: #9f9f9f; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 4px #000; margin-bottom: 5px;">ฮีโร่ก่อนหน้า</div>
@@ -279,7 +279,7 @@
 
             </div>
             <!-- change link next hero here -->
-            <div href="alchemist.php" class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
+            <div href="ancient_apparition.php" class="bar-side" style="background-image: url(./src/hero/bar.png); justify-content: flex-start;">
                 <a href="ancient_apparition.php">
                     <img class="bar-hero" style="right: 0px;" src="./src/hero/alchemist/next.png">
                     <div style="width: 250px; min-height: 0; display: flex; flex-direction: column; z-index: 6;">
