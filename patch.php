@@ -175,7 +175,7 @@
     ?>
 
 
-    <div class="patch" style="width: 100%; height: auto; background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/backgrounds/featured.jpg);  min-height: 0; display: flex; flex-direction: column; align-items: center; background-repeat: repeat-y; background-color: #151618; background-position: center; clear: both;">
+    <div class="patch" style="width: 100%; height: auto; background-image: url(src/patch/featured.jpg);  min-height: 0; display: flex; flex-direction: column; align-items: center; background-repeat: repeat-y; background-color: #151618; background-position: center; clear: both;">
         <div style="width: 100%; background-color: #000; margin-top: 140px; padding: 30px 0px; min-height: 0; display: flex; flex-direction: column; align-items: center; position: relative;">
             <div style="width: 900px; color: #ed3b1c; font-size: 32px; letter-spacing: 4px;">อัปเดตเกมเพลย์</div>
 
@@ -541,7 +541,7 @@
                             </div>
                         </div>
                         <div class="patchnotespage_TalentNotes_2307Y">
-                            <div class="patchnotespage_TalentNoteHeader_3KTWV">ทักษะพิเศษ</div>
+                            <div class="patchnotespage_TalentNoteHeader_3KTWV" style="font-size: 22px;font-weight: bold;color: #fff;text-transform: uppercase; letter-spacing: 2px;">ทักษะพิเศษ</div>
                             <div class="zero">
                                 <div class="setfour">
                                     <div class="sven"></div>
@@ -737,7 +737,7 @@
                             </div>
                         </a>
                         <div class="patchnotespage_TalentNotes_2307Y">
-                            <div class="patchnotespage_TalentNoteHeader_3KTWV">ทักษะพิเศษ</div>
+                            <div class="patchnotespage_TalentNoteHeader_3KTWV" style="font-size: 22px;font-weight: bold;color: #fff;text-transform: uppercase; letter-spacing: 2px;">ทักษะพิเศษ</div>
                             <div class="zero">
                                 <div class="setfour">
                                     <div class="sven"></div>
